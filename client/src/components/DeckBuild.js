@@ -18,7 +18,7 @@ class DeckBuild extends Component{
 
     handleFormSubmit = event => {
         event.preventDefault();
-        this.SrchAvailCrds(this.axios.params.classes)
+        this.SrchAvailCrds('druid')
         console.log('hello')
 
     }

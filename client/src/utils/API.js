@@ -7,13 +7,10 @@ export default {
     search: (query) =>
     axios({
         'method':'GET',
-        'url':'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/',
+        'url':`https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/classes/${query}`,
         'headers': {
             'x-rapidapi-host':'omgvamp-hearthstone-v1.p.rapidapi.com',
             'x-rapidapi-key': APIKEY
-        },
-        'params': {
-            classes: query,
         },
     })
 };
