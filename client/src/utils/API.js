@@ -12,5 +12,6 @@ export default {
             'x-rapidapi-host':'omgvamp-hearthstone-v1.p.rapidapi.com',
             'x-rapidapi-key': APIKEY
         },
+
     })
 };

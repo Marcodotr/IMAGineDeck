@@ -12,7 +12,8 @@ class DeckBuild extends Component{
 
     SrchAvailCrds = query => {
         API.search(query)
-        .then(res => console.log(res))
+        .then(res => this.setState({ result: res.data }))
+        .then(console.log(this.state.result))
         .catch(err => console.log(err))
     }
 
@@ -23,13 +24,7 @@ class DeckBuild extends Component{
 
     }
 
-    // handleInputChange = event => {
-    //     const value = event.target.value;
-    //     const name = event.target.name;
-    //     this.setState({
-    //       [name]: value
-    //     });
-    //   };
+
 
       handleInputChange = event => {
           const value = event.target.value;
