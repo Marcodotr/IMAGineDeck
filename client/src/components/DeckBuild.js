@@ -19,9 +19,7 @@ class DeckBuild extends Component{
 
     handleFormSubmit = event => {
         event.preventDefault();
-        this.SrchAvailCrds('druid')
-        console.log('hello')
-
+        this.SrchAvailCrds('demon hunter')
     }
 
 
