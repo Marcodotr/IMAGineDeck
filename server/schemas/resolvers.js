@@ -1,4 +1,4 @@
-const { Thought } = require('../models');
+const { Card } = require('../models');
 const fetch = require("node-fetch")
 
 const resolvers = {
