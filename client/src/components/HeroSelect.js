@@ -7,11 +7,7 @@ function Card(props) {
             onClick={props.handleFormSubmit}
             className='btn btn-primary'
             type="submit"
-<<<<<<< HEAD
-            value='mage'>
-=======
             value={hero}>
->>>>>>> isack
             {hero}   
         </button>
     )
