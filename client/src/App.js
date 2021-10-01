@@ -1,8 +1,13 @@
 import React from 'react';
-import DeckBuild from './components/DeckBuild';
+import Navbar from './components/Navbar';
 
 function App() {
-  return <DeckBuild />;
+  return( 
+
+  <Navbar />
+
+ 
+  );
 }
 
 export default App;
