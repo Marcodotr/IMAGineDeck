@@ -1,10 +1,19 @@
 import React from "react";
 
-function CardDetail(props) {
+function CardDetail({cards}) {
+  if(!cards.length) {
+    return <h3>please select heto</h3>
+  }
+
+
   return (
     <div className="text-center">
-      {/* <img alt={props.title} className="img-fluid" src={props.src} style={{ margin: "0 auto" }} /> */}
-      <h3>CardName: {props.cardname}</h3>
+      {cards &&
+      cards.map((card) => (
+        <div key={card.name} className='card mb-3'>
+          <h4>{card.name}</h4>
+          </div>
+      ))}
     </div>
   );
 }

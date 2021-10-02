@@ -2,14 +2,14 @@ const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
   type Query {
-    getCard(name: String!): singleCard
+    getClassCard: [Card]!
   }
 
 
-
-  type singleCard {
-    cardId: String!
-    name: String
+  type Card {
+    cardId: String
+    dbfId: String
+    name: String!
     cardSet: String
     type: String
     faction: String
@@ -21,11 +21,16 @@ const typeDefs = gql`
     flavor: String
     artist: String
     collectible: Boolean
-    elite: Boolean
-    race: String
+    playerClass: String
     img: String
-    imgGold: String
+    locale: String
+    mechanics:[Mechanics]
   }
+
+  type Mechanics {
+    name: String
+  }
+
 `;
 
 module.exports = typeDefs;
