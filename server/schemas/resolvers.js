@@ -21,8 +21,9 @@ const resolvers = {
 
   
   Query: {
-    getClassCard: async () => {
-      const search = Card.find({playerClass: ['Warrior','Neutral']})
+    getClassCard: async (parent, {chosenClass}) => {
+      
+      const search = Card.find({playerClass: [chosenClass,'Neutral']})
       return search
     },
     // getFilter: async (parent, {filters}) => {
