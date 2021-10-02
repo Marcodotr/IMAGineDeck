@@ -7,14 +7,14 @@ const DividerExampleVerticalForm = () => (
     <Grid columns={2} relaxed='very' stackable>
       <Grid.Column textAlign='center'>
     
-      <img style = {{marginLeft:'40px'}} src={CardBack} alt = "">
+      <img style = {{marginLeft:'40px',width:'33vw', height:'90vh',minWidth:'400px' }} src={CardBack} alt = "">
       </img>
    
       </Grid.Column>
 
       <Grid.Column textAlign='center'>
      
-        <img style = {{marginLeft:'40px'}}src={CardBack} alt= "">
+        <img style = {{marginLeft:'40px', width:'33vw', height:'90vh', minWidth:'400px'}}src={CardBack} alt= "">
         </img>
       </Grid.Column>
     </Grid>
