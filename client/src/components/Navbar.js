@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
+import { Menu, Input } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
+import { NavLink, withRouter } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
 export default class Navbar extends Component {
 
 
@@ -13,6 +15,7 @@ export default class Navbar extends Component {
 
     return (
         <div>
+            <HashRouter>
       <Menu stackable inverted>
         <Menu.Item>
           {/* <img src='/logo.png' /> */}
@@ -29,6 +32,17 @@ export default class Navbar extends Component {
         </Menu.Item>
 
         <Menu.Item
+          as={NavLink} to="/"
+          name='home'
+          active={activeItem === 'home'}
+          onClick={this.handleItemClick}
+          color={'blue'}
+        >
+         Home
+        </Menu.Item>
+
+        <Menu.Item
+        as={NavLink} to="/"
           name='view'
           active={activeItem === 'view'}
           onClick={this.handleItemClick}
@@ -55,6 +69,7 @@ export default class Navbar extends Component {
           Profile
         </Menu.Item>
       </Menu>
+      </HashRouter>
       </div>
     )
   }
