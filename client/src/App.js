@@ -7,11 +7,11 @@ import Test from "./components/Test"
 function App() {
   return (
     <div>
-      <Navbar />
+      
       <HashRouter basename={process.env.PUBLIC_URL}>
-    
+      <Navbar />
           <Route exact path="/" component={Splash} />
-          <Route path="/technologies" component={Test} />
+          <Route exact path="/Test" component={Test} />
          
       
       </HashRouter>
