@@ -9,11 +9,10 @@ const resolvers = {
  
   Query: {
     getClassCard: async ( parent, {chosenClass} ) => {
-
-      const search = Card.find({playerClass: [chosenClass,'Neutral']})
+      const search = Card.find({playerClass: [chosenClass,"Neutral"]})
       
       return search
-    }
+    },
 
   }
 }

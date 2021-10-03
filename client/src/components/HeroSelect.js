@@ -3,19 +3,19 @@ import { useState } from "react";
 import CardDetail from "../components/CardDetail";
 
 function HeroSelect(props) {
-  const [ chosenHero, setChosenHero] = useState("")
+  const [ playerClass, setPlayerClass] = useState("")
 
   const handleHeroSelect = (event) => {
     event.preventDefault();
     
     // console.log(event.target.value);
-    setChosenHero(event.target.value);
+    setPlayerClass(event.target.value);
   };
 
   const heros = ['Demon Hunter','Druid','Hunter','Mage','Palidin','Priest','Rogue','Shaman','Warlock','Warrior']
   const HeroButton = heros.map((hero) => 
   <button
-    name="chosenHero"
+    name="playerClass"
     key={hero}
     onClick={handleHeroSelect}
     className='btn btn-primary'
@@ -28,14 +28,14 @@ function HeroSelect(props) {
 
   return (
     <div>
-      {chosenHero === "" ? (
+      {playerClass === "" ? (
         <form>
             {HeroButton}
         </form>
       ) : (
         <div className="col-12 col-md-8 mb-3">
           <CardDetail
-            chosenClass = {chosenHero}
+            playerClass = {playerClass}
             title="Some Feed for Thought(s)..."
           />
         </div>

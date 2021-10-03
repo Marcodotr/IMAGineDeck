@@ -3,9 +3,10 @@ import { useQuery } from "@apollo/client";
 import { QUERY_CARDS } from "../utils/queries";
 
 function CardDetail(props) {
-  console.log(props.chosenClass)
+  console.log(props.playerClass)
+  var searchCrit = [props.playerClass, "Neutral"]
   const { loading, data } = useQuery(QUERY_CARDS, {
-    variables: { chosenClass: props.chosenClass },
+    variables: { chosenClass: searchCrit },
   })
 
   const theseCards = data?.getClassCard || [];
@@ -20,6 +21,7 @@ function CardDetail(props) {
       theseCards.map((card) => (
         <div key={card.name} className='card mb-3'>
           <h4>{card.name}</h4>
+          <img src={card.img} alt={card.name}/>
           </div>
       )))}
     </div>
