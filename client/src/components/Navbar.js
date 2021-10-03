@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import Auth from "../utils/auth";
+import { Link } from "react-router-dom";
 export default class Navbar extends Component {
 
 
@@ -119,6 +120,7 @@ export default class Navbar extends Component {
 
         <Menu.Item //show login and signup if NOT logged in
           name='Login'
+
           active={activeItem === 'profile'}
           onClick={this.handleItemClick}
           color={'blue'}
@@ -127,10 +129,7 @@ export default class Navbar extends Component {
         </Menu.Item>
 
         <Menu.Item
-          name='Signup'
-          active={activeItem === 'profile'}
-          onClick={this.handleItemClick}
-          color={'blue'}
+          linkButton={true} href="/signup" primaryText="Sample Link"
         >
           Signup
         </Menu.Item>
