@@ -121,7 +121,7 @@ export default class Navbar extends Component {
         <Menu.Item //show login and signup if NOT logged in
           name='Login'
 
-          active={activeItem === 'profile'}
+          active={activeItem === 'Login'}
           onClick={this.handleItemClick}
           color={'blue'}
         >
@@ -129,7 +129,12 @@ export default class Navbar extends Component {
         </Menu.Item>
 
         <Menu.Item
-          linkButton={true} href="/signup" primaryText="Sample Link"
+          name='Signup'
+          as={Link} to='/signup' exact="true"
+          linkButton={true} href="/signup"
+          active={activeItem === 'Signup'}
+          onClick={this.handleItemClick}
+          color={'blue'}
         >
           Signup
         </Menu.Item>
