@@ -4,9 +4,10 @@ import { QUERY_CARDS } from "../utils/queries";
 
 function CardDetail(props) {
   console.log(props.playerClass)
-  var searchCrit = [props.playerClass, "Neutral"]
+  var searchCrit = props.playerClass
+  console.log(`hello${searchCrit}`)
   const { loading, data } = useQuery(QUERY_CARDS, {
-    variables: { chosenClass: searchCrit },
+    options: (props) => ({ variables: { playerClass: props.playerClass } })
   })
 
   const theseCards = data?.getClassCard || [];
