@@ -2,7 +2,11 @@ const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
   type Query {
+<<<<<<< HEAD
     getClassCard(chosenClass: String): [Card]!
+=======
+    getClassCard(playerClass: String): [Card]!
+>>>>>>> main
   }
 
 
