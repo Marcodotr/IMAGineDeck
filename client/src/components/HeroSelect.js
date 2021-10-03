@@ -11,6 +11,13 @@ function HeroSelect(props) {
     // console.log(event.target.value);
     setPlayerClass(event.target.value);
   };
+  
+  const handleHeroClear = (event) => {
+    event.preventDefault();
+    
+    // console.log(event.target.value);
+    setPlayerClass("");
+  };
 
   const heros = ['Demon Hunter','Druid','Hunter','Mage','Palidin','Priest','Rogue','Shaman','Warlock','Warrior']
   const HeroButton = heros.map((hero) => 
@@ -34,6 +41,13 @@ function HeroSelect(props) {
         </form>
       ) : (
         <div className="col-12 col-md-8 mb-3">
+            <button
+              name="playerClass"
+              onClick={handleHeroClear}
+              className='btn btn-primary'
+              type="submit">
+                 Clear Selection
+            </button>
           <CardDetail
             playerClass = {playerClass}
             title="Some Feed for Thought(s)..."
