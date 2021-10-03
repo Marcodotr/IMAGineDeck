@@ -1,21 +1,21 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './pages/Home'
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-
-const client = new ApolloClient({
-  uri: '/graphql',
-  cache: new InMemoryCache(),
-});
+import React from "react";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
+import Splash from "./components/Splash"
+import Test from "./components/Test"
 
 function App() {
-  return( 
-    <ApolloProvider client={client}>
-      <Router>
+  return (
+    <div>
+      
+      <HashRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
-      <Home />
-      </Router>
-    </ApolloProvider>
+          <Route exact path="/" component={Splash} />
+          <Route exact path="/Test" component={Test} />
+         
+      
+      </HashRouter>
+    </div>
   );
 }
 
