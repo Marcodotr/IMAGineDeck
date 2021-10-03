@@ -1,22 +1,40 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Splash from "./components/Splash"
-import Test from "./components/Test"
+import HeroSelect from './components/HeroSelect'
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-function App() {
-  return (
-    <div>
-      
-      <HashRouter basename={process.env.PUBLIC_URL}>
-      <Navbar />
-          <Route exact path="/" component={Splash} />
-          <Route exact path="/Test" component={Test} />
-         
-      
-      </HashRouter>
-    </div>
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+class App extends React.Component {
+  render() {
+    return (  
+      <ApolloProvider client={client}>
+        <Router>
+          <Navbar  /> 
+              <Route
+                path='/'
+                exact
+                render={() =>
+                <Splash />}
+              />
+              <Route 
+                path="/heroselect"
+                exact
+                render={() =>
+                <HeroSelect/>}
+              />
+            
+        </Router>
+      </ApolloProvider>
+    
   );
+
+  }
 }
 
 export default App;
