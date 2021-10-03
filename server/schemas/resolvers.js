@@ -8,8 +8,8 @@ const dummy = {
 const resolvers = {
  
   Query: {
-    getClassCard: async ( parent, {chosenClass} ) => {
-      const search = Card.find({playerClass: [chosenClass,"Neutral"]})
+    getClassCard: async ( parent, {playerClass} ) => {
+      const search = Card.find({playerClass: [playerClass,"Neutral"]})
       
       return search
     },

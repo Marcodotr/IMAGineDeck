@@ -7,7 +7,7 @@ function CardDetail(props) {
   var searchCrit = props.playerClass
   console.log(`hello${searchCrit}`)
   const { loading, data } = useQuery(QUERY_CARDS, {
-    options: (props) => ({ variables: { playerClass: props.playerClass } })
+   variables: {playerClass: searchCrit}
   })
 
   const theseCards = data?.getClassCard || [];
