@@ -1,47 +1,47 @@
 import React from "react";
-import { QUERY_CARDS } from "../utils/queries";
-import { useQuery } from "@apollo/client";
+import { useState } from "react";
 import CardDetail from "../components/CardDetail";
-import Container from "../components/Container";
 
-function Card(props) {
-  const { loading, data } = useQuery(QUERY_CARDS);
-  const searchedCards = data || [];
-  console.log(searchedCards)
+function HeroSelect(props) {
+  const [ chosenHero, setChosenHero] = useState("")
 
-    const heros = ['Demon Hunter','Druid','Hunter','Mage','Palidin','Priest','Rogue','Shaman','Warlock','Warrior']
-    const HeroButton = heros.map((hero) => 
-    <button
-      key={hero}
-      onClick={props.searchCards}
-      className='btn btn-primary'
-      type="submit"
-      value={hero}>
-      {hero}   
-    </button>
-    )
+  const handleHeroSelect = (event) => {
+    event.preventDefault();
+    
+    // console.log(event.target.value);
+    setChosenHero(event.target.value);
+  };
+
+  const heros = ['Demon Hunter','Druid','Hunter','Mage','Palidin','Priest','Rogue','Shaman','Warlock','Warrior']
+  const HeroButton = heros.map((hero) => 
+  <button
+    name="chosenHero"
+    key={hero}
+    onClick={handleHeroSelect}
+    className='btn btn-primary'
+    type="submit"
+    value={hero}>
+    {hero}   
+  </button>
+  )
     
 
   return (
     <div>
-
-      <form>
-          {HeroButton}
-      </form>
-
-      <div className="col-12 col-md-8 mb-3">
-      {loading ? (
-        <div>Loading...</div>
+      {chosenHero === "" ? (
+        <form>
+            {HeroButton}
+        </form>
       ) : (
-        <CardDetail
-          cards={data}
-          title="Some Feed for Thought(s)..."
-        />
+        <div className="col-12 col-md-8 mb-3">
+          <CardDetail
+            chosenClass = {chosenHero}
+            title="Some Feed for Thought(s)..."
+          />
+        </div>
       )}
-      </div>
-
     </div>
   );
 }
 
-export default Card;
+export default HeroSelect;

@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import API from "../utils/API";
+import React from "react";
 import HeroSelect from "../components/HeroSelect";
 
 
@@ -13,20 +12,7 @@ const Home = () => {
           style={{ border: '1px dotted #1a1a1a' }}
         >
           < HeroSelect/>
-          {/* {cards.map((card) => 
-            <h3>{card.name}</h3>)} */}
         </div>
-    
-        {/* <div className="col-12 col-md-8 mb-3">
-          {loading ? (
-            <div>Loading...</div>
-          ) : (
-            <CardDetail
-              cards={cards}
-              title="Some Feed for Thought(s)..."
-            />
-          )}
-        </div> */}
       </div>
     </main>
   );
