@@ -25,7 +25,7 @@ class App extends React.Component {
               <Route 
                 path="/heroselect"
                 exact
-                render={() =>
+                render={() => 
                 <HeroSelect/>}
               />
             
