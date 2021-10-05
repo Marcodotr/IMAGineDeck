@@ -1773,25 +1773,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CS2_007",
-        "dbfId": "773",
-        "name": "Healing Touch",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Restore #8 Health.",
-        "flavor": "8 Health, no waiting.",
-        "artist": "Cyril Van Der Haegen",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62c81a6923a35183be0755f17bca9ccefb65264b8e38906ae4f0aed2db5dc05a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fee380d657a87471b3620d54f41edbd308a75d82e2f6730f1b1ec3faef0dcc2c.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_007",
         "dbfId": "68309",
         "name": "Healing Touch",
@@ -3338,23 +3319,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_164",
-        "dbfId": "69871",
-        "name": "Nourish",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "<b>Choose One -</b> Gain 2_Mana Crystals; or Draw 3 cards.",
-        "flavor": "Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.",
-        "artist": "Terese Nielsen",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72fd5191625e9fb20eaba4b6d90dcc4a8b571a6a99b26ad72a34858b22934a72.png",
-        "locale": "enUS"
     },
     {
         "cardId": "ULD_292",

@@ -4713,30 +4713,6 @@
         ]
     },
     {
-        "cardId": "VAN_CS2_088",
-        "dbfId": "68361",
-        "name": "Guardian of Kings",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 7,
-        "attack": 5,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Restore #6 Health to your hero.",
-        "flavor": "Holy beings from the beyond are so cliché!",
-        "artist": "E. M. Gist",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5a8a256b239fa207ea9867b2b6a8bab0c03d912013aca37b066285c657745c0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CS2_088",
         "dbfId": "1068",
         "name": "Guardian of Kings",

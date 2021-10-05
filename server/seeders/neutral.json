@@ -4312,30 +4312,6 @@
         ]
     },
     {
-        "cardId": "GVG_076",
-        "dbfId": "2044",
-        "name": "Explosive Sheep",
-        "cardSet": "Goblins vs Gnomes",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Deathrattle:</b> Deal 2 damage to all minions.",
-        "flavor": "How is this supposed to work?  Your enemies think, \"<i>Hey!</i> Cute sheep!\" and run over to cuddle it?",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "race": "Mech",
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5aa30416aaf9f9e81df53c436fe92c47e98d8fae7c34fc15f46f8b249f1143d1.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_GVG_076",
         "dbfId": "69717",
         "name": "Explosive Sheep",
@@ -5033,34 +5009,6 @@
             },
             {
                 "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_203",
-        "dbfId": "69762",
-        "name": "Ironbeak Owl",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Horde",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 1,
-        "text": "<b>Battlecry:</b> <b>Silence</b> a_minion.",
-        "flavor": "Their wings are silent but their screech is... whatever the opposite of silent is.",
-        "artist": "Trevor Jacobs",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a6e0c8f00ccd12b947cab389ec415c56c5e076bdd80beb982aaf0dff662b4ee.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Silence"
-            },
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -7269,33 +7217,6 @@
         ]
     },
     {
-        "cardId": "DAL_086",
-        "dbfId": "52286",
-        "name": "Sunreaver Spy",
-        "cardSet": "Rise of Shadows",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 3,
-        "text": "<b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1.",
-        "flavor": "She's watching. Always watching.",
-        "artist": "L. Lullabi & K. Turovec",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd66e270a2c0517535543addec534ee4328d80fae07a8ac3676e9aec8a35aa6e.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9505cb51785926c1e2cd750b9e212da75b72b433426d0ce53252cb50df6ad0b9.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            },
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_DAL_086",
         "dbfId": "69712",
         "name": "Sunreaver Spy",
@@ -8411,29 +8332,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_005",
-        "dbfId": "69807",
-        "name": "Big Game Hunter",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 3,
-        "attack": 4,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Destroy a minion with 7 or more Attack.",
-        "flavor": "Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.",
-        "artist": "Chris Seaman",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/291a3a00fe46cbc6130aaab4b048106b13e4477f1bf8d8caca1fc7804b98a96e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "GIL_561",
         "dbfId": "47077",
         "name": "Blackwald Pixie",
@@ -8680,34 +8578,6 @@
             },
             {
                 "name": "Aura"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_189",
-        "dbfId": "54839",
-        "name": "Brightwing",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "rarity": "Legendary",
-        "cost": 3,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Add a random <b>Legendary</b> minion to your_hand.",
-        "flavor": "Little faerie dragons are made of sugar and spice and maniacal vice.",
-        "artist": "Jerry Mascho",
-        "collectible": true,
-        "elite": true,
-        "race": "Dragon",
-        "playerClass": "Neutral",
-        "howToGet": "Not available in packs, must be crafted.",
-        "howToGetGold": "Not available in packs, must be crafted.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67751e695e692a299413515fd97694877e3445daeea20b98c574947be43c5f63.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c90a18776b553d204d3c199faaaac6b2e4809bcc22a1ad76ace1271f42ba6107.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -9196,26 +9066,6 @@
                 "name": "Aura"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_102",
-        "dbfId": "69848",
-        "name": "Demolisher",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 1,
-        "health": 4,
-        "text": "At the start of your turn, deal 2 damage to a random enemy.",
-        "flavor": "Laying siege isn't fun for anyone.  It's not even all that effective, now that everyone has a flying mount.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "race": "Mech",
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11467d2ef1d1865ceb73451a5806e3e7f717093ef031c0adc0e0ed4e0df41b6c.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_102",
@@ -10517,25 +10367,6 @@
         ]
     },
     {
-        "cardId": "UNG_844",
-        "dbfId": "41925",
-        "name": "Humongous Razorleaf",
-        "cardSet": "Journey to Un'Goro",
-        "type": "Minion",
-        "faction": "Alliance",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 4,
-        "health": 8,
-        "text": "Can't attack.",
-        "flavor": "Loves goblins.  In a light cream sauce.",
-        "artist": "Tooth",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f53a566955e42b1901ff968600ff818ea35f2f59fdae811063009d5e0c2540d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_UNG_844",
         "dbfId": "69728",
         "name": "Humongous Razorleaf",
@@ -11713,32 +11544,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "GVG_109",
-        "dbfId": "2077",
-        "name": "Mini-Mage",
-        "cardSet": "Goblins vs Gnomes",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 3,
-        "attack": 3,
-        "health": 1,
-        "text": "<b>Stealth</b>\\n<b>Spell Damage +1</b>",
-        "flavor": "He is sometimes found hiding in the treasure chest in the Gurubashi Arena.",
-        "artist": "Ben Olson",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1daa5dae29e71ec0ae89487aaeca21163a664e92c868166e31fbfd6c793c149f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Spell Damage"
-            },
-            {
-                "name": "Stealth"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_GVG_109",
         "dbfId": "69719",
         "name": "Mini-Mage",
@@ -12189,25 +11994,6 @@
                 "name": "Lifesteal"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_044",
-        "dbfId": "69825",
-        "name": "Questing Adventurer",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Alliance",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 2,
-        "health": 2,
-        "text": "Whenever you play a card, gain +1/+1.",
-        "flavor": "\"Does anyone have some extra Boar Pelts?\"",
-        "artist": "Attila Adorjany",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed1df0189c4c909c390fb228c0ff46bce67c60665630863512693d1beddf7439.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_044",
@@ -12846,31 +12632,6 @@
         "mechanics": [
             {
                 "name": "Inspire"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_127",
-        "dbfId": "68387",
-        "name": "Silverback Patriarch",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Horde",
-        "rarity": "Free",
-        "cost": 3,
-        "attack": 1,
-        "health": 4,
-        "text": "<b>Taunt</b>",
-        "flavor": "He likes to act like he's in charge, but the silverback matriarch actually runs things.",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec75ecc6c0070369cb1bde05ba6155ac5e5f4a0d9aedcd71ed1b4eb30877bea0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
             }
         ]
     },
@@ -14506,30 +14267,6 @@
         "mechanics": [
             {
                 "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_005",
-        "dbfId": "1657",
-        "name": "Big Game Hunter",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 4,
-        "attack": 4,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Destroy a minion with 7 or more Attack.",
-        "flavor": "Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.",
-        "artist": "Chris Seaman",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5b32d0e72d67dea6528c5402587c5cc0dd855dc2fce984d8393ee1b04577ac2.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43bffac3cc6cd2dfbb47b0815fe5c2f23f253ccc58e8943711b34c2f0be8e567.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -16927,34 +16664,6 @@
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8feae5a73d33b579fc02d5f050b6d4468e03853129d00fe4283c739b5529e63c.png",
         "locale": "enUS",
         "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_116",
-        "dbfId": "69852",
-        "name": "Leeroy Jenkins",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Alliance",
-        "rarity": "Legendary",
-        "cost": 4,
-        "attack": 6,
-        "health": 2,
-        "text": "<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.",
-        "flavor": "At least he has Angry Chicken.",
-        "artist": "Gabe from Penny Arcade",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf014c0c9363f70cb7e4f7f7c4086ab42bc5d2afecf421f35b9c87c81943d9d4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            },
             {
                 "name": "Battlecry"
             }
@@ -20941,25 +20650,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_095",
-        "dbfId": "69844",
-        "name": "Gadgetzan Auctioneer",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "attack": 4,
-        "health": 4,
-        "text": "Whenever you cast a spell, draw a card.",
-        "flavor": "He used to run the black market auction house, but there was just too much violence and he had to move.",
-        "artist": "Matt Dixon",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbaa031dd7d1bd1f145edde23728d1ab9286ff444c81a999b9f4a52b9ca13db7.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "BAR_021",
         "dbfId": "62702",
         "name": "Gold Road Grunt",
@@ -24271,26 +23961,6 @@
         ]
     },
     {
-        "cardId": "EX1_095",
-        "dbfId": "932",
-        "name": "Gadgetzan Auctioneer",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 6,
-        "attack": 4,
-        "health": 4,
-        "text": "Whenever you cast a spell, draw a card.",
-        "flavor": "He used to run the black market auction house, but there was just too much violence and he had to move.",
-        "artist": "Matt Dixon",
-        "collectible": true,
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/829b7d0e4961c1b35e05fc24723d6f63b9e19dca89d17ce0d69d264279583427.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0ec12654f132e3b040da9bfe42d3bd14859e6076a385268dec32976a4180f99.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_EX1_095",
         "dbfId": "69664",
         "name": "Gadgetzan Auctioneer",
@@ -27321,30 +26991,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "UNG_813",
-        "dbfId": "41327",
-        "name": "Stormwatcher",
-        "cardSet": "Journey to Un'Goro",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 7,
-        "attack": 4,
-        "health": 8,
-        "text": "<b>Windfury</b>",
-        "flavor": "Aspiring meteorologist!",
-        "artist": "Arthur Gimaldinov",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Neutral",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f1349024f06e193e0d1212967f5a18436dd1a6f2f0c77b7eb471426d91109d24.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Windfury"
             }
         ]
     },
