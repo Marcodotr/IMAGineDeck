@@ -182,28 +182,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_277",
-        "dbfId": "68457",
-        "name": "Arcane Missiles",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $3 damage randomly split among all enemy characters.",
-        "flavor": "You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.",
-        "artist": "Warren Mahy",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c67d175d5d5ae4351ce4f279e6edfa1096d327edfa01f71c6900f196f4586999.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "ImmuneToSpellpower"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_277",
         "dbfId": "564",
         "name": "Arcane Missiles",
@@ -224,31 +202,6 @@
         "mechanics": [
             {
                 "name": "ImmuneToSpellpower"
-            }
-        ]
-    },
-    {
-        "cardId": "KAR_009",
-        "dbfId": "39169",
-        "name": "Babbling Book",
-        "cardSet": "One Night in Karazhan",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Battlecry:</b> Add a random Mage spell to your hand.",
-        "flavor": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
-        "artist": "A. J. Nazzaro",
-        "collectible": true,
-        "playerClass": "Mage",
-        "howToGet": "Unlocked in the Menagerie, in One Night in Karazhan.",
-        "howToGetGold": "Crafting unlocked in the Menagerie, in One Night in Karazhan.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e45998ade3905e05f6736983e410b069c8c5a422bdad6503081d954ebcb009c2.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -461,30 +414,6 @@
         ]
     },
     {
-        "cardId": "CS2_031",
-        "dbfId": "172",
-        "name": "Ice Lance",
-        "cardSet": "Hall of Fame",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead.",
-        "flavor": "The trick is not to break the lance.  Otherwise, you have \"Ice Pieces.\"  Ice Pieces aren't as effective.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/549715e9f034dd29ace24ee02b3cb3cdd6dea74bcae51ff12df05cde2cda79bc.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6fe2ec18002dca4d5714f04f8f712b93922a7bd30e3e18c061d1b73ee6e42c4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_031",
         "dbfId": "69748",
         "name": "Ice Lance",
@@ -602,25 +531,6 @@
         ]
     },
     {
-        "cardId": "NEW1_012",
-        "dbfId": "405",
-        "name": "Mana Wyrm",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 2,
-        "text": "Whenever you cast a spell, gain +1 Attack.",
-        "flavor": "These wyrms feed on arcane energies, and while they are generally considered a nuisance rather than a real threat, you really shouldn't leave them alone with a bucket of mana.",
-        "artist": "Blizzard Cinematics",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f19ba17756dd71dabb72ef765ff95ff9f62138a5553f97219b91f9d5b1a2d568.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5569b02471195296541aac75b50d99e746cb570cea55e6b48112e5019f4d157f.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_NEW1_012",
         "dbfId": "70079",
         "name": "Mana Wyrm",
@@ -637,28 +547,6 @@
         "playerClass": "Mage",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7b84539fb47a32a7867bd748a652ed85a2256ed3e1dc2085e3ba037f9ce941e.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_027",
-        "dbfId": "68325",
-        "name": "Mirror Image",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Summon two 0/2 minions with <b>Taunt</b>.",
-        "flavor": "Oh hey it's Mirror Image! !egamI rorriM s'ti yeh hO",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/668b1e4ade8059e36ebc79e7c733e6bd15f2c22a6248a37166c078c876445fb0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
     },
     {
         "cardId": "CS2_027",
@@ -785,25 +673,6 @@
         ]
     },
     {
-        "cardId": "CORE_BOT_453",
-        "dbfId": "69698",
-        "name": "Shooting Star",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $1 damage to a minion and the minions next to it.",
-        "flavor": "Literally starstruck.",
-        "artist": "Konstantin Turovec",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Arcane",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45f02e4942cefbf3bb26771ff898abc511a9920674d9ef788463e567688a7211.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "BOT_453",
         "dbfId": "49081",
         "name": "Shooting Star",
@@ -820,29 +689,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2514ba439945f99523346a5061d83f177a2c925ed0ac3d45f17b56c016650da9.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3deb6941c4a7e5150302b21193c9fe9d4f0850865894511e2959988304307f59.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "GIL_801",
-        "dbfId": "47821",
-        "name": "Snap Freeze",
-        "cardSet": "The Witchwood",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Freeze</b> a minion.\\nIf it's already <b>Frozen</b>, destroy it.",
-        "flavor": "Lick the ice block. I triple-double-dog-dare-you.",
-        "artist": "Gonzalo Ordonez",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65cedf20db2d48bc1e8f4655ecf167593b6ddd9ed2ee5dda28ebd6139fc61b8c.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15b3accc857f631596a70be513dae010d8a332f54590cd46213ab349cfc8fa3f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
     },
     {
         "cardId": "CORE_GIL_801",
@@ -1033,23 +879,6 @@
         ]
     },
     {
-        "cardId": "VAN_CS2_025",
-        "dbfId": "68323",
-        "name": "Arcane Explosion",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Deal $1 damage to all enemy minions.",
-        "flavor": "This spell is much better than Arcane Implosion.",
-        "artist": "Howard Lyon",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e53084ae17c01f6cce6e50d88dfe24aabdb70ae1ef78c84e8d75f080e514e60.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_025",
         "dbfId": "447",
         "name": "Arcane Explosion",
@@ -1089,32 +918,6 @@
         "mechanics": [
             {
                 "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "UNG_020",
-        "dbfId": "41153",
-        "name": "Arcanologist",
-        "cardSet": "Journey to Un'Goro",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Draw a <b>Secret</b>.",
-        "flavor": "What did you draw? Shhhh… it’s a secret.",
-        "artist": "Eva Widermann",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d9d8bff807dd37dd2436c274f8f5ccb54ac626fafc11d94b55a6febb12751af.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            },
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -1382,24 +1185,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "AT_003",
-        "dbfId": "2545",
-        "name": "Fallen Hero",
-        "cardSet": "The Grand Tournament",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "Your Hero Power deals 1_extra damage.",
-        "flavor": "And he can't get up.",
-        "artist": "Arthur Bozonnet",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e45cb5b969eeebe9fe491ca6cd922f0eea486f92d4b586f4f8f1873c81cc3e3.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_AT_003",
         "dbfId": "69696",
         "name": "Fallen Hero",
@@ -1453,28 +1238,6 @@
         "spellSchool": "Fire",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94481feb8cfb57b7ef0bf76bd52273dc4a9b3df64d6da1424cba9a5c4885136b.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_024",
-        "dbfId": "68322",
-        "name": "Frostbolt",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Deal $3 damage to a_character and <b>Freeze</b> it.",
-        "flavor": "It is customary to yell \"Chill out!\" or \"Freeze!\" or \"Ice ice, baby!\" when you play this card.",
-        "artist": "Steve Ellis",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b50c24b5c971d20a57f8b9e873f9bea18c5755658872eea3e03fc686d766bcc.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
     },
     {
         "cardId": "CS2_024",
@@ -1906,30 +1669,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_608",
-        "dbfId": "70048",
-        "name": "Sorcerer's Apprentice",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "Your spells cost (1) less.",
-        "flavor": "Apprentices are great for bossing around.  \"Conjure me some mana buns! And a coffee!  Make that a mana coffee!\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef94c9c4794e3b0fe56dc994ae62db5e81b147f9b0e8f47c3f8ec5dbd69ebc08.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Aura"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_608",
         "dbfId": "614",
         "name": "Sorcerer's Apprentice",
@@ -2063,43 +1802,6 @@
         "playerClass": "Mage",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1e8be57fb2d256ec9633f677e6f4147526275a8e2d822f091866ecd307c6c96.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f48181e2bfe428f131d66fc0bf5936e5fd93abb87f2fdabc7b73862fee021b9.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_023",
-        "dbfId": "69500",
-        "name": "Arcane Intellect",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Draw 2 cards.",
-        "flavor": "Playing this card makes you SMARTER.  And let's face it: we could all stand to be a little smarter.",
-        "artist": "Dave Berggren",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Arcane",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0609c0a9644a9a6888c5c39cef2da872cfdff6e3b15ef64c7b20138c7bc949bc.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_023",
-        "dbfId": "68321",
-        "name": "Arcane Intellect",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Draw 2 cards.",
-        "flavor": "Playing this card makes you SMARTER.  And let's face it: we could all stand to be a little smarter.",
-        "artist": "Dave Berggren",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2309d2a98c6d083ded13cea742c39b6667f080739d902128c59931bde0e45c8.png",
         "locale": "enUS"
     },
     {
@@ -2266,31 +1968,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_275",
-        "dbfId": "69606",
-        "name": "Cone of Cold",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.",
-        "flavor": "Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.",
-        "artist": "Leo Che",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40adb8435419d52e9c0717a2d0f02d5794c034e8ec7a1ed20a2f27e7f1db6280.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_275",
         "dbfId": "430",
         "name": "Cone of Cold",
@@ -2334,53 +2011,6 @@
         "mechanics": [
             {
                 "name": "Twinspell"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_287",
-        "dbfId": "69908",
-        "name": "Counterspell",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "<b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.",
-        "flavor": "What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.",
-        "artist": "Jason Chan",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0894175faa3b69be05244317a330f4cc6f7dfff8d5c949f32b58602510ff316.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_287",
-        "dbfId": "69607",
-        "name": "Counterspell",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "<b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.",
-        "flavor": "What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.",
-        "artist": "Jason Chan",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Arcane",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53b70157de8f64d3fb818cae8878e54ef54ea31eb2d31eaa2037683802681798.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
             }
         ]
     },
@@ -2609,28 +2239,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_026",
-        "dbfId": "68324",
-        "name": "Frost Nova",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "<b>Freeze</b> all enemy minions.",
-        "flavor": "Hey man, that's cold.  Literally and metaphorically.",
-        "artist": "Josh Tallman",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4fe9fa09bf177dbcb985b04fdfd63ef254d14b1677ef68b34c04db3317c2e339.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
         "cardId": "CS2_026",
         "dbfId": "587",
         "name": "Frost Nova",
@@ -2703,53 +2311,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_289",
-        "dbfId": "69909",
-        "name": "Ice Barrier",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "[x]<b>Secret:</b> As soon as your\\nhero is attacked, gain\\n8 Armor.",
-        "flavor": "This is Rank 1.  Rank 2 is Chocolate Milk Barrier.",
-        "artist": "Alex Garner",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ec1c984186c810f390bfd9011e829b50ba2c8e6cfbe4b2f2b9c693454b41015.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_289",
-        "dbfId": "69608",
-        "name": "Ice Barrier",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Secret:</b> When your\\nhero is attacked,\\ngain 8 Armor.",
-        "flavor": "This is Rank 1.  Rank 2 is Chocolate Milk Barrier.",
-        "artist": "Alex Garner",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d6b706e0b835875314394ec9ff57db8119acd556cec1c135c241fb8d2bbecba.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_289",
         "dbfId": "621",
         "name": "Ice Barrier",
@@ -2766,30 +2327,6 @@
         "spellSchool": "Frost",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/836a3c5a8f85126a0e6cfcb457430ff9f22895bddd11804d7da842594d44a9fe.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/449282fa4cb4edf453124b6f9ddc26b5f20f562350938e5a6c3d7a8130804a1a.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_295",
-        "dbfId": "192",
-        "name": "Ice Block",
-        "cardSet": "Hall of Fame",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 3,
-        "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.",
-        "flavor": "Ice is nice, and will suffice!",
-        "artist": "Carl Frank",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0da8902392a7f5f61e62fd3e541b8e661b26393cde55a2943aa4741a64d07f7d.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40009b5a51d5ec4b12bb217e0e19086d49591f3085e6bfe00602506b573fabd0.png",
         "locale": "enUS",
         "mechanics": [
             {
@@ -2854,34 +2391,6 @@
         "spellSchool": "Arcane",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69d32b0243feae8710b0de1bd6c738d1785160b613b72a036fd0d2fa42acfc45.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_612",
-        "dbfId": "748",
-        "name": "Kirin Tor Mage",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 4,
-        "health": 3,
-        "text": "[x]<b>Battlecry:</b> The next <b>Secret</b>\\nyou play this turn costs (0).",
-        "flavor": "The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.",
-        "artist": "Popo Wei",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a25344d0db48ce6df1fbc7218c4f651d53ab8b9411a421bc8e0d016e329ad1c.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d50fcd3f3a7f2510af548edf6e74a0146b7324b7e94d492c86356db1bdf29786.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_612",
@@ -2981,30 +2490,6 @@
             },
             {
                 "name": "Discover"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_294",
-        "dbfId": "195",
-        "name": "Mirror Entity",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Secret:</b> After your opponent plays a minion, summon a copy of it.",
-        "flavor": "\"You go first.\" - Krush'gor the Behemoth, to his pet boar.",
-        "artist": "Raven Mimura",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Arcane",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b21d53cc33894322c5ee54597160777b4ba3a26432aaafbbdff65c1b4c140a12.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/465a5679f9649ff423d9eb309d829cd0778e115195aa46276cbc272e6de4df75.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
             }
         ]
     },
@@ -3266,29 +2751,6 @@
         ]
     },
     {
-        "cardId": "tt_010",
-        "dbfId": "366",
-        "name": "Spellbender",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 3,
-        "text": "<b>Secret:</b> When an enemy casts a spell on a minion, summon a 1/3 as the new target.",
-        "flavor": "While it's fun to intercept enemy lightning bolts, a spellbender much prefers to intercept opposing Marks of the Wild.  It just feels meaner.  And blood elves... well, they're a little mean.",
-        "artist": "Gonzalo Ordonez",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22068a8eae328e907a13a35d8b1052e72f213bf73bee090533ffc71c80d553fa.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cfc4c7bc4d23fff0e856601efc979fd845a04203f7c68e725f8360a1f764d81b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_tt_010",
         "dbfId": "70102",
         "name": "Spellbender",
@@ -3421,30 +2883,6 @@
         ]
     },
     {
-        "cardId": "EX1_594",
-        "dbfId": "286",
-        "name": "Vaporize",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "<b>Secret:</b> When a minion attacks your hero, destroy it.",
-        "flavor": "Rumor has it that Deathwing brought about the Cataclysm after losing a game to this card.  We may never know the truth.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Fire",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ecf57b1064bdb98528601ac39226648fe57ecefd23ed16dcfc13209446dfd41.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/981b87f5ad520bbc1bb52611c854ef94298d85c043a60a65320b767816925de3.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_594",
         "dbfId": "70040",
         "name": "Vaporize",
@@ -3566,28 +3004,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_275",
-        "dbfId": "69904",
-        "name": "Cone of Cold",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.",
-        "flavor": "Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.",
-        "artist": "Leo Che",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b26255148e26320fb02a47459773c794705b978b7929a32af899775fd336213f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
         "cardId": "BOT_604",
         "dbfId": "49045",
         "name": "Cosmic Anomaly",
@@ -3696,30 +3112,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_274",
-        "dbfId": "1737",
-        "name": "Ethereal Arcanist",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 3,
-        "health": 3,
-        "text": "If you control a <b>Secret</b> at_the end of your turn, gain +2/+2.",
-        "flavor": "The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.",
-        "artist": "Michael Komarck",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/017bbd963bc613f95ab2f1a4ecba059f7e69f7764ae6b7061891c36ae7c34aa7.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75ea58ee7e157e189bc51cc08992f210e2a9714d340a1eb59bf9b15fc8a6a1e8.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_274",
         "dbfId": "69903",
         "name": "Ethereal Arcanist",
@@ -3763,45 +3155,6 @@
                 "name": "Tradeable"
             }
         ]
-    },
-    {
-        "cardId": "CORE_CS2_029",
-        "dbfId": "69501",
-        "name": "Fireball",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Deal $6 damage.",
-        "flavor": "This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Fire",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a13f4b305cc9268f07d4a20ca5000b5a128f238e97a120601d99101ab7dba9bc.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_029",
-        "dbfId": "315",
-        "name": "Fireball",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $6 damage.",
-        "flavor": "This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Fire",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a84a01e9d4669b6d97eb86115b7311b08eeccfe602f5128b905a51a0dad99a9b.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e87a42598f8f41210ca04ff5ab99d1cc5d928809e9f4c9e2ab5ccf636a049f8.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_CS2_029",
@@ -3960,23 +3313,6 @@
                 "name": "Secret"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_022",
-        "dbfId": "68319",
-        "name": "Polymorph",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Transform a minion\\ninto a 1/1 Sheep.",
-        "flavor": "There was going to be a pun in this flavor text, but it just came out baa-d.",
-        "artist": "Vance Kovacs",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca8919b762e134858f3ae3ced5afe9acd31097a87822b6c0dbb2ef1772cd33ca.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CS2_022",
@@ -4159,57 +3495,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d94535b2820d89963dcf36c68149b7b472d58d04ddc95f14e714df3bbd50dc8e.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9fa135bd5d00061778828eefc6296667f5bd2ccfb9ff47911b6b356caf6cbc0f.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_033",
-        "dbfId": "69503",
-        "name": "Water Elemental",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 3,
-        "health": 6,
-        "text": "<b>Freeze</b> any character damaged by this minion.",
-        "flavor": "Don't summon a water elemental at a party.  It'll dampen the mood.",
-        "artist": "John Avon",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Mage",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98877846f7e7fd5b50883ab62fdc56b73c1c684ecdf5e0ef065fa24891b5818f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_033",
-        "dbfId": "68328",
-        "name": "Water Elemental",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "attack": 3,
-        "health": 6,
-        "text": "<b>Freeze</b> any character damaged by this minion.",
-        "flavor": "Don't summon a water elemental at a party.  It'll dampen the mood.",
-        "artist": "John Avon",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5b6dfef1cddf8a948c2af40774b823b47b438dd3ab84be56c1f325fcea534c1.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
     },
     {
         "cardId": "CS2_033",
@@ -4531,34 +3816,6 @@
         ]
     },
     {
-        "cardId": "LOE_003",
-        "dbfId": "2875",
-        "name": "Ethereal Conjurer",
-        "cardSet": "The League of Explorers",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 5,
-        "attack": 6,
-        "health": 4,
-        "text": "<b>Battlecry: Discover</b> a spell.",
-        "flavor": "Despite the name, he's a solid conjurer.",
-        "artist": "Ben Zhang",
-        "collectible": true,
-        "playerClass": "Mage",
-        "howToGet": "Unlocked in Uldaman, in the League of Explorers adventure.",
-        "howToGetGold": "Crafting unlocked in Uldaman, in the League of Explorers adventure.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fcec277e786acea598e22f899d1a68a5be2b2bdaa93b8eee870d7f2161fb3c4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Discover"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_LOE_003",
         "dbfId": "69701",
         "name": "Ethereal Conjurer",
@@ -4869,30 +4126,6 @@
         ]
     },
     {
-        "cardId": "CS2_028",
-        "dbfId": "457",
-        "name": "Blizzard",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 6,
-        "text": "Deal $2 damage to all enemy minions and <b>Freeze</b> them.",
-        "flavor": "This spell can be very Entertaining.",
-        "artist": "Chris Seaman",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Frost",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc920a19df972b3f4752fbfbda7be09fd2953010b9f6628e94f87a0395642421.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/731a5fc14d3a4c745f90003721717d664175df69da43a413c1db30fce09a9e67.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_028",
         "dbfId": "69747",
         "name": "Blizzard",
@@ -4913,25 +4146,6 @@
                 "name": "Freeze"
             }
         ]
-    },
-    {
-        "cardId": "AT_008",
-        "dbfId": "2544",
-        "name": "Coldarra Drake",
-        "cardSet": "The Grand Tournament",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 6,
-        "attack": 6,
-        "health": 7,
-        "text": "You can use your Hero Power any number of times.",
-        "flavor": "The Grand Tournament has a \"No dragons allowed\" policy, but it's rarely enforced.",
-        "artist": "Christopher Moeller",
-        "collectible": true,
-        "race": "Dragon",
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/110a2cb9a3d71d2db0abe15b061a8be598905867665cb19c4630fac9ad7946f1.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CORE_AT_008",
@@ -5215,27 +4429,7 @@
             }
         ]
     },
-    {
-        "cardId": "VAN_EX1_559",
-        "dbfId": "69975",
-        "name": "Archmage Antonidas",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 7,
-        "attack": 5,
-        "health": 7,
-        "text": "Whenever you cast a spell, add a 'Fireball' spell to_your hand.",
-        "flavor": "Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.",
-        "artist": "Wayne Reynolds",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d2af239299c1889653f99b22471b92bc79e9e89faf65afb8ee9ac285a1b57f9.png",
-        "locale": "enUS"
-    },
-    {
+   {
         "cardId": "EX1_559",
         "dbfId": "1080",
         "name": "Archmage Antonidas",
@@ -5340,43 +4534,6 @@
         "race": "Mech",
         "playerClass": "Mage",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b426ffed8e681d30633735966be7c7eacba6fa3101ecc409170029b51ae8a197.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_032",
-        "dbfId": "69502",
-        "name": "Flamestrike",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "text": "Deal $5 damage to all enemy minions.",
-        "flavor": "When the ground is on fire, you should <i>not</i> stop, drop, and roll.",
-        "artist": "Romain De Santi",
-        "collectible": true,
-        "playerClass": "Mage",
-        "spellSchool": "Fire",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Mage.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76af6124e98e14e142ef8c4f11c17defb39fda4a8b654c6431eb25b38641dff0.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_032",
-        "dbfId": "68327",
-        "name": "Flamestrike",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 7,
-        "text": "Deal $4 damage to all enemy minions.",
-        "flavor": "When the ground is on fire, you should <i>not</i> stop, drop, and roll.",
-        "artist": "Romain De Santi",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4cb280e45d6672b06926465a41a5372391045f9ce2afd5977297ec138bb4ae4.png",
         "locale": "enUS"
     },
     {
@@ -5883,23 +5040,6 @@
         "collectible": true,
         "playerClass": "Mage",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f580ac5d3735247427cfbd1d5d6df5189e14a9cf3d5aa1ced5dddea3982c345.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_279",
-        "dbfId": "69905",
-        "name": "Pyroblast",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 10,
-        "text": "Deal $10 damage.",
-        "flavor": "Take the time for an evil laugh after you draw this card.",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef113cad4640a2500310d165ea0a52f6cc12a9be9e7d0d73df850b05b88677ca.png",
         "locale": "enUS"
     },
     {

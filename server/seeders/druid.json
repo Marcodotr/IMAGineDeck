@@ -38,42 +38,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_169",
-        "dbfId": "254",
-        "name": "Innervate",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Gain 1 Mana Crystal this turn only.",
-        "flavor": "Some druids still have flashbacks from strangers yelling \"Innervate me!!\" at them.",
-        "artist": "Doug Alexander",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c61b621418bed10f83ff72bb840f82b5486c2a2bcd4fcf71e14c118e1ac7b26d.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df6380c5e2fe09b43d477aeb669585f91a51e4f44c39ce32d40360e7863b5385.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_169",
-        "dbfId": "68445",
-        "name": "Innervate",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Gain 2 Mana Crystals this turn only.",
-        "flavor": "Some druids still have flashbacks from strangers yelling \"Innervate me!!\" at them.",
-        "artist": "Doug Alexander",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/525b6271395e2e5440e16de3f4fed03a9179d6f966c614a7bf4450e5a5c71cad.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "SCH_427",
         "dbfId": "60016",
         "name": "Lightning Bloom",
@@ -101,23 +65,6 @@
         ]
     },
     {
-        "cardId": "VAN_CS2_008",
-        "dbfId": "68310",
-        "name": "Moonfire",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Deal $1 damage.",
-        "flavor": "\"Cast Moonfire, and never stop.\" - How to Be a Druid, Chapter 5, Section 3",
-        "artist": "Richard Wright",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bade2387b62caffeec182e7a8ab46f191fad7b9a337543836e71651aacface2b.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_008",
         "dbfId": "467",
         "name": "Moonfire",
@@ -134,24 +81,6 @@
         "spellSchool": "Arcane",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85abf71acc09f9b6a73e59d7b896e4dcb9777861c97d541f3b9cd84b7b199e7d.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1446dc8d74d7c983fc6179ab7f9884a44bfa1a85c2fed4672e981246c71c53f.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_TRL_243",
-        "dbfId": "69689",
-        "name": "Pounce",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Give your hero +2_Attack this turn.",
-        "flavor": "Comes with an overwhelming urge to jump into the nearest open box.",
-        "artist": "Rudy Siswanto",
-        "collectible": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e6c3164cb387d8a9c1f540c0582f4586fde35a0fd35050a9573e47b8631f6cb.png",
         "locale": "enUS"
     },
     {
@@ -231,23 +160,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_005",
-        "dbfId": "68307",
-        "name": "Claw",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give your hero +2_Attack this turn. Gain 2 Armor.",
-        "flavor": "The claw decides who will stay and who will go.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f7638b40137529f9a8df6f97c4856a0c46b6144b0ca81502cb9d30150f2d035.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_005",
         "dbfId": "1050",
         "name": "Claw",
@@ -300,26 +212,6 @@
         "playerClass": "Druid",
         "spellSchool": "Nature",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50818ce38cffba314f17bc4aa2519dbcf197fb3fc897a1065b1e64e75f7805ca.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "KAR_300",
-        "dbfId": "39350",
-        "name": "Enchanted Raven",
-        "cardSet": "One Night in Karazhan",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 2,
-        "health": 2,
-        "flavor": "Once upon a midnight restive, Medivh pondered, feeling festive!",
-        "artist": "Daria Tuzova",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Druid",
-        "howToGet": "Unlocked in the Prologue, in One Night in Karazhan.",
-        "howToGetGold": "Crafting unlocked in the Prologue, in One Night in Karazhan.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf5857c2ab2646a6d85bd82eed4889e6b88f2d97bf5c65edd775bbe8e32761f8.png",
         "locale": "enUS"
     },
     {
@@ -503,25 +395,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_161",
-        "dbfId": "233",
-        "name": "Naturalize",
-        "cardSet": "Hall of Fame",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Destroy a minion.\\nYour opponent draws 2_cards.",
-        "flavor": "Another one bites the dust.",
-        "artist": "Leo Che",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db883db2ceaab06742508e33f8d0181b0707d85df0ce0a311bfe838266ab41ce.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b5d4a8200eb39b0175fa39f8cf9c39bd9858133c7361bc91676bb11acbd3ba8.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_161",
         "dbfId": "69869",
         "name": "Naturalize",
@@ -596,29 +469,6 @@
         "mechanics": [
             {
                 "name": "Discover"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_578",
-        "dbfId": "481",
-        "name": "Savagery",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "Deal damage equal to your hero's Attack to a minion.",
-        "flavor": "It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.",
-        "artist": "Dave Rapoza",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e0e30208badfb290f9bfce0c62cdbfbee664068515123e3b0dcbf3ce19f7d32.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/97fa3ea332dcb6fc8874fd852423638759fefc51b6dd1553f13f959b6575e792.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
             }
         ]
     },
@@ -1196,55 +1046,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_009",
-        "dbfId": "69511",
-        "name": "Mark of the Wild",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Give a minion <b>Taunt</b> and +2/+3.<i>\\n(+2 Attack/+3 Health)</i>",
-        "flavor": "Not to be confused with Jim of the Wild.",
-        "artist": "Brad Vancata",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 5.",
-        "howToGetGold": "Unlocked after winning 100 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6c1b7110929f9af45d376d2bd4f920e85237d5570eb1b614540a3c2e57e056c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "CS2_009",
-        "dbfId": "213",
-        "name": "Mark of the Wild",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Give a minion <b>Taunt</b> and +2/+3.<i>\\n(+2 Attack/+3 Health)</i>",
-        "flavor": "Not to be confused with Jim of the Wild.",
-        "artist": "Brad Vancata",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/801e3782df5a9431ae3baf1100cc28f065b61d463e0236b7d6c52fb5d086e331.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f76ef8d6bdaf1fa9b5c092631b4ad14a050e0382c838b0989bd84339fb7683d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_009",
         "dbfId": "68311",
         "name": "Mark of the Wild",
@@ -1280,42 +1081,6 @@
         "collectible": true,
         "playerClass": "Druid",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39eab7e3af174bec7c226c4b664002ee20e7f6d25cd5fbf936df3b2115c3dcf8.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_160",
-        "dbfId": "69868",
-        "name": "Power of the Wild",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Choose One -</b> Give your minions +1/+1; or Summon a 3/2 Panther.",
-        "flavor": "Never look a panther in the eye.  Or is it 'Always look a panther in the eye'?  Well, it's one of those.",
-        "artist": "Steve Tappin",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc52893ff7f941e0447ee3a4bc65fb35de8051731bdfeb264eab10301cd0a678.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_160",
-        "dbfId": "69593",
-        "name": "Power of the Wild",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Choose One -</b> Give your minions +1/+1; or Summon a 3/2 Panther.",
-        "flavor": "Never look a panther in the eye.  Or is it 'Always look a panther in the eye'?  Well, it's one of those.",
-        "artist": "Steve Tappin",
-        "collectible": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/072f35632c2a9e143dd2d99b9ce92c00924a47d9ede0dcc13de8a22cdbabc146.png",
         "locale": "enUS"
     },
     {
@@ -1541,23 +1306,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_013",
-        "dbfId": "68316",
-        "name": "Wild Growth",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Gain an empty Mana Crystal.",
-        "flavor": "Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!",
-        "artist": "James Ryman",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc64104d5d9e4dca82e44fb64a1900fd42cd018aefb25a47bfa661bb7f08a2df.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "GIL_663",
         "dbfId": "47553",
         "name": "Witchwood Apple",
@@ -1573,23 +1321,6 @@
         "spellSchool": "Nature",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc23be8c0395af5157103385bd5678ede2a7464c61d78c6a6e5d870af05921e3.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1b8e84670061603f5fabc782fab7b0cae6f3b8f0a4f353da3d45e4b1efb9906.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_154",
-        "dbfId": "69865",
-        "name": "Wrath",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Choose One -</b>\\nDeal $3 damage to a minion; or $1 damage\\nand draw a card.",
-        "flavor": "The talk around the Ratchet Inn is that this card is too good and should be a Legendary.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d401d04c4900acf9a45a3d0966fd514f36ac4f2391b2bbd647647d096542d495.png",
         "locale": "enUS"
     },
     {
@@ -1914,22 +1645,6 @@
         ]
     },
     {
-        "cardId": "OG_047",
-        "dbfId": "38334",
-        "name": "Feral Rage",
-        "cardSet": "Whispers of the Old Gods",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Choose One -</b> Give your hero +4 Attack this turn; or Gain 8 Armor.",
-        "flavor": "Let's be honest. One option is a lot ragier than the other.",
-        "artist": "Alex Alexandrov",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a09751620e726da652380087a5072e63fc7453f1487563747e977cfad2ad8b77.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_OG_047",
         "dbfId": "69688",
         "name": "Feral Rage",
@@ -2136,25 +1851,6 @@
         ]
     },
     {
-        "cardId": "BOT_420",
-        "dbfId": "48607",
-        "name": "Landscaping",
-        "cardSet": "The Boomsday Project",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Summon two 2/2 Treants.",
-        "flavor": "We'll put a happy tree right here... and give him a little friend.",
-        "artist": "Sam Hogg",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8df8ca9e27c31befb68d3ec8ef2f91ad7e468cce1dea79ac4456041116b031e7.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02827e6a3b81d3907c4e6932c25b8c122b1cef88ee698fd36795d48ebacd0c21.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_BOT_420",
         "dbfId": "69685",
         "name": "Landscaping",
@@ -2192,30 +1888,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74cdf69889c7355fcc58f3a1c2df6ac3b3dadab5ac483b195e2f535a24c7a53c.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55678a22abb26b92103886fcb07d35b9d742a71754043a3424169ac45425c706.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_155",
-        "dbfId": "151",
-        "name": "Mark of Nature",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Choose One -</b> Give a minion +4 Attack; or +4 Health and <b>Taunt</b>.",
-        "flavor": "Druids call it the \"Mark of Nature.\"  Everyone else calls it \"needing a bath.\"",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62a1ba6fc90849cfa2e24a77d4b767b662ad512299b2cb8d00aa2feb7d08f88f.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b400afe4e977c9f0bfa913d127a57b8f904917cc42d3e21767d875a934d5b4fa.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_155",
@@ -2338,24 +2010,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CS2_011",
-        "dbfId": "742",
-        "name": "Savage Roar",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Give your characters +2_Attack this turn.",
-        "flavor": "What do they roar? Nobody can quite tell, but it sounds like \"Elephant Macho Breeze\".  It's probably not that, though.",
-        "artist": "Grace Liu",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c5f918ac15f834910b072e1ea3b23e30a5af4199f89be88ef5295912e9ff86c.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f35b9bc680afe9bce2dba83707af92818fc6ff5d82533925ee8e0d6af5af7fd.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_011",
         "dbfId": "68313",
         "name": "Savage Roar",
@@ -2425,26 +2079,6 @@
         "playerClass": "Druid",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3dddf2e4d0801bd0f50642e4a54ad15b9718518c8b081c7e86b1f919979cd275.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e58b693e27b9a6a71d3e7b61f5bb33501123955b76b3520250b0aab642456280.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_013",
-        "dbfId": "69513",
-        "name": "Wild Growth",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Gain an empty Mana Crystal.",
-        "flavor": "Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!",
-        "artist": "James Ryman",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8876caa5b5ee3872f55a7c12264172d303e2aaf1f9c4f42d4a1525db9541c560.png",
         "locale": "enUS"
     },
     {
@@ -2522,23 +2156,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_570",
-        "dbfId": "69982",
-        "name": "Bite",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "text": "Give your hero +4_Attack this turn. Gain 4 Armor.",
-        "flavor": "Chew your food!",
-        "artist": "MAR Studio",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c67beacbc6e02e2fe6c95a4863395820f678cacefa1e9dc5cab4a66d228c1b74.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_570",
@@ -2801,30 +2418,6 @@
         "mechanics": [
             {
                 "name": "Spell Damage"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_166",
-        "dbfId": "69873",
-        "name": "Keeper of the Grove",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 2,
-        "health": 4,
-        "text": "<b>Choose One -</b> Deal_2_damage; or <b>Silence</b> a minion.",
-        "flavor": "These guys just show up and start Keeping your Groves without even asking.",
-        "artist": "Gabor Szikszai",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bde953b9fc404d5b3ab6d4ccc48efa77f5eae3c2be31405c2073f64417e28365.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Silence"
             }
         ]
     },
@@ -3176,53 +2769,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_158",
-        "dbfId": "69867",
-        "name": "Soul of the Forest",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Give your minions \"<b>Deathrattle:</b> Summon a 2/2 Treant.\"",
-        "flavor": "\"Reforestation\" is suddenly a terrifying word.",
-        "artist": "Markus Erdt",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4184ba736a07accd80ccce6450064b1a846b7908c695de0fe25314324cbcb6e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_158",
-        "dbfId": "69591",
-        "name": "Soul of the Forest",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Give your minions \"<b>Deathrattle:</b> Summon a 2/2 Treant.\"",
-        "flavor": "\"Reforestation\" is suddenly a terrifying word.",
-        "artist": "Markus Erdt",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5388ccc458cf1dad8ae7808499e145c48e977906b29babc3000b70dcbbc90152.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_158",
         "dbfId": "381",
         "name": "Soul of the Forest",
@@ -3272,23 +2818,6 @@
                 "name": "Taunt"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_012",
-        "dbfId": "68315",
-        "name": "Swipe",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $4 damage to an enemy and $1 damage to all other enemies.",
-        "flavor": "When a bear rears back and extends his arms, he's about to Swipe!  ... or hug.",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4eddf37598b7879311bd6abba37d58fc3b8f6acb8231599d605ae19ec839ecca.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CS2_012",
@@ -3518,62 +3047,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_165",
-        "dbfId": "69872",
-        "name": "Druid of the Claw",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 5,
-        "attack": 4,
-        "health": 4,
-        "text": "<b>Choose One -</b> <b>Charge</b>; or +2 Health and <b>Taunt</b>.",
-        "flavor": "Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3cfee4a4356b1699a56c6b7d2c289e55629a1a8eabbce50cc71fed310036000.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_165",
-        "dbfId": "69595",
-        "name": "Druid of the Claw",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 5,
-        "attack": 5,
-        "health": 4,
-        "text": "[x]<b>Choose One -</b> Transform\\ninto a 5/4 with <b>Rush</b>;\\nor a 5/6 with <b>Taunt</b>.",
-        "flavor": "Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac6cbd12df0783ef4b00a3444388f51bccf16de51b63413b0c045b0559451cf6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Rush"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_165",
         "dbfId": "692",
         "name": "Druid of the Claw",
@@ -3696,26 +3169,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "CORE_EX1_571",
-        "dbfId": "69597",
-        "name": "Force of Nature",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "text": "Summon three 2/2 Treants.",
-        "flavor": "\"I think I'll just nap under these trees. Wait... AAAAAHHH!\" - Blinkfizz, the Unfortunate Gnome",
-        "artist": "Trevor Jacobs",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11e5107706a176f39933f77752a01d3041cae2b2913dde4745c8df7ea7cc2bf3.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_571",
@@ -3862,31 +3315,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "KAR_065",
-        "dbfId": "39696",
-        "name": "Menagerie Warden",
-        "cardSet": "One Night in Karazhan",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 5,
-        "attack": 4,
-        "health": 4,
-        "text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a_copy of it.",
-        "flavor": "Please? Can I keep him? I promise to clean his cage <i>every day</i>.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked in the Menagerie, in One Night in Karazhan.",
-        "howToGetGold": "Crafting unlocked in the Menagerie, in One Night in Karazhan.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd018bfae401132cb4b162f37ba053e4c76f667ebe014c386b70ca3cc6a290e0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_KAR_065",
         "dbfId": "69686",
         "name": "Menagerie Warden",
@@ -3952,22 +3380,6 @@
                 "name": "Rush"
             }
         ]
-    },
-    {
-        "cardId": "VAN_NEW1_007",
-        "dbfId": "70076",
-        "name": "Starfall",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "<b>Choose One -</b>\\nDeal $5 damage to a minion; or $2 damage to all enemy minions.",
-        "flavor": "Is the sky falling?  Yes.  Yes it is.",
-        "artist": "Richard Wright",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4bff070f741df0f85e7d7e66c4d7cecf8faba731220262d44eab68ae901f46f.png",
-        "locale": "enUS"
     },
     {
         "cardId": "NEW1_007",
@@ -4213,28 +3625,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_571",
-        "dbfId": "70981",
-        "name": "Force of Nature",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 6,
-        "text": "Summon three 2/2 Treants with\\n<b>Charge</b> that die at the end of the turn.",
-        "flavor": "\"I think I'll just nap under these trees. Wait... AAAAAHHH!\" - Blinkfizz, the Unfortunate Gnome",
-        "artist": "Trevor Jacobs",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40531991decd1672b9ebcb4e4aa61cfd8fcea608a139c695b36a332550e410e1.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
         "cardId": "SCH_614",
         "dbfId": "59555",
         "name": "Forest Warden Omu",
@@ -4374,26 +3764,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_164",
-        "dbfId": "69594",
-        "name": "Nourish",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 6,
-        "text": "<b>Choose One -</b> Gain 2_Mana Crystals; or Draw 3 cards.",
-        "flavor": "Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.",
-        "artist": "Terese Nielsen",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbd5b63ed27f8beae008f0624e2f8ab75b0b57dc0eabbe04b8b5f9cde703752e.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_164",
         "dbfId": "95",
         "name": "Nourish",
@@ -4501,25 +3871,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_173",
-        "dbfId": "823",
-        "name": "Starfire",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 6,
-        "text": "Deal $5 damage.\\nDraw a card.",
-        "flavor": "Balance is important to druids.  This card is perfectly balanced.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Druid",
-        "spellSchool": "Arcane",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f7d25ad0d24d5501733f0e3f518c3bb1869d9adbf5828468153590bb090703c.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/413f5df1dd1083d20070bdd11292bdce4762c3f229ea4ce78b6e2b830f4306f8.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_173",
         "dbfId": "68446",
         "name": "Starfire",
@@ -4556,25 +3907,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "NEW1_008",
-        "dbfId": "920",
-        "name": "Ancient of Lore",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 5,
-        "health": 5,
-        "text": "<b>Choose One -</b> Draw 2 cards; or Restore #5 Health.",
-        "flavor": "Go ahead, carve your initials in him.",
-        "artist": "Patrik Hjelm",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4a299448e4f02d67b3d13dd6255918b4d0883c69e6b5e9f95ad00a5fdd0cb66.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4140dff3c95d6261ff2f9532404fdae37975d54a6f0d008c69ee85873d4a1a4f.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_NEW1_008",
         "dbfId": "70077",
         "name": "Ancient of Lore",
@@ -4591,56 +3923,6 @@
         "playerClass": "Druid",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbbd740a5fdcd6ea287f5efece66099a02d212d1f212e3032a5669633d9ba594.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_178",
-        "dbfId": "69875",
-        "name": "Ancient of War",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 5,
-        "health": 5,
-        "text": "<b>Choose One -</b>\\n+5 Attack; or +5 Health and <b>Taunt</b>.",
-        "flavor": "Young Night Elves love to play \"Who can get the Ancient of War to Uproot?\"  You lose if you get crushed to death.",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fff7fa1d37cedf7a28b2542e637a522032ba89b80a8668ca76f2d231b4fe16d0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_178",
-        "dbfId": "69596",
-        "name": "Ancient of War",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 5,
-        "health": 5,
-        "text": "<b>Choose One -</b>\\n+5 Attack; or +5 Health and <b>Taunt</b>.",
-        "flavor": "Young Night Elves love to play \"Who can get the Ancient of War to Uproot?\"  You lose if you get crushed to death.",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked at level 9.",
-        "howToGetGold": "Unlocked after winning 250 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0dac7d33f7230451bf53cd8eafd40a409d42595176a374e87c28eb65bce76696.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
     },
     {
         "cardId": "EX1_178",
@@ -5054,33 +4336,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_573",
-        "dbfId": "69598",
-        "name": "Cenarius",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 5,
-        "health": 8,
-        "text": "<b>Choose One -</b> Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.",
-        "flavor": "Yes, he's a demigod. No, he doesn't need to wear a shirt.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Druid",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Druid.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5884760b4391faee3e3eb84df19923bc72b819c2418107e471c4105000c81f5e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_573",
         "dbfId": "36",
         "name": "Cenarius",
@@ -5182,31 +4437,6 @@
             },
             {
                 "name": "Recruit"
-            }
-        ]
-    },
-    {
-        "cardId": "CS2_232",
-        "dbfId": "205",
-        "name": "Ironbark Protector",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 8,
-        "attack": 8,
-        "health": 8,
-        "text": "<b>Taunt</b>",
-        "flavor": "I <i>dare</i> you to attack Darnassus.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e83388f198b646a513828c146e7a3707f32d2b6d8089bb7e570e50312b8c8fb.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae02b6777e0f3dde7a4113b80d962e37952f956e66b1e51ad8ff71357d9673cd.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
             }
         ]
     },
@@ -5334,31 +4564,6 @@
         "mechanics": [
             {
                 "name": "Twinspell"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_573",
-        "dbfId": "70031",
-        "name": "Cenarius",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 9,
-        "attack": 5,
-        "health": 8,
-        "text": "<b>Choose One -</b> Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.",
-        "flavor": "Yes, he's a demigod. No, he doesn't need to wear a shirt.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Druid",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72c3db3f733f35d9d8bb2b620d8a58b2ac6fd748ed959fcf82695e32dbe9cbf5.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
             }
         ]
     },

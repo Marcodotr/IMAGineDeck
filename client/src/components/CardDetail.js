@@ -12,8 +12,9 @@ function CardDetail(props) {
   })
 
   const theseCards = data?.getClassCard || [];
-  // const uniquecards = [...new Set(theseCards.name)]
-  console.log(theseCards)
+  const uniquecards = [...new Set(theseCards)]
+  
+  console.log(uniquecards)
   return (
     <div className="text-center ui grid">
       {loading ? (

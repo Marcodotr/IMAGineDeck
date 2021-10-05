@@ -1,22 +1,5 @@
 [
     {
-        "cardId": "VAN_EX1_607",
-        "dbfId": "70047",
-        "name": "Inner Rage",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Deal $1 damage to a minion and give it +2_Attack.",
-        "flavor": "They're only smiling on the outside.",
-        "artist": "Slawomir Maniak",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c3922177fd6bd8df87e55d680bebe9ea2201caa032b333ef5c96cba0accf567.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_607",
         "dbfId": "22",
         "name": "Inner Rage",
@@ -216,23 +199,6 @@
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c2bfe3408fdf7466455077f93d1d5799401549561d264973a7ec63f7de103cd.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3fbcc196167d011615fe99a7206ec1222dd50fe3647e0ef11aef78b98ce377be.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_108",
-        "dbfId": "68376",
-        "name": "Execute",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Destroy a damaged enemy minion.",
-        "flavor": "It's okay, he deserved it.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b49f2caebc6768ba900ab20321c8eb2b27d094d56f594b088169c5e727c9757e.png",
         "locale": "enUS"
     },
     {
@@ -490,52 +456,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_410",
-        "dbfId": "69641",
-        "name": "Shield Slam",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 1,
-        "text": "Deal 1 damage to a minion for each Armor you have.",
-        "flavor": "\"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?\" - The Art of Warrior, Chapter 9",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a844daa62d404ef82c5caeacf3e36a099c946e5572626005199f139d5c2c051.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_410",
-        "dbfId": "69955",
-        "name": "Shield Slam",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 1,
-        "text": "Deal 1 damage to a minion for each Armor you have.",
-        "flavor": "\"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?\" - The Art of Warrior, Chapter 9",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/192153552f1dcc2d299bcfe47a3126c33b64ddbe48bb5bbf88e58a70f561d5e2.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_410",
         "dbfId": "546",
         "name": "Shield Slam",
@@ -714,23 +634,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_409",
-        "dbfId": "69954",
-        "name": "Upgrade!",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.",
-        "flavor": "Easily worth 50 DKP.",
-        "artist": "Matt Cavotta",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c17c1822153ecaf536ae125443d91676dc2112d66ff6d56d22aff466545be0aa.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_409",
         "dbfId": "511",
         "name": "Upgrade!",
@@ -809,42 +712,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_400",
-        "dbfId": "69556",
-        "name": "Whirlwind",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $1 damage to ALL_minions.",
-        "flavor": "The way to tell seasoned warriors from novice ones: the novices yell \"wheeeee\" while whirlwinding.",
-        "artist": "Jonboy Meyers",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/297cd3af60c7cebbdd957eb2f0b68b842b72356ff3c4378ca86c9c2a632fc681.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_400",
-        "dbfId": "68467",
-        "name": "Whirlwind",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $1 damage to ALL_minions.",
-        "flavor": "The way to tell seasoned warriors from novice ones: the novices yell \"wheeeee\" while whirlwinding.",
-        "artist": "Jonboy Meyers",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fdbe94c910984dda6b53448818880323f15c94a9898e81001bb267b6a03b417a.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_400",
         "dbfId": "636",
         "name": "Whirlwind",
@@ -889,46 +756,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_402",
-        "dbfId": "69950",
-        "name": "Armorsmith",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 1,
-        "health": 4,
-        "text": "Whenever a friendly minion_takes damage, gain 1 Armor.",
-        "flavor": "She accepts guild funds for repairs!",
-        "artist": "Greg Hildebrandt",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9a746153e2a5c813c8a639f9a84f368c3cd8cd14c440647ddba97656162cc9b.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_402",
-        "dbfId": "69639",
-        "name": "Armorsmith",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 1,
-        "health": 4,
-        "text": "Whenever a friendly minion_takes damage, gain 1 Armor.",
-        "flavor": "She accepts guild funds for repairs!",
-        "artist": "Greg Hildebrandt",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 3.",
-        "howToGetGold": "Unlocked after winning 100 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a302406a4ba14f3dcf9e4a54731cb152bab3350988b8a250ead836d20334edd.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_402",
         "dbfId": "596",
         "name": "Armorsmith",
@@ -946,23 +773,6 @@
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a22fb862de357160801d1871929b7001a257d270818b20215e25ee7f2deddac6.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e782ccc602bdd99b4bd65a21b88d0b10d874f0c7987691b49d7af07c4d9d402.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_392",
-        "dbfId": "69946",
-        "name": "Battle Rage",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Draw a card for each damaged friendly character.",
-        "flavor": "\"You won't like me when I'm angry.\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bcf55306399056d5deb0a0d47e4edc8f86c2a722368f894915bc6c742cd863a.png",
         "locale": "enUS"
     },
     {
@@ -1087,24 +897,6 @@
         ]
     },
     {
-        "cardId": "CS2_114",
-        "dbfId": "940",
-        "name": "Cleave",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "[x]Deal $2 damage to\\ntwo random enemy\\nminions.",
-        "flavor": "Hey you two…could you stand next to each other for a second…",
-        "artist": "Phroilan Gardner",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec5fa463add77af814a3f2b09eb4326464085ac347ca707008b9c9e862e22f66.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9191fd97da30b6e1e749dc4574a470e484fbcdec3e6da63b4c03b25b4379d26.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_114",
         "dbfId": "68378",
         "name": "Cleave",
@@ -1119,23 +911,6 @@
         "collectible": true,
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bce19afe72d2be99d6e9d1f6f22fc074f30e90ee9c2eea0d190ab02321bdc529.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "NEW1_036",
-        "dbfId": "1026",
-        "name": "Commanding Shout",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Your minions can't be reduced below 1 Health this turn. Draw a card.",
-        "flavor": "\"Shout! Shout! Let it all out!\" - Advice to warriors-in-training",
-        "artist": "Wayne Reynolds",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d9cd65d44ccd3c341d82e427299e6a74207c0ec84159e1dac0b0bcf160d7006.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4362c0ea7e217421dcf8a37dd4fb439f37433444b0b5040be70f5aa72874929f.png",
         "locale": "enUS"
     },
     {
@@ -1211,57 +986,6 @@
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c7424f96c9a6c9a11aab4b7f99d711ca982e7dc9d1cf6b2c0dc8c3bf261236a.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_603",
-        "dbfId": "285",
-        "name": "Cruel Taskmaster",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Deal 1 damage to a minion and give it +2_Attack.",
-        "flavor": "\"I'm going to need you to come in on Sunday.\" - Cruel Taskmaster",
-        "artist": "Phroilan Gardner",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83b2b7e49700a530935cd7fad896a57ba706070532a21ea362666c9c0e860d74.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1456eb7e8546876aa8522f71ecd8ed28ccbbbe057af1190238a4d331f9fa8555.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_603",
-        "dbfId": "69644",
-        "name": "Cruel Taskmaster",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Deal 1 damage to a minion and give it +2_Attack.",
-        "flavor": "\"I'm going to need you to come in on Sunday.\" - Cruel Taskmaster",
-        "artist": "Phroilan Gardner",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee9ac05a6097f0c22d75ac58193b284aa8f96af665461589107a6c38241ea93a.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_603",
@@ -1369,25 +1093,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_108",
-        "dbfId": "69535",
-        "name": "Execute",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Destroy a damaged enemy minion.",
-        "flavor": "It's okay, he deserved it.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5054d0630435282d0df88afbc2f080eda1ec0e6d4ed543218e54c5003067f823.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_108",
         "dbfId": "785",
         "name": "Execute",
@@ -1425,24 +1130,6 @@
                 "name": "Discover"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_106",
-        "dbfId": "68375",
-        "name": "Fiery War Axe",
-        "cardSet": "Vanilla",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "attack": 3,
-        "durability": 2,
-        "flavor": "During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66fe5ff00c44a624e6f2c4c97096b28ac83caa798dfc5c909bccc406ef015b80.png",
-        "locale": "enUS"
     },
     {
         "cardId": "ICC_281",
@@ -1513,23 +1200,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_105",
-        "dbfId": "68373",
-        "name": "Heroic Strike",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Give your hero +4_Attack this turn.",
-        "flavor": "Really, if you're a hero, this is <i>every</i> strike.",
-        "artist": "Jonboy Meyers",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2cd2e9047af5afd9318bbce38680c41bf8a753c99fb4bdcf86652cbec4a9560.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CS2_105",
@@ -1663,24 +1333,6 @@
         ]
     },
     {
-        "cardId": "CS2_104",
-        "dbfId": "1108",
-        "name": "Rampage",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Give a damaged minion +3/+3.",
-        "flavor": "Minion get ANGRY.   Minion SMASH!",
-        "artist": "Jonboy Meyers",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47aa8e37f2975b7207ae9c5df101300bfb2e7aef25ac30600a18d74610137a42.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94e786778ed5b03333f037d15cc812f4b6324261d44f0fb6e5e5860e2d6fea43.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_104",
         "dbfId": "69753",
         "name": "Rampage",
@@ -1806,42 +1458,6 @@
                 "name": "Rush"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_391",
-        "dbfId": "69945",
-        "name": "Slam",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $2 damage to a minion. If it survives, draw a card.",
-        "flavor": "\"Dun da dun, dun da dun\": if you've heard an ogre sing this, it's too late.",
-        "artist": "E. M. Gist",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f78fb3e6b3b76124f2e0d3830e5d75c53a62fd49acc88a8d8d52e57fa6374312.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_391",
-        "dbfId": "69638",
-        "name": "Slam",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $2 damage to a minion. If it survives, draw a card.",
-        "flavor": "\"Dun da dun, dun da dun\": if you've heard an ogre sing this, it's too late.",
-        "artist": "E. M. Gist",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f65461f3d3527321fe21e968a8b39070645f26abc9f5413bd9dc752e44d8bfd8.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_391",
@@ -2293,29 +1909,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CS2_103",
-        "dbfId": "344",
-        "name": "Charge",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Give a friendly minion +2 Attack and <b>Charge</b>.",
-        "flavor": "\"Guys! Guys! Slow down!\" - some kind of non-warrior minion",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d4092335f52c41446bccc262f0de1c979b4726cae16813ce5a949cf9af0f863.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d003b710d4097af98d9b01570fb9038a02dafcdce8c75f9902ca2597aae78256.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_103",
         "dbfId": "68371",
         "name": "Charge",
@@ -2434,26 +2027,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_106",
-        "dbfId": "69534",
-        "name": "Fiery War Axe",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 3,
-        "durability": 2,
-        "flavor": "During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01eee4430d461aaa3844e0536ff660c306685d67ed735b75c4793b25af2de8df.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_106",
         "dbfId": "401",
         "name": "Fiery War Axe",
@@ -2470,46 +2043,6 @@
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9a6f9fbd18eae791a13b32a43ea890f36993ad8ff1c100c7331d7b7f1bf5a8e.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f4ff6bf255ceaea527b18e8dc871d2bdf1099b728d0c7dbcbd9f041dfe5b685.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_604",
-        "dbfId": "69645",
-        "name": "Frothing Berserker",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 2,
-        "health": 4,
-        "text": "Whenever a minion takes damage, gain +1 Attack.",
-        "flavor": "He used to work as an accountant before he tried his hand at Berserkering.",
-        "artist": "Simon Bisley",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c6efce7a80a02470d09aec549e937591eec1bd6d8de10a55e9481ae0f2643c0.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_604",
-        "dbfId": "70046",
-        "name": "Frothing Berserker",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 2,
-        "health": 4,
-        "text": "Whenever a minion takes damage, gain +1 Attack.",
-        "flavor": "He used to work as an accountant before he tried his hand at Berserkering.",
-        "artist": "Simon Bisley",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9bcf075c301e1e59719dc18711f1e4f3449a9a9b1604ed78a2b182fd22e0861.png",
         "locale": "enUS"
     },
     {
@@ -2929,24 +2462,6 @@
         ]
     },
     {
-        "cardId": "EX1_606",
-        "dbfId": "1023",
-        "name": "Shield Block",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Gain 5 Armor.\\nDraw a card.",
-        "flavor": "Shields were invented because Face Block is USELESS.",
-        "artist": "Michael Komarck",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04560c6ff139ddb160a6e9260fcbd87f39ea51aa44ee8d1ccfeb574fcb017bd0.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df6d3eb7f3b8535ea5cba6771cde54f44e6f5037bfd71d743c3e37589042b151.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_606",
         "dbfId": "68479",
         "name": "Shield Block",
@@ -3091,57 +2606,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_084",
-        "dbfId": "69549",
-        "name": "Warsong Commander",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 2,
-        "health": 3,
-        "text": "After you summon another minion, give it <b>Rush</b>.",
-        "flavor": "The Warsong clan is <i>such drama</i>. It's really not worth it to become a commander.",
-        "artist": "Wei Wang",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 2.",
-        "howToGetGold": "Unlocked after winning 50 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9eb5f94f0168cdb53e0f5e0244b287e4fb923a9655dc780a235743b25e02148.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Rush"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_084",
-        "dbfId": "1009",
-        "name": "Warsong Commander",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "attack": 2,
-        "health": 3,
-        "text": "After you summon another minion, give it <b>Rush</b>.",
-        "flavor": "The Warsong clan is <i>such drama</i>. It's really not worth it to become a commander.",
-        "artist": "Wei Wang",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4ec4245dadf8f3840be9835d6c7f6137485f017d8e06d8cca7efeceea71256a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a91d70bd9e6ec4e7feac5f3b11fc4f2048639f5590a810bc0fdc3b1b69b73f22.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Rush"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_084",
         "dbfId": "68442",
         "name": "Warsong Commander",
@@ -3162,30 +2626,6 @@
         "mechanics": [
             {
                 "name": "Charge"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_398",
-        "dbfId": "69949",
-        "name": "Arathi Weaponsmith",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Equip a 2/2_weapon.",
-        "flavor": "50% off fist weapons, limited time only!",
-        "artist": "Samwise",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c217f6cb7eef708ee3a2e3fd0b8aa5698ba226f5acf4d95384cef24b2ac75ab.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -3392,30 +2832,6 @@
         ]
     },
     {
-        "cardId": "NEW1_011",
-        "dbfId": "28",
-        "name": "Kor'kron Elite",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "rarity": "Free",
-        "cost": 4,
-        "attack": 4,
-        "health": 3,
-        "text": "<b>Charge</b>",
-        "flavor": "The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c39898a8974ae1c50feb7c835b9f0bd3165dfc42e6b0421bd675e21ad5e7cee6.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d76b18aebe9628107c261923543f065d245719020f48fce68de0e03cafd2c846.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_NEW1_011",
         "dbfId": "68528",
         "name": "Kor'kron Elite",
@@ -3499,24 +2915,6 @@
         "spellSchool": "Fire",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf968ce88879a4b7bf45c268f674f7ec3d047f1c42bb47f5a9f038d6b001325f.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2764824748f43b0685cce3e2238021290c7a8d6cc4ae9093ff9032b7fa751507.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_408",
-        "dbfId": "804",
-        "name": "Mortal Strike",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "text": "Deal $4 damage. If you have 12 or less Health, deal $6 instead.",
-        "flavor": "\"If you only use one ability, use Mortal Strike.\" - The Warrior Code, Line 6",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9d4ed1ec66e19e15934b3661492d41accf9f85f3ba3951e71d074138d55b92c.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e6df4795d5dbe111cad25b048482bbdaa55cc582edfab4b4647119b703e7f5a.png",
         "locale": "enUS"
     },
     {
@@ -3838,25 +3236,6 @@
         ]
     },
     {
-        "cardId": "CS2_112",
-        "dbfId": "304",
-        "name": "Arcanite Reaper",
-        "cardSet": "Legacy",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "attack": 5,
-        "durability": 2,
-        "flavor": "No… actually you should fear the Reaper.",
-        "artist": "Stefan Kopinski",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4046328c50c03e4d8e167d2bddd4d7a3b1d59c009e5bf2e45b1a2c50f1913643.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2844ea3fda344acac193ca9b1b1e82f44d9b1c56ea6b4ca23d9be7404717b58.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_112",
         "dbfId": "68377",
         "name": "Arcanite Reaper",
@@ -3872,42 +3251,6 @@
         "collectible": true,
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b528730648deaeebb338fc5f62a1b9b6788f617a44da6b279a757909108cfbe.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_407",
-        "dbfId": "69952",
-        "name": "Brawl",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "text": "Destroy all minions except one. <i>(chosen randomly)</i>",
-        "flavor": "Do you know the first rule of Brawl Club?",
-        "artist": "Wayne Reynolds",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/465f3455b9c02ce4403eb018082298d32924c2d4bec61c4e7019a6b4787f37da.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_407",
-        "dbfId": "69640",
-        "name": "Brawl",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "text": "Destroy all minions except one. <i>(chosen randomly)</i>",
-        "flavor": "Do you know the first rule of Brawl Club?",
-        "artist": "Wayne Reynolds",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 7.",
-        "howToGetGold": "Unlocked after winning 250 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06b78a7588703a4f5bee9ae376d99944eed87c400e8fcc01305d2d85bfdf0c24.png",
         "locale": "enUS"
     },
     {
@@ -4201,29 +3544,6 @@
             },
             {
                 "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "GVG_053",
-        "dbfId": "2021",
-        "name": "Shieldmaiden",
-        "cardSet": "Goblins vs Gnomes",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 5,
-        "attack": 5,
-        "health": 5,
-        "text": "<b>Battlecry:</b> Gain 5 Armor.",
-        "flavor": "She has three shieldbearers in her party to supply her with back ups when she gets low on durability.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95d8db06e3530426913fe9c180b5c616b89f00004444c10c90d6438d3501085f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -4883,47 +4203,6 @@
         ]
     },
     {
-        "cardId": "EX1_411",
-        "dbfId": "810",
-        "name": "Gorehowl",
-        "cardSet": "Classic",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 7,
-        "durability": 1,
-        "text": "Attacking a minion costs 1 Attack instead of 1 Durability.",
-        "flavor": "Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a5761e5566f27742892f0f736028a786708c30bdafee61fc5aa073876dd23e6.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e712eeea7c38f7f55750fc4f91e4cff65805e6b2e64dbea45877552744bd470.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_411",
-        "dbfId": "69642",
-        "name": "Gorehowl",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 7,
-        "durability": 1,
-        "text": "Attacking a minion costs 1 Attack instead of 1 Durability.",
-        "flavor": "Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 9.",
-        "howToGetGold": "Unlocked after winning 250 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e19191ca66044a4aebb845810437b7d3c358ae7184edfdb40a37abed9da9f3a.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_411",
         "dbfId": "69956",
         "name": "Gorehowl",
@@ -5150,59 +4429,6 @@
         "playerClass": "Warrior",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb0e0078b53e93f57f8df5958042432af6cebd397c348357aa0b3e4f20b705c5.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_414",
-        "dbfId": "338",
-        "name": "Grommash Hellscream",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 4,
-        "health": 9,
-        "text": "<b>Charge</b>\\nHas +6 Attack while damaged.",
-        "flavor": "Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decision.",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Warrior",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bdf4220d1a6e3e925d2d52e4eb4a3dc0638ca0acffceccf6bcb1782c3600709.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22f6165bf47e15bdc2bab6c1fac10d085237350b5ae7d1577024ef6cd44d6eda.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_414",
-        "dbfId": "69643",
-        "name": "Grommash Hellscream",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 4,
-        "health": 9,
-        "text": "<b>Charge</b>\\nHas +6 Attack while damaged.",
-        "flavor": "Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decision.",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Warrior",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Warrior.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52f1842e0c8d96f923a18c606aac05337855cb4984ce8cf323a2c40fa089fcf9.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_414",
