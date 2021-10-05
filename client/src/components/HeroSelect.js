@@ -19,7 +19,7 @@ function HeroSelect(props) {
     setPlayerClass("");
   };
 
-  const heros = ['Demon Hunter','Druid','Hunter','Mage','Palidin','Priest','Rogue','Shaman','Warlock','Warrior']
+  const heros = ['Demon Hunter','Druid','Hunter','Mage','Paladin','Priest','Rogue','Shaman','Warlock','Warrior']
   const HeroButton = heros.map((hero) => 
   <button
     name="playerClass"

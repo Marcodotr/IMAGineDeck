@@ -38,25 +38,6 @@
         ]
     },
     {
-        "cardId": "BT_351",
-        "dbfId": "58487",
-        "name": "Battlefiend",
-        "cardSet": "Demon Hunter Initiate",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 2,
-        "text": "After your hero attacks, gain +1 Attack.",
-        "flavor": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
-        "artist": "Andrew Hou",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Demon Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afcd811e07af8f34e7156739151d09dd8c2bfa76e25fd46f637b8e621b340409.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_BT_351",
         "dbfId": "69586",
         "name": "Battlefiend",
@@ -99,29 +80,6 @@
             },
             {
                 "name": "Silence"
-            }
-        ]
-    },
-    {
-        "cardId": "BT_480",
-        "dbfId": "58170",
-        "name": "Crimson Sigil Runner",
-        "cardSet": "Ashes of Outland",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Outcast:</b> Draw a card.",
-        "flavor": "He's not the fastest of the bunch, but he'll take a stab at it anyway.",
-        "artist": "Arthur Bozonnet",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a945d2c32753c212d5e70b60d929008913e62f2c0e4af66f7f13346a17cd3d0f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Outcast"
             }
         ]
     },
@@ -465,25 +423,6 @@
         ]
     },
     {
-        "cardId": "CORE_BT_035",
-        "dbfId": "69558",
-        "name": "Chaos Strike",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Give your hero +2_Attack this turn. Draw a card.",
-        "flavor": "\"What do we want?\" \"CHAOS!\"\\n \"When do we want it?\"\\n \"WHEN LEAST EXPECTED!\"",
-        "artist": "Zoltan Boros",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "spellSchool": "Fel",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/978f2be0c5f2a44b6e5948d019d3cb28b524e8456e5bd29ba061ae7c5140885d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "BT_035",
         "dbfId": "56791",
         "name": "Chaos Strike",
@@ -498,25 +437,6 @@
         "playerClass": "Demon Hunter",
         "spellSchool": "Fel",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8e6e30c198c26e145c584a6fc29556a90538ae5995277c5e2c7c700df94b9d8.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_BT_427",
-        "dbfId": "69590",
-        "name": "Feast of Souls",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Draw a card for each friendly minion that died this turn.",
-        "flavor": "Nothing fills you up like soul food!",
-        "artist": "Anton Zemskov",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7352e31798748d5c99bfb0646c7b26055cb361c693bcfd9e3528dfad18c5bc2b.png",
         "locale": "enUS"
     },
     {
@@ -703,33 +623,6 @@
         ]
     },
     {
-        "cardId": "CORE_BT_323",
-        "dbfId": "69506",
-        "name": "Sightless Watcher",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Horde",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Look at 3 cards in your deck. Choose one to put on top.",
-        "flavor": "What he lacks in sight, he makes up for in sleight-of-tentacle tricks.",
-        "artist": "Jaemin Kim",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Demon Hunter",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed77a3bbfd1c8630a76f61f542930e50d38157597895570cd9b94a2936c4558b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "BT_323",
         "dbfId": "56973",
         "name": "Sightless Watcher",
@@ -790,27 +683,6 @@
         "mechanics": [
             {
                 "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "BT_491",
-        "dbfId": "58453",
-        "name": "Spectral Sight",
-        "cardSet": "Ashes of Outland",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "[x]Draw a card.\\n<b>Outcast:</b> Draw another.",
-        "flavor": "\"Pick a card, any card! Preferably the left- or right-most card.\"",
-        "artist": "Jakub Kasper",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0fe5105ca0d1bcc966e76fac49af4c9ff3bb176b48b9dfe895b9956bd701078.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Outcast"
             }
         ]
     },
@@ -906,31 +778,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_BT_921",
-        "dbfId": "69507",
-        "name": "Aldrachi Warblades",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 2,
-        "durability": 2,
-        "text": "<b>Lifesteal</b>",
-        "flavor": "The ancient Aldrachi were the greatest warriors in the universe. Imagine their power if they'd put the handle at the END of the blade.",
-        "artist": "J. Axer",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d70991e8ccd946161592ccbe33949bde108cf1073e70ae1746d579820303c76e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Lifesteal"
-            }
-        ]
-    },
-    {
         "cardId": "BT_921",
         "dbfId": "56583",
         "name": "Aldrachi Warblades",
@@ -1000,29 +847,6 @@
         ]
     },
     {
-        "cardId": "CORE_BT_036",
-        "dbfId": "69504",
-        "name": "Coordinated Strike",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Summon three 1/1_Illidari with <b>Rush</b>.",
-        "flavor": "Undisputed champions of \"Dancing with the Satyrs.\"",
-        "artist": "L. Lullabi & K. Turovec",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d2a5d997a9ad1a1510d7ab1cd0aba97c367b06b4ec62db7511f63533c2c3ef4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Rush"
-            }
-        ]
-    },
-    {
         "cardId": "BT_036",
         "dbfId": "56792",
         "name": "Coordinated Strike",
@@ -1061,32 +885,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efdf6ee720f1b3b372f9b2b90a80a43f2313004f7bef22111fedf190946884bf.png",
         "locale": "enUS",
         "mechanics": [
-            {
-                "name": "Outcast"
-            }
-        ]
-    },
-    {
-        "cardId": "BT_801",
-        "dbfId": "58183",
-        "name": "Eye Beam",
-        "cardSet": "Demon Hunter Initiate",
-        "type": "Spell",
-        "rarity": "Epic",
-        "cost": 3,
-        "text": "<b>Lifesteal</b>. Deal $3 damage to a minion.\\n<b>Outcast:</b> This costs (1).",
-        "flavor": "Sometimes looks CAN kill.",
-        "artist": "Arthur Gimaldinov",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "spellSchool": "Fel",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da394a4dffe85e4dbd47f4a9e125d3f869da887fff1012612be8c3f0ca83a6a5.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/600ad59b67bc0bfb52c89e37ffb73ed790f2aac6bbdee9bc11efe8c4108d0723.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Lifesteal"
-            },
             {
                 "name": "Outcast"
             }
@@ -1458,33 +1256,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "BT_423",
-        "dbfId": "56860",
-        "name": "Ashtongue Battlelord",
-        "cardSet": "Ashes of Outland",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 3,
-        "health": 5,
-        "text": "<b>Taunt</b>\\n<b>Lifesteal</b>",
-        "flavor": "Demons have destroyed the lives of the Ashtongue draenei. Now he’s got a shoulder-axe to grind.",
-        "artist": "Ivan Fomin",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21d90aa25b7d34eae535cec143d76d549b9f50dc4bead0e4dc60c151d9e1063c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Lifesteal"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_BT_423",
         "dbfId": "69681",
         "name": "Ashtongue Battlelord",
@@ -1711,31 +1482,6 @@
         ]
     },
     {
-        "cardId": "CORE_BT_416",
-        "dbfId": "69588",
-        "name": "Raging Felscreamer",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 4,
-        "health": 4,
-        "text": "<b>Battlecry:</b> The next Demon you play costs (2) less.",
-        "flavor": "Screaming loudly will not reduce the cost of non-demonic goods.",
-        "artist": "Slawomir Maniak",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "howToGet": "Unlocked at level 5.",
-        "howToGetGold": "Unlocked after winning 100 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9cea03770a5c956ba77591ab191ff6fb885e11944fc855ae99992963d9e42ba2.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "BT_416",
         "dbfId": "56765",
         "name": "Raging Felscreamer",
@@ -1926,25 +1672,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_BT_235",
-        "dbfId": "69505",
-        "name": "Chaos Nova",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 5,
-        "text": "Deal $4 damage to all_minions.",
-        "flavor": "Illin' Illidan laying down the damage, flinging out the chaos as far as he can manage.",
-        "artist": "Rafael Zanchetin",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "spellSchool": "Fel",
-        "howToGet": "Unlocked at level 3.",
-        "howToGetGold": "Unlocked after winning 50 games as Demon Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12dc66a6ed7eacb11ed210e490c0b1447c7a80c84ccfcb74e921848004fb4e2a.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "BT_235",
         "dbfId": "57847",
         "name": "Chaos Nova",
@@ -2045,24 +1772,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "BT_430",
-        "dbfId": "56900",
-        "name": "Warglaives of Azzinoth",
-        "cardSet": "Ashes of Outland",
-        "type": "Weapon",
-        "rarity": "Epic",
-        "cost": 5,
-        "attack": 3,
-        "durability": 3,
-        "text": "After attacking a minion, your hero may attack again.",
-        "flavor": "The blades glow green from things unseen, dark dreams whirling in the felfire gleam.",
-        "artist": "SARIYA",
-        "collectible": true,
-        "playerClass": "Demon Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01199cd50f2694d1b75046cce5962df42f60ad4c3374d2fb09159d05533228e2.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CORE_BT_430",
