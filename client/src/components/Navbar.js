@@ -7,74 +7,74 @@ import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
-  state = { activeItem: "Blue" };
+  state = { activeItem: "" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {  
     const { activeItem } = this.state;
 
-    if(Auth.loggedIn())
-    {
-    return (
-        <div>
-      <Menu stackable inverted>
-        <Menu.Item>
-          {/* <img src='/logo.png' /> */}
-        </Menu.Item>
+    // if(Auth.loggedIn())
+    // {
+    // return (
+    //     <div>
+    //   <Menu stackable inverted>
+    //     <Menu.Item>
+    //       {/* <img src='/logo.png' /> */}
+    //     </Menu.Item>
 
-        <Menu.Item
-          name='build'
-          active={activeItem === 'build'}
-          onClick={this.handleItemClick}
-          color={'blue'}
+    //     <Menu.Item
+    //       name='build'
+    //       active={activeItem === 'build'}
+    //       onClick={this.handleItemClick}
+    //       color={'blue'}
           
-        >
-          Build a Deck
-        </Menu.Item>
+    //     >
+    //       Build a Deck
+    //     </Menu.Item>
 
-        <Menu.Item
-          name='view'
-          active={activeItem === 'view'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          View all Decks
-        </Menu.Item>
+    //     <Menu.Item
+    //       name='view'
+    //       active={activeItem === 'view'}
+    //       onClick={this.handleItemClick}
+    //       color={'blue'}
+    //     >
+    //       View all Decks
+    //     </Menu.Item>
 
-        <Menu.Item
-          name='browse'
-          active={activeItem === 'browse'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          Browse all Cards
-        </Menu.Item>
+    //     <Menu.Item
+    //       name='browse'
+    //       active={activeItem === 'browse'}
+    //       onClick={this.handleItemClick}
+    //       color={'blue'}
+    //     >
+    //       Browse all Cards
+    //     </Menu.Item>
 
-        <Menu.Item
-          name='profile'
-          active={activeItem === 'profile'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          Profile
-        </Menu.Item>
+    //     <Menu.Item
+    //       name='profile'
+    //       active={activeItem === 'profile'}
+    //       onClick={this.handleItemClick}
+    //       color={'blue'}
+    //     >
+    //       Profile
+    //     </Menu.Item>
     
-        <Menu.Item //Show if logged in
-          name='Log out'
-          active={activeItem === 'profile'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          Log out
-        </Menu.Item>
+    //     <Menu.Item //Show if logged in
+    //       name='Log out'
+    //       active={activeItem === 'profile'}
+    //       onClick={this.handleItemClick}
+    //       color={'blue'}
+    //     >
+    //       Log out
+    //     </Menu.Item>
 
-      </Menu>
-      </div>
-    )
-    }
-    else
-    {
+    //   </Menu>
+    //   </div>
+    // )
+    // }
+    // else
+    // {
     return (
       <div>
     <Menu stackable inverted>
@@ -83,8 +83,9 @@ export default class Navbar extends Component {
       </Menu.Item>
 
       <Menu.Item
-        name='build'
-        active={activeItem === 'build'}
+        name='heroselect'
+        as={NavLink} to='/heroselect'
+        active={activeItem === 'heroselect'}
         onClick={this.handleItemClick}
         color={'blue'}
         
@@ -144,7 +145,7 @@ export default class Navbar extends Component {
     )
     }
   }
-}
+// }
 
 
 

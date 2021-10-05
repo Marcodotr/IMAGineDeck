@@ -86,30 +86,6 @@
         ]
     },
     {
-        "cardId": "FP1_020",
-        "dbfId": "1804",
-        "name": "Avenge",
-        "cardSet": "Naxxramas",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.",
-        "flavor": "Several paladins have joined together to deliver justice under the name \"Justice Force\".  Their lawyer talked them out of calling themselves the Justice League.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
-        "howToGetGold": "Crafting unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfdcc265b0f237c03fc4308cdb95043ef798ca4a03a904ab36ba0cd6452acdc8.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_FP1_020",
         "dbfId": "69704",
         "name": "Avenge",
@@ -162,23 +138,6 @@
         ]
     },
     {
-        "cardId": "VAN_CS2_087",
-        "dbfId": "68359",
-        "name": "Blessing of Might",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give a minion +3_Attack.",
-        "flavor": "\"As in, you MIGHT want to get out of my way.\" - Toad Mackle, recently buffed.",
-        "artist": "Zoltan Boros",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35b7116fc832ef8e706b3d8a86eb824ccd821bea166adb8bb579a27fbab45cc6.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_087",
         "dbfId": "70",
         "name": "Blessing of Might",
@@ -195,22 +154,6 @@
         "spellSchool": "Holy",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f22ae0af79b1ec9e92b7640726303f7fc5286c779952bf16eb4e14f9d7d85a95.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4be1a428f0327f0d8844ce2ec0ad2c494c395cdb53039ee6b5c9a0832cca414d.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_363",
-        "dbfId": "69937",
-        "name": "Blessing of Wisdom",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Choose a minion. Whenever it attacks, draw a card.",
-        "flavor": "Apparently with wisdom comes the knowledge that you should probably be attacking every turn.",
-        "artist": "Chippy",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c33f59a13d0deb9177a2bfef5760ede71b6f8750f725e56998df1cdcdfbdb4b4.png",
         "locale": "enUS"
     },
     {
@@ -355,28 +298,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_132",
-        "dbfId": "69858",
-        "name": "Eye for an Eye",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> When your hero takes damage, deal_that much damage to the enemy hero.",
-        "flavor": "Justice sometimes takes the form of a closed fist into a soft cheek.",
-        "artist": "James Ryman",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/61b94609d05f941d2807bc17ffdfbbda96fc14b32fc074dacf70bd409ea37ea8.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_132",
         "dbfId": "462",
         "name": "Eye for an Eye",
@@ -512,30 +433,6 @@
         ]
     },
     {
-        "cardId": "EX1_371",
-        "dbfId": "727",
-        "name": "Hand of Protection",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give a minion <b>Divine Shield</b>.",
-        "flavor": "This spell has been renamed so many times, even paladins don’t know what it should be called anymore.",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af01819db3053d90e4172b1b7dde0f78cf738d5fd551e3b4f7896fbb8c0672f0.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8450f8f758eae291846df8c44150ea5a2c1c9a1379ee7563918d89646319537c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Divine Shield"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_371",
         "dbfId": "68464",
         "name": "Hand of Protection",
@@ -578,24 +475,6 @@
                 "name": "Secret"
             }
         ]
-    },
-    {
-        "cardId": "EX1_360",
-        "dbfId": "854",
-        "name": "Humility",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Change a minion's Attack to 1.",
-        "flavor": "This card makes something really damp.  Oh wait.  That's \"Humidity.\"",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b7af814eb8f80f539f88d30dd57ef8993a5bb6afaa51762becb8e584a2fdf1d.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ef12f2cfa493ef281a750a40f2e6411604f690a88e2ecbb32f330ff5d92b8b8.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_EX1_360",
@@ -677,25 +556,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "CS2_091",
-        "dbfId": "383",
-        "name": "Light's Justice",
-        "cardSet": "Legacy",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "attack": 1,
-        "durability": 4,
-        "flavor": "Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26d1a1b2a61ac3d36e18d99a926276900706a1cb42fbb9eac2c0956dba36363b.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45c2a1c38ff57cf2faead5a3a5a11b674defea72cc97eb342e7c326b3ca08fcc.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_CS2_091",
@@ -805,52 +665,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_130",
-        "dbfId": "69856",
-        "name": "Noble Sacrifice",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.",
-        "flavor": "We will always remember you, \"Defender!\"",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afd11b877d8a552389577cf75a670d75d887b55cd9e2f414e4f0617fd3d57c8a.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_130",
-        "dbfId": "69610",
-        "name": "Noble Sacrifice",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.",
-        "flavor": "We will always remember you, \"Defender!\"",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49e0db7c51df31901e2dd1c0389cd76f88023d523f42c550f65f24e7be1f99db.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_130",
         "dbfId": "584",
         "name": "Noble Sacrifice",
@@ -942,30 +756,6 @@
         ]
     },
     {
-        "cardId": "EX1_136",
-        "dbfId": "140",
-        "name": "Redemption",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> When a friendly minion dies, return it to life with 1 Health.",
-        "flavor": "I am not sure how you get demptioned the first time.  It’s a mystery!",
-        "artist": "Ittoku",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21ae746d9d9161adcef713da8e0318b1b8c5fac1a35b11eed90f71ad99764f27.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0c699683c1b0766a91df67e530b671744042277a4fd659c4acfd53638672355.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_136",
         "dbfId": "69861",
         "name": "Redemption",
@@ -980,30 +770,6 @@
         "collectible": true,
         "playerClass": "Paladin",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26ea6c9c59ee078218d3339c947dc0f746d4079ec655393a5044298259ed0b80.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_379",
-        "dbfId": "232",
-        "name": "Repentance",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Secret:</b> After your opponent plays a minion, reduce its Health to 1.",
-        "flavor": "Repentance often comes in the moment before obliteration. Curious.",
-        "artist": "Gonzalo Ordonez",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec28d8806a6f9587477e26a40372260f7e57833f522093ab1d6498689c722b17.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/86bc43986864d435e7aef82c9ed229b8a91dbb17e6525b1480e61663b7e5ac11.png",
         "locale": "enUS",
         "mechanics": [
             {
@@ -1052,33 +818,6 @@
         "mechanics": [
             {
                 "name": "Sidequest"
-            }
-        ]
-    },
-    {
-        "cardId": "ICC_038",
-        "dbfId": "42467",
-        "name": "Righteous Protector",
-        "cardSet": "Knights of the Frozen Throne",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Taunt</b>\\n<b>Divine Shield</b>",
-        "flavor": "Original name was Tubular Protector, but this seems more bodacious.",
-        "artist": "Evgeniy Dlinnov",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b8f94b34d74974f2014e4859b12f4fb7c5b32a659822d33db94e1383eda6b29.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6cf10a01eb7b33462fb511d6f6835198b50b262bcb27bcc6baa3f639f3b48dbb.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Divine Shield"
             }
         ]
     },
@@ -1412,62 +1151,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_362",
-        "dbfId": "69611",
-        "name": "Argent Protector",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.",
-        "flavor": "\"I'm not saying you can dodge fireballs.  I'm saying with this shield, you won't have to.\"",
-        "artist": "Doug Alexander",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f56a4d0a4146445ad3e7ae493e1c66f9ef44c9355d6890947357209bf4e58e6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_362",
-        "dbfId": "69936",
-        "name": "Argent Protector",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.",
-        "flavor": "\"I'm not saying you can dodge fireballs.  I'm saying with this shield, you won't have to.\"",
-        "artist": "Doug Alexander",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a62ba36f238039c5d74de5f63ef6ba685b1c974606ef5a5842666bb0cf94c508.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_362",
         "dbfId": "1022",
         "name": "Argent Protector",
@@ -1656,23 +1339,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_619",
-        "dbfId": "70057",
-        "name": "Equality",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Change the Health of ALL minions to 1.",
-        "flavor": "We are all special unique snowflakes... with 1 Health.",
-        "artist": "Michal Ivan",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77a708f4a36a459412dc482640a87f2753128abbb9102b70ccb9630e2eead1d7.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "TRL_307",
         "dbfId": "50028",
         "name": "Flash of Light",
@@ -1729,45 +1395,6 @@
         "playerClass": "Paladin",
         "spellSchool": "Holy",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5d70d65320ebb5d49a45953ef80f32ae602e6e35ae7a06e38c5beb4b542919f.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_089",
-        "dbfId": "69529",
-        "name": "Holy Light",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Restore #8 Health to your hero.",
-        "flavor": "If you are often bathed in Holy Light, you should consider wearing sunscreen.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb388bcee96210c79c6bca8a2a0768e03b054f6107083d0e7248c1cbe7402623.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_089",
-        "dbfId": "291",
-        "name": "Holy Light",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Restore #8 Health to your hero.",
-        "flavor": "If you are often bathed in Holy Light, you should consider wearing sunscreen.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b836c98f2a4fe6b322e7bbe14252239614031f41f2ea7029c22ae1ee602c024.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99a81f4e35ba9b264e02baf3875fb3d6eb6f90e0f8862a22567f1d619dcf3781.png",
         "locale": "enUS"
     },
     {
@@ -2372,56 +1999,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_382",
-        "dbfId": "69612",
-        "name": "Aldor Peacekeeper",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Change an_enemy minion's Attack to 1.",
-        "flavor": "The Aldor hate two things: the Scryers and smooth jazz.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 7.",
-        "howToGetGold": "Unlocked after winning 100 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ea31fd9ddb9dae7243423e38b4bb48db9d65bf6adaeb4598fd6b47005a361f4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_382",
-        "dbfId": "69941",
-        "name": "Aldor Peacekeeper",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Change an_enemy minion's Attack to 1.",
-        "flavor": "The Aldor hate two things: the Scryers and smooth jazz.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14086171ed6c20beb2cc3185319f8e37368e15d25c28e1b6b4c48c9705edfe77.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_382",
         "dbfId": "1167",
         "name": "Aldor Peacekeeper",
@@ -2714,23 +2291,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_349",
-        "dbfId": "69932",
-        "name": "Divine Favor",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Draw cards until you have as many in hand as your opponent.",
-        "flavor": "This is not just a favor, but a divine one, like helping someone move a couch with a fold out bed!",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4b35368a17b5bedf4a4e6040a464bc71de3abc2d350d70a51d855d56e4f3320.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_349",
         "dbfId": "679",
         "name": "Divine Favor",
@@ -2773,25 +2333,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "EX1_619",
-        "dbfId": "756",
-        "name": "Equality",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Change the Health of ALL minions to 1.",
-        "flavor": "We are all special unique snowflakes... with 1 Health.",
-        "artist": "Michal Ivan",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6ec06c33f1d167e73e838c857260dd8bef6a454bdeb2275fa58dbf65530c4c1.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a424fec3cfb6efd8d7be4f18e6467abd4375c15ee62f28920d5d104571507252.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CORE_EX1_619",
@@ -3287,25 +2828,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_366",
-        "dbfId": "69939",
-        "name": "Sword of Justice",
-        "cardSet": "Vanilla",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 3,
-        "attack": 1,
-        "durability": 5,
-        "text": "After you summon a minion, give it +1/+1 and this loses 1_Durability.",
-        "flavor": "I dub you Sir Loin of Beef!",
-        "artist": "Efrem Palacios",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1058ab3cee0371a9f895d1d61d202c010a77d294639316d1f8c73be7640a2a62.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_366",
         "dbfId": "643",
         "name": "Sword of Justice",
@@ -3377,29 +2899,6 @@
         "playerClass": "Paladin",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b36b327105f1619854cc782080f2a43379dc0c3f408d46034882d4101db255e8.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "AT_075",
-        "dbfId": "2515",
-        "name": "Warhorse Trainer",
-        "cardSet": "The Grand Tournament",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 3,
-        "health": 4,
-        "text": "Your Silver Hand Recruits have +1 Attack.",
-        "flavor": "He doesn't even get Sundays off.  Every day he's hostling.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0dfde94f99990f407ad7adb907e4c16ed2810b4aed67c598ca0089ee6aebcc6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Aura"
-            }
-        ]
     },
     {
         "cardId": "CORE_AT_075",
@@ -3593,45 +3092,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_092",
-        "dbfId": "69530",
-        "name": "Blessing of Kings",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i>",
-        "flavor": "Given the number of kings who have been assassinated, are you sure you want their blessing?",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e6772af979dbf8274acafbce8e478c1a1c708136ac58453519662c8f8ec0822.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_092",
-        "dbfId": "943",
-        "name": "Blessing of Kings",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i>",
-        "flavor": "Given the number of kings who have been assassinated, are you sure you want their blessing?",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb7afedde1d694d78b17d0518b0546d26b1eb6cad8b94fcf2e66ea8c979e597a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/254531b9418549fd8f75a6fba093ae60a0e169306d456031b4c7b8de49e233ec.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_092",
         "dbfId": "68364",
         "name": "Blessing of Kings",
@@ -3723,43 +3183,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_093",
-        "dbfId": "69532",
-        "name": "Consecration",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Deal $2 damage to all enemies.",
-        "flavor": "Consecrated ground glows with Holy energy.  But it smells a little, too.",
-        "artist": "Vance Kovacs",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e455c7b9259e8f193b6107d96a211564dcdb4e3097a52af3bc3471d3a92afe6.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_093",
-        "dbfId": "68366",
-        "name": "Consecration",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $2 damage to all enemies.",
-        "flavor": "Consecrated ground glows with Holy energy.  But it smells a little, too.",
-        "artist": "Vance Kovacs",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d03debd23649e7cbe81fd6988169ffc196d6467c2c6cfc0980df21f041ec370d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_093",
         "dbfId": "476",
         "name": "Consecration",
@@ -3806,25 +3229,6 @@
                 "name": "Rush"
             }
         ]
-    },
-    {
-        "cardId": "CS2_094",
-        "dbfId": "250",
-        "name": "Hammer of Wrath",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $3 damage.\\nDraw a card.",
-        "flavor": "A good paladin has many tools.  Hammer of Wrath, Pliers of Vengeance, Hacksaw of Justice, etc.",
-        "artist": "Efrem Palacios",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3e00bd58737af483f5af837e4bbe2c2b396d728bd67e8e425e19ce7cb5f7e21.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5682d78f3959efd24089b5423a78b31ff562329bf2015ce20607f55771e92929.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_CS2_094",
@@ -4097,47 +3501,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_097",
-        "dbfId": "69533",
-        "name": "Truesilver Champion",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 4,
-        "durability": 2,
-        "text": "Whenever your hero attacks, restore #2_Health to it.",
-        "flavor": "It Slices, it Dices. You can cut a tin can with it. (But you wouldn't want to.)",
-        "artist": "Ryan Sook",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ce9eecf02ce78cdcdc8c1b568875c1850c7c03b42067dd001faca89e87b1145.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_097",
-        "dbfId": "847",
-        "name": "Truesilver Champion",
-        "cardSet": "Legacy",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "attack": 4,
-        "durability": 2,
-        "text": "Whenever your hero attacks, restore #2_Health to it.",
-        "flavor": "It Slices, it Dices. You can cut a tin can with it. (But you wouldn't want to.)",
-        "artist": "Ryan Sook",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d097008e082fb8ff6feb8283b54a655cbe27f28314d77a1b93e3682e1b014b04.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c7f0f2ac7f0f8bbe1cf0d683abc31b862eed1b19639e6d4836090c4de84a5e5.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_097",
         "dbfId": "68368",
         "name": "Truesilver Champion",
@@ -4256,22 +3619,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_355",
-        "dbfId": "69935",
-        "name": "Blessed Champion",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "Double a minion's Attack.",
-        "flavor": "This card causes double the trouble AND double the fun.",
-        "artist": "Tyler Walpole",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c71ea3df9a4b9357b1330c556f795511dc0001ebd96ccc6c39c3907e0f3180d.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_355",
@@ -4623,28 +3970,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_365",
-        "dbfId": "69938",
-        "name": "Holy Wrath",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "Draw a card and deal_damage equal to_its Cost.",
-        "flavor": "C'mon Molten Giant!!",
-        "artist": "Justin Sweet",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/644931a8667f4eab889062acb4995ac7f2e5c04a7cb0e96373b7cd7a6572cb4d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_365",
         "dbfId": "435",
         "name": "Holy Wrath",
@@ -4876,22 +4201,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "OG_273",
-        "dbfId": "38843",
-        "name": "Stand Against Darkness",
-        "cardSet": "Whispers of the Old Gods",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 5,
-        "text": "Summon five 1/1 Silver Hand Recruits.",
-        "flavor": "Or if you're too tired, you can just kind of lean against the darkness.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8c7ab93b195bbebc703d11e177fc4b31b52215ebdb3aff958e148294eb7523a.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_OG_273",
         "dbfId": "69706",
         "name": "Stand Against Darkness",
@@ -4929,28 +4238,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_384",
-        "dbfId": "69943",
-        "name": "Avenging Wrath",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 6,
-        "text": "Deal $8 damage randomly split among all enemy characters.",
-        "flavor": "Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!",
-        "artist": "Alex Garner",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc060533099732fdb44c1adbb1d6d61b179d8a4c099c7c395154fafa4f38068e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "ImmuneToSpellpower"
             }
         ]
     },
@@ -5426,59 +4713,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_088",
-        "dbfId": "69528",
-        "name": "Guardian of Kings",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 7,
-        "attack": 5,
-        "health": 7,
-        "text": "<b>Taunt</b>\\n<b>Battlecry:</b> Restore #6 Health to your hero.",
-        "flavor": "Holy beings from the beyond are so cliché!",
-        "artist": "E. M. Gist",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b7687ee2bb0383ceac5770f3fcaab3c451d0e0188200674f9ae5d899789d985.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_088",
-        "dbfId": "68361",
-        "name": "Guardian of Kings",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 7,
-        "attack": 5,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Restore #6 Health to your hero.",
-        "flavor": "Holy beings from the beyond are so cliché!",
-        "artist": "E. M. Gist",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5a8a256b239fa207ea9867b2b6a8bab0c03d912013aca37b066285c657745c0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CS2_088",
         "dbfId": "1068",
         "name": "Guardian of Kings",
@@ -5715,23 +4949,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_354",
-        "dbfId": "69934",
-        "name": "Lay on Hands",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 8,
-        "text": "Restore #8 Health. Draw_3 cards.",
-        "flavor": "A grammatically awkward life saver.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecda2787e2223cc8ef67b56cab045d53c6933be8a084cd55e76ccb9b28a4f9f3.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_354",
         "dbfId": "594",
         "name": "Lay on Hands",
@@ -5805,71 +5022,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0cc593ba4a23a4780ec2000d9080e5bd5ad43f68c562836f6abb5eeab0828ce.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0caca43f0c6584fcaf9cc8008c0b82fe796f84f6782f8d657a605f1d79fce14a.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_383",
-        "dbfId": "890",
-        "name": "Tirion Fordring",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 6,
-        "health": 6,
-        "text": "<b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.",
-        "flavor": "If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.",
-        "artist": "Brom",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Paladin",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bad2f319dfd3a0eec347e6ec3232257110dede8979c119edc99afa7440c9b5fb.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5683d3189d225e61484838b0ea5b02f0112f747b49e9c6e4b08cccf6344d20f4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_383",
-        "dbfId": "69613",
-        "name": "Tirion Fordring",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 6,
-        "health": 6,
-        "text": "<b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.",
-        "flavor": "If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.",
-        "artist": "Brom",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Paladin",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Paladin.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50ce6720f0695a6a3c3d622e1ab1885b1512d976b725d20117121885d98b40f6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Deathrattle"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_383",

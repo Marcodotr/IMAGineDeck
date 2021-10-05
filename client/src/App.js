@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Splash from "./components/Splash"
 import Test from "./components/test"
 import Signup from "./pages/Signup"
@@ -20,6 +20,8 @@ function App() {
       </HashRouter>
     </div>
   );
-}
+
+  }
+
 
 export default App;

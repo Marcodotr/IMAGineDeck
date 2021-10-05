@@ -36,24 +36,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "NEW1_003",
-        "dbfId": "163",
-        "name": "Sacrificial Pact",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Destroy a friendly Demon. Restore #5 Health to your hero.",
-        "flavor": "This is the reason that Demons never really become friends with Warlocks.",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d5ac69c10fdca598b61deae1b535fb85696eb6ca22d91c6e068d8a350d05c35.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8457fd6fc39a8f0de039a96a0793c64cf7e76416c539a71d943997bf959dd508.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_NEW1_003",
         "dbfId": "68526",
         "name": "Sacrificial Pact",
@@ -104,32 +86,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CS2_059",
-        "dbfId": "469",
-        "name": "Blood Imp",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 0,
-        "health": 1,
-        "text": "[x]  <b>Stealth</b>. At the end of your  \\nturn, give another random\\n friendly minion +1 Health.",
-        "flavor": "Imps are content to hide and viciously taunt everyone nearby.",
-        "artist": "Bernie Kang",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/216abe49f400d3606fa47f0fd6000d4b9b4146ed587ce6e811f59c10d0e413f4.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b626442cc98b0725289f9e5fbb149857421a177b4c18e3e88b365d5fdc9b4520.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_059",
         "dbfId": "69751",
         "name": "Blood Imp",
@@ -172,23 +128,6 @@
         "howToGetGold": "Not available in packs, must be crafted.",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db1f3d18d8ad4ab62d8a2bf4783357a693469178eb0e1ce5eef5bebdfea2bd83.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93a162a70cb78e11bdc74c4adfe304b242d46f4c480c5758241b5de685f37a88.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_063",
-        "dbfId": "68344",
-        "name": "Corruption",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Choose an enemy minion. At the start of your turn, destroy it.",
-        "flavor": "It starts with stealing a pen from work, and before you know it, BOOOM!  Corrupted!",
-        "artist": "Wayne Reynolds",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ddbf3ae553698fdfd6cea909157d05c0a578f1a1f249e5a95b4aba12e056df65.png",
         "locale": "enUS"
     },
     {
@@ -345,58 +284,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_319",
-        "dbfId": "69923",
-        "name": "Flame Imp",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Deal 3 damage to your hero.",
-        "flavor": "Imps like being on fire.  They just do.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba2a01a3b8ecf5f44c06e28ef9dbb38f03cf9a1cef73e977597df7384aa28151.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_319",
-        "dbfId": "69636",
-        "name": "Flame Imp",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Deal 3 damage to your hero.",
-        "flavor": "Imps like being on fire.  They just do.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1e156851077f7a5509b5cbc5d783cc69e2c40e5e654c655431954ae776fe105.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_319",
         "dbfId": "1090",
         "name": "Flame Imp",
@@ -527,45 +414,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_302",
-        "dbfId": "69553",
-        "name": "Mortal Coil",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $1 damage to a minion. If that kills it, draw a card.",
-        "flavor": "If your spells look like horrifying skulls, let's be honest, you should get to draw some cards.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 2.",
-        "howToGetGold": "Unlocked after winning 50 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efbbfc1ba63105434cec56e40727316e48c22b3f05a1aad2a2763284fc04927e.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_302",
-        "dbfId": "1092",
-        "name": "Mortal Coil",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $1 damage to a minion. If that kills it, draw a card.",
-        "flavor": "If your spells look like horrifying skulls, let's be honest, you should get to draw some cards.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae6ede09b034ee326030d041a2cab1e9bcd86a9a2f64126f23327c96b2d61320.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d74a53b8d29f5694dae3d6f1a0a4d047d06fa63294fefbdaace153b9485c4095.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_302",
         "dbfId": "68459",
         "name": "Mortal Coil",
@@ -600,29 +448,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "OG_241",
-        "dbfId": "38774",
-        "name": "Possessed Villager",
-        "cardSet": "Whispers of the Old Gods",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Deathrattle:</b> Summon a 1/1 Shadowbeast.",
-        "flavor": "It's like a pinata! A lame disgusting horrific pinata.",
-        "artist": "Matt Dixon",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16195734ea50d6e9c78729d9d3bf82011f4588e3c3d3e904dba8335d969af63e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_OG_241",
         "dbfId": "69736",
         "name": "Possessed Villager",
@@ -646,25 +471,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "EX1_316",
-        "dbfId": "846",
-        "name": "Power Overwhelming",
-        "cardSet": "Hall of Fame",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.",
-        "flavor": "We cannot even describe how horrible the death is.  It's CRAZY bad!  Maybe worse than that.  Just don't do it.",
-        "artist": "Tom Baxa",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1ea6ecea4b718946ca2531b2318472dfa5dd38ff586bb3ef21591ea99cae4bc.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/981b21a8457d27a07931622a0952f253529652e49109afcb1772af12fdfdf68f.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_EX1_316",
@@ -828,25 +634,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_308",
-        "dbfId": "974",
-        "name": "Soulfire",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "[x]Deal $4 damage.\\nDiscard a random card.",
-        "flavor": "Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Fire",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ebf4878b35a81e885750e26ba0be035e449ce47f993c99fa5aa5fc5668e5203.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac720296d7e94b76a8377f97f1b266bb2626d1e58dffcbc1d20b06af3b145c8f.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "BOT_222",
         "dbfId": "48113",
         "name": "Spirit Bomb",
@@ -996,31 +783,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/79fa14716addd9c484893bc1a392f1181edb51b71a5cc5254bc005822a8b7a74.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9923fb88b694874b2a704083ccb68b8fe5ae588d06a92d8f075afb3c36b06c3b.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_065",
-        "dbfId": "68347",
-        "name": "Voidwalker",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "attack": 1,
-        "health": 3,
-        "text": "<b>Taunt</b>",
-        "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff556fcaa976ee45f9891ddd432ef1e9c0543fe0b16fc38bb45dcc7efec68713.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
     },
     {
         "cardId": "CS2_065",
@@ -1330,23 +1092,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_596",
-        "dbfId": "70042",
-        "name": "Demonfire",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.",
-        "flavor": "Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP",
-        "artist": "Ben Wootten",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4410b024e04add1bfe9c388464f4a295e34d211b213a0bbe93b099b7a1cd3bbd.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_596",
         "dbfId": "1142",
         "name": "Demonfire",
@@ -1399,28 +1144,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94d24b09bfabb5a26c097d093be84e116c74228cd160c79d8510d6b9df537c2a.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90cafa64fdeab7c945e712862efccf646f43a102717ba8f9130192173b96c154.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "ICC_055",
-        "dbfId": "42658",
-        "name": "Drain Soul",
-        "cardSet": "Knights of the Frozen Throne",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Lifesteal</b>\\nDeal $3 damage\\nto a minion.",
-        "flavor": "Cleans even the toughest clogs with just a flick of the wrist!",
-        "artist": "Kerem Beyit",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/565a9be5c6b9667321982162c6d3569bbf1d66c6a3f47ba12ddee6b0f7433e39.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Lifesteal"
-            }
-        ]
     },
     {
         "cardId": "CORE_ICC_055",
@@ -1494,31 +1217,6 @@
             },
             {
                 "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_306",
-        "dbfId": "68460",
-        "name": "Felstalker",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "attack": 4,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Discard a random card.",
-        "flavor": "This puppy chews up cards instead of shoes.",
-        "artist": "Alex Horley",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3629e122b7432ca8bb81b9272a706102eb11ba71a717dafed521d5488d7104c7.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -1785,25 +1483,6 @@
                 "name": "Stealth"
             }
         ]
-    },
-    {
-        "cardId": "AT_021",
-        "dbfId": "2777",
-        "name": "Tiny Knight of Evil",
-        "cardSet": "The Grand Tournament",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "Whenever you discard a card, gain +1/+1.",
-        "flavor": "\"No, no, no. I asked for a tiny JESTER of evil.\"",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9c8715542fb87e40c931b110e6035fb6befe133d9728099ff51392205a9caad.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CORE_AT_021",
@@ -2195,25 +1874,6 @@
         ]
     },
     {
-        "cardId": "CS2_061",
-        "dbfId": "919",
-        "name": "Drain Life",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Deal $2 damage. Restore #2 Health to your hero.",
-        "flavor": "\"I've just sucked one year of your life away.\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2093ef9b1520200359505a885f1b9a5467e7c737b40d9b6ba6b8a47856ac0ad0.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03d440d2817f5204ad6d22bb5ab595643189e686aae32d297a1e2372e3580d03.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_061",
         "dbfId": "68342",
         "name": "Drain Life",
@@ -2296,34 +1956,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_301",
-        "dbfId": "69913",
-        "name": "Felguard",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 5,
-        "text": "<b>Taunt</b>\\n<b>Battlecry:</b> Destroy one of your Mana Crystals.",
-        "flavor": "Yes, he'll fight for you.  BUT HE'S NOT GOING TO LIKE IT.",
-        "artist": "John Polidora",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81a2f227508621840176b293b54f910d08d02f19d4f968ffeeaa3eef332dd13d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_301",
         "dbfId": "517",
         "name": "Felguard",
@@ -2351,24 +1983,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "GIL_191",
-        "dbfId": "46864",
-        "name": "Fiendish Circle",
-        "cardSet": "The Witchwood",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "[x]Summon four 1/1 Imps.",
-        "flavor": "Like a knitting circle, but less evil.",
-        "artist": "Ivan Fomin",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Fel",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d8981edabcd40179b5b3761286551ab0b2ee47eff4f3ff4e94f11469d90b902.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9395e4db12ccff75ca9fa062ffa8d8d7b3b5950cb8d46c2d04beafc8262c4a73.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CORE_GIL_191",
@@ -2697,25 +2311,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_317",
-        "dbfId": "860",
-        "name": "Sense Demons",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Draw 2 Demons\\nfrom your deck.",
-        "flavor": "Generally demons are pretty obvious and you don’t need a spell to sense them.",
-        "artist": "Raven Mimura",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae22e25957570e7ea83d545912232e3873663d310171275f6027a482c903e041.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/551695b0c3f4769c3715481c4aa23f6da4aba52feeacb0ad0428d0b8ed95a9cd.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_317",
         "dbfId": "69922",
         "name": "Sense Demons",
@@ -2730,42 +2325,6 @@
         "collectible": true,
         "playerClass": "Warlock",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4554c062037bfeadc616d3179991794e6cfd32ef28968cb6a8c3913e14c1ce6.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_057",
-        "dbfId": "914",
-        "name": "Shadow Bolt",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Deal $4 damage\\nto a minion.",
-        "flavor": "It’s a Bolt.   It's made out of Shadow.   What more do you need to know!",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37c77f13b76ba2f8bb35d77113a0773d7ac38fc8172b3c94f15f8444cef2f9d9.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5846fbf2c2f8a193a3bfea16686301d44966f48ea7dd97437e499004c0b20416.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_057",
-        "dbfId": "68341",
-        "name": "Shadow Bolt",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Deal $4 damage\\nto a minion.",
-        "flavor": "It’s a Bolt.   It's made out of Shadow.   What more do you need to know!",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b70c0cfd9d38f9c2b51b180abeb8e470379683adbac3d4d1a186d9046b9d9b66.png",
         "locale": "enUS"
     },
     {
@@ -2926,56 +2485,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5c135ce41527ad8bac9f2f032d5b56db0e5b79a171b5d221fe8946f517c7325.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_304",
-        "dbfId": "69915",
-        "name": "Void Terror",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 3,
-        "text": "[x]<b>Battlecry:</b> Destroy both\\nadjacent minions and gain\\n their Attack and Health.",
-        "flavor": "If you put this into your deck, you WILL lose the trust of your other minions.",
-        "artist": "Alex Alexandrov",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a442ae875dcf701c3b3bcef1d768a3b6f1be48a371968d99fb8d39acc5636f16.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_304",
-        "dbfId": "69633",
-        "name": "Void Terror",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 4,
-        "text": "[x]<b>Battlecry:</b> Destroy both\\nadjacent minions and gain\\n their Attack and Health.",
-        "flavor": "If you put this into your deck, you WILL lose the trust of your other minions.",
-        "artist": "Alex Alexandrov",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da5dad0ec4e2a4c1e8667d3057ee02db3150dae595d97cc69515b7b7405bf7a6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "EX1_304",
@@ -3292,43 +2801,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_062",
-        "dbfId": "69519",
-        "name": "Hellfire",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Deal $3 damage to ALL_characters.",
-        "flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
-        "artist": "Chippy",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Fire",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ed67ff379a8d902aff355c44c85912be853f36d6340b9082f23f304fa5ade1f.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_062",
-        "dbfId": "68343",
-        "name": "Hellfire",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $3 damage to ALL_characters.",
-        "flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
-        "artist": "Chippy",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46aedaeb991b081ab19c4eb49c5dd64d6bc2b83aaf782c4cad9731a410bd5ac4.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_062",
         "dbfId": "950",
         "name": "Hellfire",
@@ -3441,36 +2913,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_UNG_833",
-        "dbfId": "69737",
-        "name": "Lakkari Felhound",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 3,
-        "health": 8,
-        "text": "<b>Taunt</b>\\n<b>Battlecry:</b> Discard your two lowest-Cost cards.",
-        "flavor": "Guaranteed to track tar all over your carpet.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c282054d3232a8f0a322c52a52cadc7a4480e6953168faa0f2308d1d7742ddff.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
         "cardId": "UNG_833",
         "dbfId": "41873",
         "name": "Lakkari Felhound",
@@ -3542,32 +2984,6 @@
             {
                 "name": "Rush"
             },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_313",
-        "dbfId": "783",
-        "name": "Pit Lord",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 4,
-        "attack": 5,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Deal 5 damage to your hero.",
-        "flavor": "Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/992dfd36f61b85c5b25a4ed645b8a83b70955cfdf2108e87e21ff4e90e36bbca.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0f9a2799a1b507e6f3472d84bced9cc83ef8c1f94b8e23a154540c8d83694d6.png",
-        "locale": "enUS",
-        "mechanics": [
             {
                 "name": "Battlecry"
             }
@@ -3669,30 +3085,6 @@
         ]
     },
     {
-        "cardId": "EX1_303",
-        "dbfId": "147",
-        "name": "Shadowflame",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "text": "Destroy a friendly minion and deal its Attack damage to all enemy minions.",
-        "flavor": "Start with a powerful minion and stir in Shadowflame and you have a good time!",
-        "artist": "Dave Kendall",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c996b815e0383d94beca4641c9b08a76496e68b6f782a69f91242ae813e1185.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/427cb12eb00802621d7705037abedd8f79640bf125915285494bc8a21d1bf074.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_303",
         "dbfId": "69914",
         "name": "Shadowflame",
@@ -3730,30 +3122,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b001e2639e0d1c6a81be4ebeb5232b70fdaa9e1915b6c8ea1046ef043fe8efcf.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_315",
-        "dbfId": "69920",
-        "name": "Summoning Portal",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 0,
-        "health": 4,
-        "text": "Your minions cost (2) less, but not less than (1).",
-        "flavor": "NOT LESS THAN 1!  Don't get any ideas!",
-        "artist": "Tyler Walpole",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c796b9af634e3cc2ef00d78149c61770220aef13f6fa07323e2a5a9c0fa6b35c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Aura"
-            }
-        ]
     },
     {
         "cardId": "EX1_315",
@@ -3849,23 +3217,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_320",
-        "dbfId": "69924",
-        "name": "Bane of Doom",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "text": "Deal $2 damage to_a character. If that kills it, summon a random Demon.",
-        "flavor": "My advice to you is to avoid Doom, if possible.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf9a3091e1bfdb77ba48e0be44b641ef8700292c02d99763d7b01fa05630a3a4.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_320",
@@ -4042,34 +3393,6 @@
         "playerClass": "Warlock",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4620cc9f8219bab8a46acfac95aadbde515e9212556b102a1bd6e53c39e128bd.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_310",
-        "dbfId": "69917",
-        "name": "Doomguard",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "attack": 5,
-        "health": 7,
-        "text": "<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.",
-        "flavor": "Summoning a doomguard is risky. <i>Someone</i> is going to die.",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7b8c8816d59184f56cea9da67c1d560fa692e279ebb383c3e140efdd40004ff.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "EX1_310",
@@ -4281,26 +3604,6 @@
                 "name": "Tradeable"
             }
         ]
-    },
-    {
-        "cardId": "CORE_EX1_309",
-        "dbfId": "69634",
-        "name": "Siphon Soul",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "Destroy a minion. Restore #3 Health to_your hero.",
-        "flavor": "You probably should avoid siphoning your own soul.  You might create some kind of weird infinite loop.",
-        "artist": "Tyler Walpole",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7ef4d23f36d0b5a929846e989acdeeb394b47d0b87e48ec98bb2c867770746d.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_309",
@@ -4615,58 +3918,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_064",
-        "dbfId": "69520",
-        "name": "Dread Infernal",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 6,
-        "attack": 6,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Deal 1 damage to ALL other characters.",
-        "flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Warlock.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0fbf84f24889b1baba4357121770483365ab7531c4342e8c8d5a2013e35dd5bc.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_064",
-        "dbfId": "68346",
-        "name": "Dread Infernal",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 6,
-        "attack": 6,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Deal 1 damage to ALL other characters.",
-        "flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f155243c7e036f144cd2ea233699e981a16c121a1a417c943b6c789b27a6ed3f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CS2_064",
         "dbfId": "1019",
         "name": "Dread Infernal",
@@ -4948,23 +4199,6 @@
                 "name": "Taunt"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_309",
-        "dbfId": "69916",
-        "name": "Siphon Soul",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 6,
-        "text": "Destroy a minion. Restore #3 Health to_your hero.",
-        "flavor": "You probably should avoid siphoning your own soul.  You might create some kind of weird infinite loop.",
-        "artist": "Tyler Walpole",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/481565bbdb475ad662fe70ff6e5e6caeb5012c9111bb0938ea6a4c95a8cba5d7.png",
-        "locale": "enUS"
     },
     {
         "cardId": "TRL_247",
@@ -5481,42 +4715,6 @@
         ]
     },
     {
-        "cardId": "EX1_312",
-        "dbfId": "859",
-        "name": "Twisting Nether",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 8,
-        "text": "Destroy all minions.",
-        "flavor": "The Twisting Nether is a formless place of magic and illusion and destroyed minions.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc9789b7d0f50237e8f93c4eec7421338954103e8c5ca2170d0f66fda3f6caea.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d9b56a506ab04d8a38cab2be40e7e783bc0dcccebf7efbf7db39977caa50b37.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_312",
-        "dbfId": "69918",
-        "name": "Twisting Nether",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 8,
-        "text": "Destroy all minions.",
-        "flavor": "The Twisting Nether is a formless place of magic and illusion and destroyed minions.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca5392e32ac37e90b3819c696743b4851d42e64eabe9248f982bd2e2eb04e326.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_EX1_312",
         "dbfId": "69635",
         "name": "Twisting Nether",
@@ -5594,56 +4792,6 @@
         "playerClass": "Warlock",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12fc940f712946b938c6c4bd0a45c4d446e036996befbc54cf9b6dd67d413cbb.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a706d4016cd74bd96ad9a3b28c6e5b0216288f23df0dcf3601305d13ed691cfb.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_323",
-        "dbfId": "777",
-        "name": "Lord Jaraxxus",
-        "cardSet": "Classic",
-        "type": "Hero",
-        "rarity": "Legendary",
-        "cost": 9,
-        "health": 30,
-        "armor": "5",
-        "text": "<b>Battlecry:</b> Equip a 3/8 Blood Fury.",
-        "flavor": "\"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d1819fdb2a442fee39ed423dcb7306ef162ab55709cd4ed0de4c04bda1911c9.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d276b34254d12ce2676cc84092f7b7939770dbb478e955cb59db8c691d42c27.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_323",
-        "dbfId": "69925",
-        "name": "Lord Jaraxxus",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Legendary",
-        "cost": 9,
-        "attack": 3,
-        "health": 15,
-        "text": "<b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus.",
-        "flavor": "\"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "race": "Demon",
-        "playerClass": "Warlock",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e1a7d2ccaa99423bdf94aefa226a979affa3dad9e828b02efb103a71e9e4d77.png",
         "locale": "enUS",
         "mechanics": [
             {
