@@ -1,21 +1,5 @@
 [
     {
-        "cardId": "VAN_EX1_621",
-        "dbfId": "70059",
-        "name": "Circle of Healing",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Restore #4 Health to ALL_minions.",
-        "flavor": "It isn't really a circle.",
-        "artist": "Daarken",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/571dfc7037b9871ef3022b17b252228543f990d0655c661b022f7d23b793784d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_621",
         "dbfId": "1362",
         "name": "Circle of Healing",
@@ -142,28 +126,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50ac81025ef443c0b27d5cb09578de2a1e32f1d01fe1731e3149de5a63610d80.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c378ddbcc3ffecdf6b609bae97d2d35e9feee60cb278ec59c1b0806c6f79a7d2.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_332",
-        "dbfId": "69926",
-        "name": "Silence",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "<b>Silence</b> a minion.",
-        "flavor": "Reserved for enemy spellcasters, evil liches from beyond the grave, and karaoke nights at the Grim Guzzler.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e031c803777384f8fc300229c2f5961d45133c60010bec9c15d2214f1b976db.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Silence"
-            }
-        ]
     },
     {
         "cardId": "EX1_332",
@@ -527,25 +489,6 @@
         ]
     },
     {
-        "cardId": "CORE_AT_055",
-        "dbfId": "69707",
-        "name": "Flash Heal",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Restore #5 Health.",
-        "flavor": "Flash!  Ahhhhhhh~",
-        "artist": "Marcelo Vignali",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb018c50a002f302d0ad7a150d6eb206d47d6ee2919e0b5cf26874ed3ac267c4.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "AT_055",
         "dbfId": "2582",
         "name": "Flash Heal",
@@ -603,45 +546,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_CS1_130",
-        "dbfId": "69509",
-        "name": "Holy Smite",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $3 damage\\nto a minion.",
-        "flavor": "It doesn't matter how pious you are.  Everyone needs a good smiting now and again.",
-        "artist": "Steve Ellis",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47f05fffd6d1019a16523d17352d104e4f900ad9654fac6b502c160842c644d6.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS1_130",
-        "dbfId": "279",
-        "name": "Holy Smite",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $3 damage\\nto a minion.",
-        "flavor": "It doesn't matter how pious you are.  Everyone needs a good smiting now and again.",
-        "artist": "Steve Ellis",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Holy",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23dd750af0a45a5e80041807047ecf5faffc0622c740d022ac76bb2863b35dee.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e44fad7673a564fe34d5d5d04a2bf650dccece99b27355f2e1c04a21b15b3d0.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS1_130",
         "dbfId": "68301",
         "name": "Holy Smite",
@@ -683,24 +587,6 @@
         ]
     },
     {
-        "cardId": "CS1_129",
-        "dbfId": "376",
-        "name": "Inner Fire",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Change a minion's Attack to be equal to its Health.",
-        "flavor": "Good idea: Buffing your minions.  Bad idea: Starting a conversation in the Barrens.",
-        "artist": "Steve Prescott",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b015e6ba0270b54191f25ce36146f9ab306a5b83423892a986e948196ade4425.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aea389f3610395a410d1751a977cdcf52578f3237de6e48205a7393e39606ee5.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS1_129",
         "dbfId": "69746",
         "name": "Inner Fire",
@@ -735,23 +621,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_003",
-        "dbfId": "68303",
-        "name": "Mind Vision",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Put a copy of a random card in your opponent's hand into your hand.",
-        "flavor": "I see what you did there.",
-        "artist": "Michael Komarck",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2b9d38b67de40046bf046832fa7e1c3c2136a7be53609bfe6300803cb045259.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_003",
         "dbfId": "1099",
         "name": "Mind Vision",
@@ -768,27 +637,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ffdc783ed49d3da9f595a6511a9694a10c80aad70e2c25455b84321071da259.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/336ad403f91b8132a6d9e29274c6fd8e0dc322ee389d9dfc6496fbbf549a47c8.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CS2_235",
-        "dbfId": "1650",
-        "name": "Northshire Cleric",
-        "cardSet": "Hall of Fame",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 3,
-        "text": "Whenever a minion is healed, draw a card.",
-        "flavor": "They help the downtrodden and distressed.  Also they sell cookies.",
-        "artist": "Terese Nielsen",
-        "collectible": true,
-        "playerClass": "Priest",
-        "howToGet": "Unlocked at Level 1.",
-        "howToGetGold": "Unlocked at Level 40.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d03e46a31d6b9bb7842f5408893137725d270d702bfdf7969d6190637bb3a59a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a7acd707636e81868e38de1775eec5c11408e6c3849f8f37cc3a64da6c4b837.png",
         "locale": "enUS"
     },
     {
@@ -863,23 +711,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_004",
-        "dbfId": "68304",
-        "name": "Power Word: Shield",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give a minion +2_Health.\\nDraw a card.",
-        "flavor": "Sure the extra protection is nice, but the shield really reduces visibility.",
-        "artist": "Jessica Jung",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/564a39b9405f6ce09d3087b1b1882e83bf6749ef5faaea25ae6935b1a60844d9.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_004",
         "dbfId": "613",
         "name": "Power Word: Shield",
@@ -914,31 +745,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3b5b14297cab087cc340913c319d8e235bbabeca7900feef25ec55051bde6cb.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_193",
-        "dbfId": "69566",
-        "name": "Psychic Conjurer",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Battlecry:</b> Copy a card in your opponent’s deck and add it to your hand.",
-        "flavor": "\"I see... a WISP? Why do you have a wisp?!\"",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "playerClass": "Priest",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7505dd150f08430ed5a43df158821892ae294c9af90117c55b484b7bc3af3285.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "EX1_193",
@@ -1323,22 +1129,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_236",
-        "dbfId": "68536",
-        "name": "Divine Spirit",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Double a minion's Health.",
-        "flavor": "Double the trouble. Double the fun!",
-        "artist": "Jim Pavelec",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3072de240e0c5f7c70f6ce7fd5c40849e14f405d1fe6dbc7bca0bc4e7d5a3349.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_236",
         "dbfId": "1361",
         "name": "Divine Spirit",
@@ -1518,31 +1308,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_195",
-        "dbfId": "69615",
-        "name": "Kul Tiran Chaplain",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 2,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Give a friendly minion +2 Health.",
-        "flavor": "The maritime Kul Tiran clergy are unique among priests for using holy saltwater.",
-        "artist": "Vladimir Kafanov",
-        "collectible": true,
-        "playerClass": "Priest",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b62da6b6c8bd672deda63f53dcd63ead3167d419efb50e57f97fd56a1b2c45fa.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_195",
         "dbfId": "60068",
         "name": "Kul Tiran Chaplain",
@@ -1566,26 +1331,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "EX1_341",
-        "dbfId": "797",
-        "name": "Lightwell",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "attack": 0,
-        "health": 5,
-        "text": "At the start of your turn, restore #3 Health to a damaged friendly character.",
-        "flavor": "It isn't clear if people ignore the Lightwell, or if it is just invisible.",
-        "artist": "Blizzard Entertainment",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2fcd5b0b0c4da4a2b3e4c9b71edffeefd2e0792086b6fabcccd830752e8deac0.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73f267d3853d9dafc6bbf53ef5a0183e69d837fc0b9ac252fd6504dee2053dfc.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_EX1_341",
@@ -1624,23 +1369,6 @@
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a245df0c1e2b0319d46750fe53d94598ef55d3d442dc43477c3d1a2333e468b2.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de4f0fa79d01dd785f2b18750950fd731038653fbace17b97ef43198850ce0df.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_DS1_233",
-        "dbfId": "68537",
-        "name": "Mind Blast",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $5 damage to the enemy hero.",
-        "flavor": "This spell blasts you directly in the MIND.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cfc6e9ecc134a2290613ea376ab8f3ca8da0e106cbbd62e0ba6c6cf5de5f6aed.png",
         "locale": "enUS"
     },
     {
@@ -1926,25 +1654,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_622",
-        "dbfId": "69569",
-        "name": "Shadow Word: Death",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Destroy a minion with 5_or more Attack.",
-        "flavor": "If you miss, it leaves a lightning-bolt-shaped scar on your target.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9dbe66b3ae4339ab8ecbb90a91de088b2a028772337b56b522b3b60daaf58d3a.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_622",
         "dbfId": "1363",
         "name": "Shadow Word: Death",
@@ -1960,22 +1669,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b588ac99312771d2ca9f2e55f16862dd565db21967cbc4d1038a7ac3b2f67ae.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba35133adaa2ccec20bdf6ef0564e9503584705879063bb535252c2069157831.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_234",
-        "dbfId": "68414",
-        "name": "Shadow Word: Pain",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Destroy a minion with 3_or less Attack.",
-        "flavor": "A step up from a spell cast by many beginning acolytes: \"Shadow Word: Annoy\".",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ca92cc4648974e02b3a4d74fb3f43737323178ab8c41fc2b75d2caecff750e0.png",
         "locale": "enUS"
     },
     {
@@ -2030,25 +1723,6 @@
         "collectible": true,
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b401bcfa7268ac5c2fc4f7c56257ea1f3323ee26136024d88aa5062a5a97c6ca.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_625",
-        "dbfId": "69991",
-        "name": "Shadowform",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Epic",
-        "cost": 2,
-        "text": "Your Hero Power becomes 'Deal 2 damage.'",
-        "flavor": "If a bright light shines on a priest in Shadowform… do they cast a shadow?",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4171a21eaf092298da41a2a9910a693688526aeea3919a6e4f79d30587c9240c.png",
         "locale": "enUS"
     },
     {
@@ -2588,27 +2262,6 @@
         ]
     },
     {
-        "cardId": "EX1_335",
-        "dbfId": "886",
-        "name": "Lightspawn",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 0,
-        "health": 4,
-        "text": "This minion's Attack is always equal to its Health.",
-        "flavor": "Spawn of the Light? Or Pawn of the Lights?",
-        "artist": "Daarken",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2f498578ea00df8507f586633a21ed7b8a26898ac5a364c4694eb11bd830277.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ad44dd0e6042bafad34bb6c9a958bad0a4a12d5edc2630daf9669a705b41315.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_EX1_335",
         "dbfId": "69618",
         "name": "Lightspawn",
@@ -2859,22 +2512,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_622",
-        "dbfId": "68480",
-        "name": "Shadow Word: Death",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Destroy a minion with 5_or more Attack.",
-        "flavor": "If you miss, it leaves a lightning-bolt-shaped scar on your target.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8226da21a1ad4bf9941d5ee8ec2f610e78f0c2a185481ba8cc80d7298098b98.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS3_013",
         "dbfId": "62497",
         "name": "Shadowed Spirit",
@@ -2918,22 +2555,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_625",
-        "dbfId": "70062",
-        "name": "Shadowform",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Epic",
-        "cost": 3,
-        "text": "Your Hero Power becomes 'Deal 2 damage.' If already in Shadowform: 3 damage.",
-        "flavor": "If a bright light shines on a priest in Shadowform… do they cast a shadow?",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd2dcb40c66fd4f071930d3e97f51cf9fe9accb6b9eaebbcab43933992a2eece.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "TRL_500",
         "dbfId": "50282",
         "name": "Surrender to Madness",
@@ -2949,23 +2570,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b9311c59951192bb20ab856f4ebf81d0205b5849fd09877452d6f6323d54dce.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/725bd9ec8fd98581f0fd6f84a4c130273b8066be28c69deef370714bf4d8280f.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_339",
-        "dbfId": "69929",
-        "name": "Thoughtsteal",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Copy 2 cards in your opponent's deck and add them to your hand.",
-        "flavor": "\"What do you get when you cast Thoughtsteal on an Orc?  Nothing!\" - Tauren joke",
-        "artist": "Alex Garner",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/330dc083962c7ad12b4a79e28681b0e1f087ab16962e6a709050936e1e5807b5.png",
         "locale": "enUS"
     },
     {
@@ -3094,26 +2698,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "EX1_591",
-        "dbfId": "237",
-        "name": "Auchenai Soulpriest",
-        "cardSet": "Hall of Fame",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 3,
-        "health": 5,
-        "text": "Your cards and powers that restore Health now deal damage instead.",
-        "flavor": "The Auchenai know the end is coming, but they're not sure when.",
-        "artist": "Doug Alexander",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b16ab97c5bec394a47c5788fabe3aa14a086af0843bddd519eb35275afc31ea.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/406de3f02683e7632c2ccfe750dc83a123992ff4200ffb6bfd8149e20db9a459.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_EX1_591",
@@ -3414,26 +2998,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_CS1_112",
-        "dbfId": "69508",
-        "name": "Holy Nova",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.",
-        "flavor": "If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73505f76c4b5e49fb5f17bbbeecce0beb2d917dca32f2e715254600c4924d20d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS1_112",
         "dbfId": "841",
         "name": "Holy Nova",
@@ -3471,25 +3035,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_335",
-        "dbfId": "69928",
-        "name": "Lightspawn",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 0,
-        "health": 5,
-        "text": "This minion's Attack is always equal to its Health.",
-        "flavor": "Spawn of the Light? Or Pawn of the Lights?",
-        "artist": "Daarken",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a91518f473a627a8b4830a18511710007f72806aa37952e668fff80e7381fa08.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "YOP_008",
         "dbfId": "61946",
         "name": "Lightsteed",
@@ -3507,27 +3052,6 @@
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d870c69e0bcc60d1dcaa8e86893f873e796f670f9784f7f962898effca6c601a.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_626",
-        "dbfId": "70063",
-        "name": "Mass Dispel",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 4,
-        "text": "<b>Silence</b> all enemy minions. Draw a card.",
-        "flavor": "It dispels buffs, powers, hopes, and dreams.",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbf7bfbdf719e40ac4434994d9a3449946ce1c17d0a988799bbc6fe838d5d92c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Silence"
-            }
-        ]
     },
     {
         "cardId": "EX1_626",
@@ -3553,25 +3077,6 @@
         ]
     },
     {
-        "cardId": "EX1_345",
-        "dbfId": "145",
-        "name": "Mindgames",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 4,
-        "text": "Put a copy of\\na random minion from\\nyour opponent's deck into the battlefield.",
-        "flavor": "Sometimes it feels like this is all a game.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/228fc5964bc784f2dae39b5b066cdbbbdbba8c065fd33f16e923f7433618d6d2.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99db79ef5c551ae9dd0e6a82161521484f96450fc4bbc2b20862d4bf10e0cd03.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_345",
         "dbfId": "69931",
         "name": "Mindgames",
@@ -3586,25 +3091,6 @@
         "collectible": true,
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ec8dbc186443431184c06ef0314ffc2a94a417095a0ab41ccaa1e09a2a00999.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_194",
-        "dbfId": "69567",
-        "name": "Power Infusion",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Give a minion +2/+6.",
-        "flavor": "It infuses, it enthuses, it amuses!",
-        "artist": "Eva Widermann",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Holy",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24eadbc716a9ee807ae2d0c552d90b2e828dd93cbde676ec172b69f00aba104a.png",
         "locale": "enUS"
     },
     {
@@ -3674,23 +3160,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_334",
-        "dbfId": "69927",
-        "name": "Shadow Madness",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "text": "Gain control of an enemy minion with 3 or less Attack until end of turn.",
-        "flavor": "You can rationalize it all you want, it's still a mean thing to do.",
-        "artist": "Mark Gibbons",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/880283e5c40b8da5f18a20c60b38de1e88694e8b20a9c44069af33b1e1c25c9d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "OG_100",
         "dbfId": "38433",
         "name": "Shadow Word: Horror",
@@ -3705,25 +3174,6 @@
         "playerClass": "Priest",
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5f421e0b55646ad9fea7734d12c320b0fb55da818de7dfc0f9d9439434ab3e8.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_197",
-        "dbfId": "69616",
-        "name": "Shadow Word: Ruin",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Epic",
-        "cost": 4,
-        "text": "Destroy all minions with 5 or more Attack.",
-        "flavor": "Discovered by a worgen priest after a giant spilled a drink on her new white robes.",
-        "artist": "Ben Olson",
-        "collectible": true,
-        "playerClass": "Priest",
-        "spellSchool": "Shadow",
-        "howToGet": "Unlocked at level 9.",
-        "howToGetGold": "Unlocked after winning 250 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec2baadc1df7e6acc24fb7db0a2ab3de3b31152668f13a888d7e0bf139f620d7.png",
         "locale": "enUS"
     },
     {
@@ -4193,23 +3643,6 @@
         ]
     },
     {
-        "cardId": "VAN_CS1_112",
-        "dbfId": "68299",
-        "name": "Holy Nova",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "text": "Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.",
-        "flavor": "If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb6ec0da79a36b1e7797c02dd40f6b4d117e35110ca5fba8345897007269fccb.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "GIL_134",
         "dbfId": "46694",
         "name": "Holy Water",
@@ -4487,31 +3920,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_623",
-        "dbfId": "69619",
-        "name": "Temple Enforcer",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 5,
-        "attack": 5,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Give a friendly minion +3 Health.",
-        "flavor": "He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "playerClass": "Priest",
-        "howToGet": "Unlocked at level 2.",
-        "howToGetGold": "Unlocked after winning 50 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db5a25779c4c9337fc5dfe7445d2d78b96c2f4cda7ae8ff077aa51470789c85b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_623",
         "dbfId": "1364",
         "name": "Temple Enforcer",
@@ -4654,30 +4062,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_091",
-        "dbfId": "69842",
-        "name": "Cabal Shadow Priest",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 6,
-        "attack": 4,
-        "health": 5,
-        "text": "<b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack.",
-        "flavor": "You never know who may be secretly working for the Cabal....",
-        "artist": "Chippy",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d08a0cdc89eb8cd4e44305b2dcfc4e028cac41569b93ea027fd7fa817c08fed.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_091",
         "dbfId": "272",
         "name": "Cabal Shadow Priest",
@@ -4804,22 +4188,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_624",
-        "dbfId": "70061",
-        "name": "Holy Fire",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Rare",
-        "cost": 6,
-        "text": "Deal $5 damage. Restore #5 Health to your hero.",
-        "flavor": "Often followed by Holy Smokes!",
-        "artist": "Miguel Coimbra",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af3dd10b49b673852108a5a718cccc72958cdb5db511947e3bc241a7e01799b5.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_624",
         "dbfId": "1365",
         "name": "Holy Fire",
@@ -4944,29 +4312,6 @@
         "spellSchool": "Shadow",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd6e9a33f7b0bcd4aa3ccb696b43173d8f5c547caef95088c0ddc3c4813d7f6d.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_623",
-        "dbfId": "70060",
-        "name": "Temple Enforcer",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 6,
-        "attack": 6,
-        "health": 6,
-        "text": "<b>Battlecry:</b> Give a friendly minion +3 Health.",
-        "flavor": "He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1866b4c9fa56609d8c75f5d08dceb9dba13931812cd495d1fac38a4276aa4ca1.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "BOT_258",
@@ -5146,26 +4491,6 @@
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fc06fd9e9e42520d6fdaef915a323cb45ccf0869afd64592fc48ea573acd589.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72dd3cc9925792d980158c4ac61ddb5696e768f2cd159c8e7b287178e014fca1.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_350",
-        "dbfId": "69933",
-        "name": "Prophet Velen",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 7,
-        "attack": 7,
-        "health": 7,
-        "text": "Double the damage and healing of your spells and Hero Power.",
-        "flavor": "He's been exiled from his home, and all his brothers turned evil, but otherwise he doesn't have a lot to complain about.",
-        "artist": "Wei Wang",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c9cdf796d9a6ae11a69f57df41510a347c9116919bce28d231b30cbd7d7a2f6.png",
         "locale": "enUS"
     },
     {
@@ -5374,32 +4699,6 @@
         "playerClass": "Priest",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b28dfdd55d68d20d5cccd008d483f59b3133c667fe6598fb29df945f4d2c611.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/336b515349b424c23500dd1cf3fd1338e5e2ca2a53cb447c219eb38e2bae8815.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_198",
-        "dbfId": "69617",
-        "name": "Natalie Seline",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 8,
-        "health": 1,
-        "text": "<b>Battlecry:</b> Destroy a minion and gain its Health.",
-        "flavor": "She discovered Xal'atath, Blade of the Black Empire, a terrible weapon of shadow magic that could both swallow a soul <i>and</i> cut a mean julienne.",
-        "artist": "James Ryman",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Priest",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Priest.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee1df2948fe03fbcbc13b2c1f21a5f1befb796f1c31387e1cf8f8d537c590d90.png",
         "locale": "enUS",
         "mechanics": [
             {
@@ -5633,23 +4932,6 @@
             "Warlock"
         ],
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21aceb9d1f16e7dde885319ebdf79a56985420df1134f45c7d0cd583960e39db.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS1_113",
-        "dbfId": "68300",
-        "name": "Mind Control",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 10,
-        "text": "Take control of an enemy minion.",
-        "flavor": "Nominated as \"Spell Most Likely to Make Your Opponent Punch the Wall.\"",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Priest",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d38bdbcd59e3598aacbc883b67912f006743bfbeb78b0bc326504577872c99bc.png",
         "locale": "enUS"
     },
     {

@@ -1,42 +1,5 @@
 [
     {
-        "cardId": "CS2_072",
-        "dbfId": "180",
-        "name": "Backstab",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Deal $2 damage to an undamaged minion.",
-        "flavor": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
-        "artist": "Michael Sutfin",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10d1f140250fd8a01175e181e8ba6a4ff989e4ebf9f9c6ccb2fd49786734fc7d.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bda9d8d5ea6ffb14a6bfcf24e3d1215f5c27ea1dcf0544461ac866122ded9e56.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_072",
-        "dbfId": "69521",
-        "name": "Backstab",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Deal $2 damage to an undamaged minion.",
-        "flavor": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
-        "artist": "Michael Sutfin",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25d611c247586a4d20d03f2e6bff1039b5223ccdaac0eda46753fe67f549b54e.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_072",
         "dbfId": "68348",
         "name": "Backstab",
@@ -71,42 +34,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_145",
-        "dbfId": "69864",
-        "name": "Preparation",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 0,
-        "text": "The next spell you cast this turn costs (3) less.",
-        "flavor": "\"Be Prepared\" - Rogue Motto",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37338a8cee04b40b0e415d2526b99a1cc01c1d15a323bbdc6455fa65b49421ac.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_145",
-        "dbfId": "69623",
-        "name": "Preparation",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 0,
-        "text": "The next spell you cast this turn costs (2) less.",
-        "flavor": "\"Be Prepared\" - Rogue Motto",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd402b281b76b50f842be909c94dabe3cc9cd28da5adbdd839a2db7de2e27a81.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_145",
         "dbfId": "1158",
         "name": "Preparation",
@@ -122,42 +49,6 @@
         "playerClass": "Rogue",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4387cee6d06e8ba368f9af46e165b52968c9dd2859a167dc1edfd94f297008a4.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ffa84a0ba189aa9a7b1d0887aef3e743bfbe8da56d2dd30ee0ef8a41b4c29d19.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_144",
-        "dbfId": "69863",
-        "name": "Shadowstep",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Return a friendly minion to your hand. It_costs (2) less.",
-        "flavor": "Rogue dance troops will sometimes Shadowstep away at the end of a performance.  Crowds love it.",
-        "artist": "Graven Tung",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9e437f653b9e3ef2c49a330eb84c41448c57842419c4e2b41a0e25e73954650.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_144",
-        "dbfId": "365",
-        "name": "Shadowstep",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 0,
-        "text": "Return a friendly minion to your hand. It_costs (2) less.",
-        "flavor": "Rogue dance troops will sometimes Shadowstep away at the end of a performance.  Crowds love it.",
-        "artist": "Graven Tung",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "spellSchool": "Shadow",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa2767b4ee1e70a61811bd1ea40d34598315a87fb01486da6e93e36c53386253.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c78dc2961c79dddc6a19214d27dd7fde4aa470d71f19e45c30f92b22ad61ecbb.png",
         "locale": "enUS"
     },
     {
@@ -231,29 +122,6 @@
         ]
     },
     {
-        "cardId": "OG_070",
-        "dbfId": "38391",
-        "name": "Bladed Cultist",
-        "cardSet": "Whispers of the Old Gods",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 2,
-        "text": "<b>Combo:</b> Gain +1/+1.",
-        "flavor": "He has a poor understanding of the law of diminishing returns.",
-        "artist": "Jakub Kasper",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b1c7988a9f6038a1dde842b9205417d3ffc3c68e5191c86accb9ee0a8b5f412.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_OG_070",
         "dbfId": "69743",
         "name": "Bladed Cultist",
@@ -323,50 +191,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_073",
-        "dbfId": "69752",
-        "name": "Cold Blood",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.",
-        "flavor": "\"I'm cold blooded, check it and see!\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b477862a54124f352b19200eb93032b8c3f788b2adc1ecffe5dbb37820fb132.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_128",
-        "dbfId": "69855",
-        "name": "Conceal",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Give your minions <b>Stealth</b> until your next_turn.",
-        "flavor": "Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.",
-        "artist": "Steve Hui",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9929c9eac6e62dff3bc794765ac1f5b841c36d29f54ec6ea8e9f4c94a8c6999f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_128",
         "dbfId": "990",
         "name": "Conceal",
@@ -405,43 +229,6 @@
         "playerClass": "Rogue",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee53f3fc7f2c583ee5767bf7d955e04ff6e3ea6033726ce8c68056b0a3c261b9.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8623156125772cdcdde31ff314952b9e69f687be1cacc4a362a19d1e6f9af606.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_074",
-        "dbfId": "69522",
-        "name": "Deadly Poison",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Give your weapon +2_Attack.",
-        "flavor": "Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.",
-        "artist": "Trevor Jacobs",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0db5c52a0d279b1266cf613b096ecfffc4ba86882000b9cc897f21fcf8152306.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_074",
-        "dbfId": "68349",
-        "name": "Deadly Poison",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give your weapon +2_Attack.",
-        "flavor": "Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.",
-        "artist": "Trevor Jacobs",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d36258d9342b0fc29589c808284196c0615cf88d8d00ec31dce0892d10e2d09.png",
         "locale": "enUS"
     },
     {
@@ -890,43 +677,6 @@
         ]
     },
     {
-        "cardId": "CS2_075",
-        "dbfId": "710",
-        "name": "Sinister Strike",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $3 damage to the_enemy hero.",
-        "flavor": "There's something about this strike that just feels off.  Sinister, even.",
-        "artist": "Frank Cho",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/035eb17c16fd612b6d0cfcf4346510aa17949fb4135a3fba5a4db1594829e22f.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43af6652ea9cd55d6366fa7af7e080f7f78f986f8876051cfdf025494d939c35.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_075",
-        "dbfId": "69524",
-        "name": "Sinister Strike",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "Deal $3 damage to the_enemy hero.",
-        "flavor": "There's something about this strike that just feels off.  Sinister, even.",
-        "artist": "Frank Cho",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 7.",
-        "howToGetGold": "Unlocked after winning 100 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/373134b6a610f4a739edc6b11d43ca708dbc1941c250088068dcfb30ad837ecc.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_075",
         "dbfId": "68351",
         "name": "Sinister Strike",
@@ -963,33 +713,6 @@
         "mechanics": [
             {
                 "name": "Stealth"
-            }
-        ]
-    },
-    {
-        "cardId": "KAR_069",
-        "dbfId": "39698",
-        "name": "Swashburglar",
-        "cardSet": "One Night in Karazhan",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Battlecry:</b> Add a random card from another class to_your hand.",
-        "flavor": "Was almost named \"Swashb-AAAARRHHH-gler\"",
-        "artist": "Zoltan Boros",
-        "collectible": true,
-        "race": "Pirate",
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked in the Opera, in One Night in Karazhan.",
-        "howToGetGold": "Crafting unlocked in the Opera, in One Night in Karazhan.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9405ba06b91c24bd3a9b2afc2aacefbf36baa7e93d60daaa5e5f3db8dea09d71.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
             }
         ]
     },
@@ -1152,23 +875,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_126",
-        "dbfId": "69854",
-        "name": "Betrayal",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Force an enemy minion to deal its damage to the minions next to it.",
-        "flavor": "Everyone has a price. Gnomes, for example, can be persuaded by stuffed animals and small amounts of chocolate.",
-        "artist": "Lucas Graciano",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d56d512122f76ca10afc1f64c98ecc4948fd7ce33a145a72a82a2d6d1df587ca.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_126",
         "dbfId": "282",
         "name": "Betrayal",
@@ -1207,29 +913,6 @@
         "mechanics": [
             {
                 "name": "Combo"
-            }
-        ]
-    },
-    {
-        "cardId": "CS2_233",
-        "dbfId": "1064",
-        "name": "Blade Flurry",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Destroy your weapon and deal its damage to all enemy minions.",
-        "flavor": "\"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that.\" - Shan, Rogue Trainer",
-        "artist": "Hideaki Takamura",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8933fb19d795c97642bed5c057cc4d0e64c9833114b8bfd6e34adba869a52b5.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4cffad5076acf459b4e26ba5b36c97c2cde36127903e7475027d69a6d28c36d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
             }
         ]
     },
@@ -1369,29 +1052,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CS2_073",
-        "dbfId": "268",
-        "name": "Cold Blood",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.",
-        "flavor": "\"I'm cold blooded, check it and see!\"",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2603c0350c9bae4c230cc3aa52b18182c18e57db710d9a8ce7226beede7bf5b.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/933d7920318238281cfa06f731891e43ead42cb0599140a8cbc1ca13748b7e2f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_CS2_073",
         "dbfId": "69620",
         "name": "Cold Blood",
@@ -1432,31 +1092,6 @@
         "playerClass": "Rogue",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb44daf0602bcc1242f397d1fdb45c136354ee0fe57a51a66cc665a92ba71c96.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_131",
-        "dbfId": "201",
-        "name": "Defias Ringleader",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Combo:</b> Summon a 2/1 Defias Bandit.",
-        "flavor": "He stole the deed to town years ago, so technically the town <i>is</i> his. He just calls people Scrub to be mean.",
-        "artist": "Dany Orizio",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c3a0d0fa81f63a1cd458790fa2efca399859ae695b7948cf98c2bf699dca7d4.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/178c8d7cbc9af37bd35a9d246562a1c178465ecdb5c3a71553bf504a62e37366.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
     },
     {
         "cardId": "VAN_EX1_131",
@@ -1545,28 +1180,6 @@
         "mechanics": [
             {
                 "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_124",
-        "dbfId": "69853",
-        "name": "Eviscerate",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.",
-        "flavor": "There is a high cost to Eviscerating your opponent. You might tweak your elbow! That really hurts!",
-        "artist": "Ariel Olivetti",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a6de800d166b708397f46bb218c5cfd27e7b7dd201954e492dc885cb19a5f4e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
             }
         ]
     },
@@ -1824,59 +1437,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_522",
-        "dbfId": "69624",
-        "name": "Patient Assassin",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 2,
-        "attack": 1,
-        "health": 2,
-        "text": "<b>Stealth</b>\\n <b>Poisonous</b>",
-        "flavor": "He’s not really that patient. It just takes a while for someone to walk by that he can actually reach.",
-        "artist": "Ben Olson",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 9.",
-        "howToGetGold": "Unlocked after winning 250 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b05e7da03f29bb3670f3d879a4d77083c1c6fe912ec2a019edeaae7f27661bd.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            },
-            {
-                "name": "Poisonous"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_522",
-        "dbfId": "69961",
-        "name": "Patient Assassin",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 2,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Stealth</b>. Destroy any minion damaged by this minion.",
-        "flavor": "He’s not really that patient. It just takes a while for someone to walk by that he can actually reach.",
-        "artist": "Ben Olson",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e70e18493c8ffc22680b12d175a68e12d616a9d304d9faaf2c733674ae0cb2ac.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_522",
         "dbfId": "1133",
         "name": "Patient Assassin",
@@ -2009,24 +1569,6 @@
         ]
     },
     {
-        "cardId": "EX1_581",
-        "dbfId": "461",
-        "name": "Sap",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Return an enemy minion to your opponent's hand.",
-        "flavor": "Rogues love sappy movies.",
-        "artist": "Scott Altmann",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c10689bc00937ffc4502a1c0a4f5003db028111db038ba4631d60df47a37196f.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44ab080f61e4ef0fac50f165364650d052a077ffd804eefd87d0e69023913efe.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_581",
         "dbfId": "68475",
         "name": "Sap",
@@ -2115,23 +1657,6 @@
                 "name": "Secret"
             }
         ]
-    },
-    {
-        "cardId": "VAN_EX1_278",
-        "dbfId": "68458",
-        "name": "Shiv",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Deal $1 damage.\\nDraw a card.",
-        "flavor": "Rogues are experts at SHIV-al-ry.",
-        "artist": "Alex Garner",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f19806d1c9147450709b621c06f75b729abd0b3d9618bda7e9f4fe070098bcd1.png",
-        "locale": "enUS"
     },
     {
         "cardId": "EX1_278",
@@ -2700,32 +2225,6 @@
         ]
     },
     {
-        "cardId": "EX1_613",
-        "dbfId": "306",
-        "name": "Edwin VanCleef",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 3,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Combo:</b> Gain +2/+2 for each other card you've played this turn.",
-        "flavor": "He led the Stonemasons in the reconstruction of Stormwind, and when the nobles refused to pay, he founded the Defias Brotherhood to, well, <i>deconstruct</i> Stormwind.",
-        "artist": "Efrem Palacios",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8760897a0115da0bf25983f30272c98846ff9a91601194c80a20db7fd5c870b2.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbd4c8d97bd08058d6835ee93f086318f4efaef64f292f2f20b619f97bb05af9.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_613",
         "dbfId": "70053",
         "name": "Edwin VanCleef",
@@ -2825,23 +2324,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_129",
-        "dbfId": "68444",
-        "name": "Fan of Knives",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Deal $1 damage to all enemy minions. Draw_a card.",
-        "flavor": "I wouldn't say I LOVE knives, but I'm definitely a fan.",
-        "artist": "Andrew Robinson",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2efecd0fc2208d8b6f3905d9dd995edfd21487b206b12f13c4fa7240350e0b57.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_129",
         "dbfId": "667",
         "name": "Fan of Knives",
@@ -2908,29 +2390,6 @@
             },
             {
                 "name": "Stealth"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_137",
-        "dbfId": "708",
-        "name": "Headcrack",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.",
-        "flavor": "When all else fails, nothing beats a swift whack upside the head.",
-        "artist": "Ludo Lullabi",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be4c6406fe3e2f9ad2c8b8ebfaa14d16de4c9d1af8d1ff1dd290a654c71a8126.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/276767de5039a489fdc2570187c89f2fca988f11adf7552ccb5aa2b0984aff30.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
             }
         ]
     },
@@ -3070,33 +2529,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_133",
-        "dbfId": "69859",
-        "name": "Perdition's Blade",
-        "cardSet": "Vanilla",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 2,
-        "durability": 2,
-        "text": "<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.",
-        "flavor": "Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db7027884e9e41c501ad7e4621dc6776933a5812d32695f155d88b43c51aedbc.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            },
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_133",
         "dbfId": "391",
         "name": "Perdition's Blade",
@@ -3118,32 +2550,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            },
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
-        "cardId": "ICC_809",
-        "dbfId": "43028",
-        "name": "Plague Scientist",
-        "cardSet": "Knights of the Frozen Throne",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 2,
-        "health": 3,
-        "text": "<b>Combo:</b> Give a friendly minion <b>Poisonous</b>.",
-        "flavor": "The excruciating pain means it's working!",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49a8bbdf4888598ea861b8747f230e8ef6221377cb553deaef26e025040d97c0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Poisonous"
             },
             {
                 "name": "Combo"
@@ -3370,56 +2776,6 @@
         "mechanics": [
             {
                 "name": "Stealth"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_134",
-        "dbfId": "69860",
-        "name": "SI:7 Agent",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Combo:</b> Deal 2 damage.",
-        "flavor": "The agents of SI:7 are responsible for Stormwind's covert activities.  Their duties include espionage, assassination, and throwing surprise birthday parties for the royal family.",
-        "artist": "Chris Moeller",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19e3a244d7651beeb148d5637ab462203af0eab8a7f19e19d163cb7d1330af4b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_134",
-        "dbfId": "69621",
-        "name": "SI:7 Agent",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Combo:</b> Deal 2 damage.",
-        "flavor": "The agents of SI:7 are responsible for Stormwind's covert activities.  Their duties include espionage, assassination, and throwing surprise birthday parties for the royal family.",
-        "artist": "Chris Moeller",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e334f38da8d8f7c45344f235efc3aab7f39fe411f28d1740ba33155eccae9d9.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
             }
         ]
     },
@@ -3730,26 +3086,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_080",
-        "dbfId": "69527",
-        "name": "Assassin's Blade",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 2,
-        "durability": 5,
-        "flavor": "Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.",
-        "artist": "Brian Huang",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2dc3a69c754faa5aea1b3ea17b67244a30c110adce9e5ea6295be9f87cfdb4e1.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_080",
         "dbfId": "421",
         "name": "Assassin's Blade",
@@ -3766,25 +3102,6 @@
         "playerClass": "Rogue",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b87dc8eb63ada7fa3f67ebf33fd5956f8cc625226e97b362cc31aa14fbd8ecb5.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a83e4059a4eddbd04acfe4ecc2a17b1840cbb8832d43d5ad6465fd7d71e426a8.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_076",
-        "dbfId": "69525",
-        "name": "Assassinate",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Destroy an enemy minion.",
-        "flavor": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e5fe6dca3caf18b4d1920888e75871c875d559c2ae45112fa6415854fcfb00f.png",
         "locale": "enUS"
     },
     {
@@ -4007,33 +3324,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bed412692fd3dccfebe53ed25c4213b51777607d95d87f2da6d52ae35953f56d.png",
         "locale": "enUS",
         "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "NEW1_014",
-        "dbfId": "887",
-        "name": "Master of Disguise",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 4,
-        "health": 4,
-        "text": "<b>Battlecry:</b> Give a friendly minion <b>Stealth</b> until your next turn.",
-        "flavor": "She's actually a male tauren.  People don't call him \"Master of Disguise\" for nothing.",
-        "artist": "Ron Spencer",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c3258d97440ee45804977d24a5bb7f682acb392b5a39e77ce928879a48d20f3a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16e4388bcc641e26b251e1e1ee7cec116d5721db40463e16859fe01ef1d23371.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            },
             {
                 "name": "Battlecry"
             }
@@ -4541,31 +3831,6 @@
         ]
     },
     {
-        "cardId": "LOE_012",
-        "dbfId": "2884",
-        "name": "Tomb Pillager",
-        "cardSet": "The League of Explorers",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 4,
-        "attack": 5,
-        "health": 4,
-        "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
-        "flavor": "After the guild broke up, he could no longer raid the tombs.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked in the Hall of Explorers, in the League of Explorers adventure.",
-        "howToGetGold": "Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6aa189af84c83b95024f6d89d263e1b2c255c8532dc359c11527a7073a4ea353.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_LOE_012",
         "dbfId": "69738",
         "name": "Tomb Pillager",
@@ -4747,41 +4012,6 @@
                 "name": "Battlecry"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_080",
-        "dbfId": "68354",
-        "name": "Assassin's Blade",
-        "cardSet": "Vanilla",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "attack": 3,
-        "durability": 4,
-        "flavor": "Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.",
-        "artist": "Brian Huang",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/28aa3775dd7b5470c9e50e7325fa9a32b2f072a406e4b2e111d232fa353a2d93.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_076",
-        "dbfId": "68352",
-        "name": "Assassinate",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "text": "Destroy an enemy minion.",
-        "flavor": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
-        "artist": "Glenn Rane",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44291a30e8392041f1f2936985f8581f9463fd83ddddabcbd65f5838632a7a2e.png",
-        "locale": "enUS"
     },
     {
         "cardId": "ULD_327",
@@ -5434,30 +4664,6 @@
         ]
     },
     {
-        "cardId": "NEW1_005",
-        "dbfId": "287",
-        "name": "Kidnapper",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "rarity": "Epic",
-        "cost": 6,
-        "attack": 5,
-        "health": 3,
-        "text": "<b>Combo:</b> Return a minion to_its owner's hand.",
-        "flavor": "He just wants people to see his vacation photos.",
-        "artist": "Dave Allsop",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fa52cc430f286adcdfaafaa2606960aaad0eedf43e8f97678e73e6da1e9bc6e.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d42844fa879a40f6d4830ef70f80279bb397bb9396192a5ddfb4276a9fc03b62.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Combo"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_NEW1_005",
         "dbfId": "70075",
         "name": "Kidnapper",
@@ -5530,25 +4736,6 @@
         ]
     },
     {
-        "cardId": "CORE_CS2_077",
-        "dbfId": "69526",
-        "name": "Sprint",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 6,
-        "text": "Draw 4 cards.",
-        "flavor": "Rogues are not good joggers.",
-        "artist": "James Zhang",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "howToGet": "Unlocked at level 5.",
-        "howToGetGold": "Unlocked after winning 100 games as Rogue.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/675fea9c72ad1fec92dcae7ab5aefcd35124ecb322e5c6052539ef3a7502464b.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CS2_077",
         "dbfId": "630",
         "name": "Sprint",
@@ -5616,21 +4803,6 @@
         "playerClass": "Rogue",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7fa15175b3bcb1a98b85ba2f13ece1a1fdc31af2286e55f035ef5c5278f9a91.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed3eb9322dafee5ef9d97ec956766ff0d7a3c1b681b1c4c5cb59ab4895d33a32.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_NEW1_004",
-        "dbfId": "68548",
-        "name": "Vanish",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 6,
-        "text": "Return all minions to their owner's hand.",
-        "artist": "Sean O’Daniels",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff28cae0644b9bd338b3a80a7161048e4598d8195edc111162ecbfe0ef626df7.png",
         "locale": "enUS"
     },
     {
@@ -5750,23 +4922,6 @@
                 "name": "Combo"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_077",
-        "dbfId": "68353",
-        "name": "Sprint",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 7,
-        "text": "Draw 4 cards.",
-        "flavor": "Rogues are not good joggers.",
-        "artist": "James Zhang",
-        "collectible": true,
-        "playerClass": "Rogue",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08a751a264e41920402fceff5544962c9b9562203e879ea03e3f75f20c1c04c4.png",
-        "locale": "enUS"
     },
     {
         "cardId": "DAL_719",

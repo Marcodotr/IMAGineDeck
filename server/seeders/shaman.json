@@ -1,29 +1,5 @@
 [
     {
-        "cardId": "CS2_041",
-        "dbfId": "149",
-        "name": "Ancestral Healing",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Restore a minion\\nto full Health and\\ngive it <b>Taunt</b>.",
-        "flavor": "I personally prefer some non-ancestral right-the-heck-now healing, but maybe that is just me.",
-        "artist": "Dan Scott",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d990312f062c013d1439d6cd1f67cb43ecaad91bab0e2fceb738d6f6229f767.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad39c6857f66728187e4ef974dac035ce9c896d792aa4b7ef82753b92b00519e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_CS2_041",
         "dbfId": "68331",
         "name": "Ancestral Healing",
@@ -86,24 +62,6 @@
         "spellSchool": "Nature",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a7d74b417f68489a3946aaa8ebdb47b964b647c27429154f85fec0225225472.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e73b232d37f941659d9c414a22c906ef5f5b56bc979e1dad691c46652ad6570.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_244",
-        "dbfId": "830",
-        "name": "Totemic Might",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Give your Totems +2_Health.",
-        "flavor": "Totem-stomping is no longer recommended.",
-        "artist": "Trent Kaniuga",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c72333de4a12548b8fabddd677b4d8f6243f3d137a7e730689108a225942587.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/986830ce18c19cecd0791a688c07997877735d055dca7693eab8ebccb9d4c9d2.png",
         "locale": "enUS"
     },
     {
@@ -265,33 +223,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_243",
-        "dbfId": "69894",
-        "name": "Dust Devil",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 3,
-        "health": 1,
-        "text": "<b>Windfury</b>. <b>Overload:</b> (2)",
-        "flavor": "Westfall is full of dust devils. And buzzards. And crazed golems. And pirates. Why does anyone live here?",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8c8a32480272ebad178a1ac5d9dc65507ae543aa77a2cd17a15c8b14ba9f138.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            },
-            {
-                "name": "Windfury"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_243",
         "dbfId": "618",
         "name": "Dust Devil",
@@ -317,30 +248,6 @@
             },
             {
                 "name": "Windfury"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_245",
-        "dbfId": "767",
-        "name": "Earth Shock",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "<b>Silence</b> a minion, then deal $1 damage to it.",
-        "flavor": "Earth Shock? Shouldn't it be \"Azeroth Shock\"?",
-        "artist": "Kevin Chen",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd5f0ec57096c82fb4e6914f226f1b93169083c3cfd906f4ecd203ad7fe421fa.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5bf091291feb8487de399ae13c48498819b89f95c9002e24a3f78a1d602af0d0.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Silence"
             }
         ]
     },
@@ -410,28 +317,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_251",
-        "dbfId": "69900",
-        "name": "Forked Lightning",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $2 damage to 2_random enemy minions. <b>Overload:</b> (2)",
-        "flavor": "If you combine it with Spooned Lightning and Knived Lightning, you have the full dining set.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60e1a160c6a5450df98785559a10ed42387600e0805a91f69a2d5e0f06f9d8cf.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_251",
         "dbfId": "299",
         "name": "Forked Lightning",
@@ -452,28 +337,6 @@
         "mechanics": [
             {
                 "name": "Overload"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_CS2_037",
-        "dbfId": "68329",
-        "name": "Frost Shock",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $1 damage to an enemy character and <b>Freeze</b> it.",
-        "flavor": "FROST SHOCK!",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb7dee04ea65466f17d8d469e1dd15535ab7e84e8d3860da03b467fcd7534bec.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Freeze"
             }
         ]
     },
@@ -545,53 +408,6 @@
             },
             {
                 "name": "Freeze"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_238",
-        "dbfId": "69892",
-        "name": "Lightning Bolt",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $3 damage. <b>Overload:</b> (1)",
-        "flavor": "Lightning Bolt! Lightning Bolt! Lightning Bolt!",
-        "artist": "Daarken",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f556f3fdec5c0e6ad37fa333f53740e65bad239da141a8982a2f8b87a1acfc52.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_238",
-        "dbfId": "69625",
-        "name": "Lightning Bolt",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 1,
-        "text": "Deal $3 damage. <b>Overload:</b> (1)",
-        "flavor": "Lightning Bolt! Lightning Bolt! Lightning Bolt!",
-        "artist": "Daarken",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/681bb151c478278af26530680e63606b77b28fb5556adc35d776f047c422b057.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
             }
         ]
     },
@@ -705,23 +521,6 @@
         "collectible": true,
         "playerClass": "Shaman",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dee78597a0fbb19ed9a224b6139bb8ffe4944ae67f42d17ef7444f81d84752f3.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_045",
-        "dbfId": "68334",
-        "name": "Rockbiter Weapon",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Give a friendly character +3 Attack this turn.",
-        "flavor": "This would be real handy if your enemy is made of rock.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1b0afd52efd0adb331763dfa6bd16d8fc9be33cc8930753ff9aabe667e62784.png",
         "locale": "enUS"
     },
     {
@@ -1050,29 +849,6 @@
         "mechanics": [
             {
                 "name": "Overload"
-            }
-        ]
-    },
-    {
-        "cardId": "CS2_038",
-        "dbfId": "404",
-        "name": "Ancestral Spirit",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "Give a minion \"<b>Deathrattle:</b> Resummon this minion.\"",
-        "flavor": "It was just a flesh wound.",
-        "artist": "Zoltan & Gabor",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9cef2d0116f1681fe8d89c27391666ea68995eb2272a4695a854b641cea8fcf4.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ac7fac05bb5ff69909e49fec98373635eb34f7263bf059b47280ff7b087761c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
             }
         ]
     },
@@ -1507,35 +1283,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_565",
-        "dbfId": "1008",
-        "name": "Flametongue Totem",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "attack": 0,
-        "health": 2,
-        "text": "Adjacent minions have +2_Attack.",
-        "flavor": "Totemsmiths like to use the rarest woods for their totems.  There are even rumors of totems made of Ironbark Protectors.",
-        "artist": "Jonathan Ryder",
-        "collectible": true,
-        "race": "Totem",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c1a22c9ce39a85c4f0a430880d10027cbe597890d441583c76addf1d4011e46.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/effb6bc8b9752da9f32258e12ae455dda0d8300eaaa7782fe7ae29158744e3e7.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AdjacentBuff"
-            },
-            {
-                "name": "Aura"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_565",
         "dbfId": "68473",
         "name": "Flametongue Totem",
@@ -1750,31 +1497,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "BOT_533",
-        "dbfId": "49162",
-        "name": "Menacing Nimbus",
-        "cardSet": "The Boomsday Project",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "<b>Battlecry:</b> Add a random Elemental to your hand.",
-        "flavor": "Electra stores her elementals in the cloud.",
-        "artist": "Daria Tuzova",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/123edcc893fc816d03c29871cf369fe28a96bb4015fdecc18222d4611ba2e461.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4d7891f8b87de0b119937daf2f0d9880c1aaf87fc67cee89c19461499ea9dfb.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_BOT_533",
         "dbfId": "69731",
         "name": "Menacing Nimbus",
@@ -1937,26 +1659,7 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5aa3a747f95f156580346e2aac3bed7665514a04c47a88064251db350419a51.png",
         "locale": "enUS"
     },
-    {
-        "cardId": "CORE_CS2_045",
-        "dbfId": "69517",
-        "name": "Rockbiter Weapon",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Give a friendly character +3 Attack this turn.",
-        "flavor": "This would be real handy if your enemy is made of rock.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3d98e1ed3456bf7acd84719c9c86a011616e606b81ca9bb1ba4cf400ca86671.png",
-        "locale": "enUS"
-    },
+ 
     {
         "cardId": "CS2_045",
         "dbfId": "239",
@@ -2097,30 +1800,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_247",
-        "dbfId": "69896",
-        "name": "Stormforged Axe",
-        "cardSet": "Vanilla",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "durability": 3,
-        "text": "<b>Overload:</b> (1)",
-        "flavor": "Yo, that's a nice axe.",
-        "artist": "Nate Bowden",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00f86b84c455e358293542deb310f65c8fe1b6a13ca9889587486345b98ee48c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_247",
         "dbfId": "960",
         "name": "Stormforged Axe",
@@ -2225,55 +1904,6 @@
         "playerClass": "Shaman",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4a6bcbb268971021d0d5259256b7d3244346dab03b4b057a4542b990838bfb0.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "GVG_037",
-        "dbfId": "2005",
-        "name": "Whirling Zap-o-matic",
-        "cardSet": "Goblins vs Gnomes",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 3,
-        "health": 2,
-        "text": "<b>Windfury</b>",
-        "flavor": "If you pay a little extra, you can get it in \"candy-apple red.\"",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "race": "Mech",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87e097855d8d41e2301fce7441e6abe53a38f7ab05a29fa3611dc33db00c07f9.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Windfury"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_CS2_039",
-        "dbfId": "69515",
-        "name": "Windfury",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Give a minion <b>Windfury</b>.",
-        "flavor": "Windfury is like Earthfury and Firefury, but more light and airy.",
-        "artist": "Justin Sweet",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/072264cf71dcd92cda2b4df7b9a765d246cf31fa773da56868a07b1a51fa2085.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Windfury"
-            }
-        ]
     },
     {
         "cardId": "VAN_CS2_039",
@@ -2517,24 +2147,6 @@
         ]
     },
     {
-        "cardId": "CS2_053",
-        "dbfId": "818",
-        "name": "Far Sight",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 3,
-        "text": "Draw a card. That card costs (3) less.",
-        "flavor": "Drek'thar can't see, but he can <i>see</i>. You know what I mean? It's ok if you don't.",
-        "artist": "Lars Grant-West",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72e145193ede43230121dd4877ec3030d9e23bf3c88c8054b53e15de54a51cc2.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75cc0ce76189a6f0d4c1449e73c12c86f475bb2db7f7a31e9b2a1d350238005e.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_CS2_053",
         "dbfId": "69750",
         "name": "Far Sight",
@@ -2550,57 +2162,6 @@
         "playerClass": "Shaman",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b705351be109466f94d26ef69abce2c1491ec906f779b5fed14a21c31d81bd6e.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_248",
-        "dbfId": "238",
-        "name": "Feral Spirit",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (1)",
-        "flavor": "Spirit wolves are like regular wolves with pom-poms.",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53665fab7c0a61cfd260d03901f6fab6df35158d24ea8a68ee1437dc56c3fbe3.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a36ff575f872e3f023b8f252e3ab48ac8e98bbfad2d29582de112646d31cd8ad.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_248",
-        "dbfId": "69897",
-        "name": "Feral Spirit",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (2)",
-        "flavor": "Spirit wolves are like regular wolves with pom-poms.",
-        "artist": "Clint Langley",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d191b50a131f4efd9d9db56d90f0c538a88b8bd18eb4752f7ec6c00eb8109558.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Overload"
-            }
-        ]
     },
     {
         "cardId": "CORE_EX1_248",
@@ -2714,28 +2275,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_246",
-        "dbfId": "68455",
-        "name": "Hex",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Transform a minion into a 0/1 Frog with <b>Taunt</b>.",
-        "flavor": "If you Hex a Murloc... it really isn't much of a change, is it?",
-        "artist": "Steve Hui",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d68d583cd490684e817d2a0c81b69be97f3f967652c0aaf0665aedaa397cdf8f.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
         "cardId": "UNG_938",
         "dbfId": "41479",
         "name": "Hot Spring Guardian",
@@ -2841,28 +2380,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_241",
-        "dbfId": "69893",
-        "name": "Lava Burst",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Deal $5 damage. <b>Overload:</b> (2)",
-        "flavor": "It's like an ocean of liquid magma in your mouth!",
-        "artist": "Dan Scott",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9598582bfe24d2a97bc4d3e0ce4fc1831b7e10412ebc3821b57acccb7dfc2608.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_241",
         "dbfId": "864",
         "name": "Lava Burst",
@@ -2905,53 +2422,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_EX1_259",
-        "dbfId": "69902",
-        "name": "Lightning Storm",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)",
-        "flavor": "An umbrella won't be effective, I'm afraid.",
-        "artist": "Christopher Moeller",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5a3272d309d04fa3d595bdcd187c2d5699d50eb8f4a153d1fcc05950150e2a5.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_259",
-        "dbfId": "69629",
-        "name": "Lightning Storm",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "text": "Deal $3 damage to all_enemy minions. <b>Overload:</b> (2)",
-        "flavor": "An umbrella won't be effective, I'm afraid.",
-        "artist": "Christopher Moeller",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e100c2fc693c2e112dee1b385bd44ccf82c0bed6044703c7acc6b52ded782b69.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_259",
         "dbfId": "629",
         "name": "Lightning Storm",
@@ -2992,48 +2462,6 @@
         "race": "Murloc",
         "playerClass": "Shaman",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a321aee0294b2b4203908567212e17ed712c8c28b999af982b819de9c3e6f5a.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_575",
-        "dbfId": "69631",
-        "name": "Mana Tide Totem",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 0,
-        "health": 3,
-        "text": "At the end of your turn, draw a card.",
-        "flavor": "It is said that some shaman can say \"Floatin' totem\" 10 times, fast.",
-        "artist": "Scott Altmann",
-        "collectible": true,
-        "race": "Totem",
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/136c6c2f206491a33c2261eb49d30911ab055f7668325803b0e080ce472c732a.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_575",
-        "dbfId": "70032",
-        "name": "Mana Tide Totem",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 0,
-        "health": 3,
-        "text": "At the end of your turn, draw a card.",
-        "flavor": "It is said that some shaman can say \"Floatin' totem\" 10 times, fast.",
-        "artist": "Scott Altmann",
-        "collectible": true,
-        "race": "Totem",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/477308edf789f1e8c47aa9d79dfb66ac49ee5f6fc140090af828d6459af093b2.png",
         "locale": "enUS"
     },
     {
@@ -3312,29 +2740,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "UNG_817",
-        "dbfId": "41521",
-        "name": "Tidal Surge",
-        "cardSet": "Journey to Un'Goro",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "<b>Lifesteal</b>\\nDeal $4 damage to a_minion.",
-        "flavor": "Also good for removing pesky stains.",
-        "artist": "Max Grecke",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9abc5cbd8b858031a79a20bdab82db24093796861db7d19b40fb04472cbd1c42.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Lifesteal"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_UNG_817",
         "dbfId": "69744",
         "name": "Tidal Surge",
@@ -3395,56 +2800,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_258",
-        "dbfId": "774",
-        "name": "Unbound Elemental",
-        "cardSet": "Classic",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 3,
-        "health": 4,
-        "text": "After you play a card_with <b>Overload</b>, gain_+1/+1.",
-        "flavor": "Unlike bound elementals, Unbound ones really enjoy a night on the town.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad771ca61884b96b739cb32d707242bdc250430df359a0414363e38e911336df.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d791d183bdb5f5be3cf5fc218d6b94d3aa53f15bc25145e4bdf98a741b6ae8b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_258",
-        "dbfId": "69901",
-        "name": "Unbound Elemental",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 2,
-        "health": 4,
-        "text": "Whenever you play a card_with <b>Overload</b>, gain_+1/+1.",
-        "flavor": "Unlike bound elementals, Unbound ones really enjoy a night on the town.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1130313b18474f89dab956a077291c24a0eece5e2a97a00057cf4ba29cc583eb.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
             }
         ]
     },
@@ -3672,31 +3027,6 @@
         ]
     },
     {
-        "cardId": "CORE_AT_047",
-        "dbfId": "69732",
-        "name": "Draenei Totemcarver",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 4,
-        "attack": 4,
-        "health": 5,
-        "text": "<b>Battlecry:</b> Gain +1/+1 for each friendly Totem.",
-        "flavor": "It's nice to find a real craftsman in this day and age of mass-produced totems.",
-        "artist": "RK Post",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 7.",
-        "howToGetGold": "Unlocked after winning 100 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29405916547cfd3793c1b0769e6f0e494e5ac5950fc2461130ad645cb9e5983e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "AT_047",
         "dbfId": "2613",
         "name": "Draenei Totemcarver",
@@ -3867,30 +3197,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_246",
-        "dbfId": "766",
-        "name": "Hex",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Transform a minion into a 0/1 Frog with <b>Taunt</b>.",
-        "flavor": "If you Hex a Murloc... it really isn't much of a change, is it?",
-        "artist": "Steve Hui",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "spellSchool": "Nature",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2dfe40a0af2723d888d58ccae11eba99f0844b94ce669c6da93b51243f0a4568.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89c763f45cc5db78265e2388be1bfd4af0b2d4b21ee34e94c6bd6c6b1c2f2c13.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
             }
         ]
     },
@@ -4356,34 +3662,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "EX1_587",
-        "dbfId": "178",
-        "name": "Windspeaker",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "attack": 3,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Give a friendly minion <b>Windfury</b>.",
-        "flavor": "Is there anything worse than a Windspeaker with halitosis?",
-        "artist": "Vance Kovacs",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbb9a64899c4c083980e57a5cd43dfb2cb54930c5f5235c745613ba6b54a7fe8.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80d5ab9b3bb7dff302dd06fe8269f739e998a3e90d5862aac7a2c38d03d639c1.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Windfury"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_587",
         "dbfId": "68477",
         "name": "Windspeaker",
@@ -4428,23 +3706,6 @@
         "playerClass": "Shaman",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1354380f2128eed9a03805fd9ccc6d158f6899b7ac484759e5aaeeaaabc103f.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57d151b7327ddedde825f0f4c1a664e02a3d02591d9bc84a3a5ed8408ed8cd47.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_CS2_046",
-        "dbfId": "68336",
-        "name": "Bloodlust",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "text": "Give your minions +3_Attack this turn.",
-        "flavor": "blaarghghLLGHRHARAAHAHHH!!",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc3269698ebcbef3c0091e2c8c95cca19a355e979bf128ec09fcb5c8c0805f52.png",
         "locale": "enUS"
     },
     {
@@ -4539,63 +3800,6 @@
         ]
     },
     {
-        "cardId": "EX1_567",
-        "dbfId": "352",
-        "name": "Doomhammer",
-        "cardSet": "Classic",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "attack": 2,
-        "durability": 8,
-        "text": "<b>Windfury, Overload:</b> (2)",
-        "flavor": "Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.",
-        "artist": "John Polidora",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3bac59fdd8eb070632ae0f334f94dc3d0d04c87e804e50b625d79d1cc76598fa.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a06b55a7515ce7bc7dcd493e619db04be4d7f336a55ea55fffa101ae9db1d416.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            },
-            {
-                "name": "Windfury"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_567",
-        "dbfId": "69630",
-        "name": "Doomhammer",
-        "cardSet": "Core",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "attack": 2,
-        "durability": 8,
-        "text": "<b>Windfury, Overload:</b> (2)",
-        "flavor": "Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.",
-        "artist": "John Polidora",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 9.",
-        "howToGetGold": "Unlocked after winning 250 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2fcf9e6e0146b0dd4141a8d483810a95cf8cad3b0859539e9f5d9d2a3183bb6.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            },
-            {
-                "name": "Windfury"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_567",
         "dbfId": "69981",
         "name": "Doomhammer",
@@ -4641,63 +3845,6 @@
         "mechanics": [
             {
                 "name": "Invoke"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_250",
-        "dbfId": "69899",
-        "name": "Earth Elemental",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "attack": 7,
-        "health": 8,
-        "text": "<b>Taunt</b>. <b><b>Overload</b>:</b> (3)",
-        "flavor": "Nothing beats rock.",
-        "artist": "Dan Scott",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65e11c6678c70f0df494d68e614c2e6e0b80d21274eda98d84c4be06e7c770af.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_250",
-        "dbfId": "69627",
-        "name": "Earth Elemental",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 5,
-        "attack": 7,
-        "health": 8,
-        "text": "<b>Taunt</b>\\n<b><b>Overload</b>:</b> (2)",
-        "flavor": "Nothing beats rock.",
-        "artist": "Dan Scott",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1e00837ae821229e50ccc4a8713784a9d8f6e94d2ae22a689c561542973f78c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Overload"
             },
             {
                 "name": "Taunt"
@@ -5117,59 +4264,6 @@
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c71302f017ddfe139bcade86626e270a1d52742cc77fc7fe2f2f9451a324563a.png",
         "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/726d848a7a8ded7e28416a032d55bdb6ab18d8f7c68ff8fb39373f8567f2ff92.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_CS2_042",
-        "dbfId": "69516",
-        "name": "Fire Elemental",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 6,
-        "attack": 6,
-        "health": 5,
-        "text": "<b>Battlecry:</b> Deal 4 damage.",
-        "flavor": "He can never take a bath. Ewww.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bd88a90ff58cf78126cfc8dfac52e34a6764a6108ef6f4ffbb7600920406970.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CS2_042",
-        "dbfId": "189",
-        "name": "Fire Elemental",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 6,
-        "attack": 6,
-        "health": 5,
-        "text": "<b>Battlecry:</b> Deal 4 damage.",
-        "flavor": "He can never take a bath. Ewww.",
-        "artist": "Ralph Horsley",
-        "collectible": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e955f8b3a071951a6889c7b38511c2b360a698704dee5598f9340c5e4ceab5d.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/164381ac8db09b657f64ac6ed3b2b93b4603071b280eb0afdaf0f8ce56bafb0d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "VAN_CS2_042",
@@ -5643,75 +4737,6 @@
         "mechanics": [
             {
                 "name": "Battlecry"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_NEW1_010",
-        "dbfId": "69632",
-        "name": "Al'Akir the Windlord",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 3,
-        "health": 6,
-        "text": "<b>Charge, Divine Shield, Taunt, Windfury</b>",
-        "flavor": "He is the weakest of the four Elemental Lords.  And the other three don't let him forget it.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "elite": true,
-        "race": "Elemental",
-        "playerClass": "Shaman",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Shaman.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9caf5a41edcb32af59b47baec7ee8caa33f0f9deefafffed9193f0e66be456a.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            },
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Windfury"
-            },
-            {
-                "name": "Taunt"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_NEW1_010",
-        "dbfId": "70078",
-        "name": "Al'Akir the Windlord",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Legendary",
-        "cost": 8,
-        "attack": 3,
-        "health": 5,
-        "text": "<b>Charge, Divine Shield, Taunt, Windfury</b>",
-        "flavor": "He is the weakest of the four Elemental Lords.  And the other three don't let him forget it.",
-        "artist": "Raymond Swanland",
-        "collectible": true,
-        "elite": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/813f4096a4415932d746f4367726e28dffb25ff251c6481978d60a8cc995d228.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            },
-            {
-                "name": "Divine Shield"
-            },
-            {
-                "name": "Windfury"
-            },
-            {
-                "name": "Taunt"
             }
         ]
     },

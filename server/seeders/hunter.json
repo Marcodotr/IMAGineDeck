@@ -16,23 +16,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_084",
-        "dbfId": "68357",
-        "name": "Hunter's Mark",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 0,
-        "text": "Change a minion's Health to 1.",
-        "flavor": "Never play 'Hide and Go Seek' with a Hunter.",
-        "artist": "Jimmy Lo",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1166fa7738f17c8b67a32694016938cc5317fc794f8cd44e5fc120a52f6afdb6.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "WC_007",
         "dbfId": "63334",
         "name": "Serpentbloom",
@@ -101,45 +84,6 @@
         ]
     },
     {
-        "cardId": "CORE_DS1_185",
-        "dbfId": "69546",
-        "name": "Arcane Shot",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "Deal $2 damage.",
-        "flavor": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves.  The resulting loss of jobs sent Stormwind into a minor recession.",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Arcane",
-        "howToGet": "Unlocked at level 5.",
-        "howToGetGold": "Unlocked after winning 100 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5732badf266ec3773234ae61361bc5354041c8497a5232d86535b66a4d6f00c.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "DS1_185",
-        "dbfId": "877",
-        "name": "Arcane Shot",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "Deal $2 damage.",
-        "flavor": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves.  The resulting loss of jobs sent Stormwind into a minor recession.",
-        "artist": "Luca Zontini",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Arcane",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d046e987cb11c8b98e3277e8ebf8f8d593344d32ffbe38be319d206a96d39f8.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d075d43b38cd2b7c5edc26ff0ee5017a9fbf2a31bf9e25c53fcdeb55d378b617.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_DS1_185",
         "dbfId": "68434",
         "name": "Arcane Shot",
@@ -154,24 +98,6 @@
         "collectible": true,
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cac594f1471e142bcbde069b05ea1e3cc8fcabcc00e32f50646f3f1e8591398c.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_549",
-        "dbfId": "903",
-        "name": "Bestial Wrath",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 1,
-        "text": "Give a friendly Beast +2 Attack and <b>Immune</b> this turn.",
-        "flavor": "The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bc3f18fa202a3083d5a9e6810f2a3e71083f238ff274c47ebe1e02e4ebfd0bc.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5203d0c9c287ae1f13993cb38cf9d86d7a3aa040703f82d3efb2de6fdec3708.png",
         "locale": "enUS"
     },
     {
@@ -347,32 +273,6 @@
         ]
     },
     {
-        "cardId": "EX1_544",
-        "dbfId": "896",
-        "name": "Flare",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.",
-        "flavor": "Not only does it reveal your enemies, but it's also great for parties!",
-        "artist": "Tyler Walpole",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33c965af037f051bad716705b142fba2574a55712aa1103687e781006de3c9fd.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d1678aa083d54b021988672a48439cc5c9ac4a8f1c1f25aa11b679cffbccc84.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Stealth"
-            },
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_544",
         "dbfId": "69969",
         "name": "Flare",
@@ -478,22 +378,6 @@
         "collectible": true,
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/527e5b92acba9855ac491995a51aca0fabeb730170e84eed56f65833d9e9d17a.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "AT_061",
-        "dbfId": "2484",
-        "name": "Lock and Load",
-        "cardSet": "The Grand Tournament",
-        "type": "Spell",
-        "rarity": "Epic",
-        "cost": 1,
-        "text": "Each time you cast a spell this turn, add a random Hunter card to your hand.",
-        "flavor": "Rexxar narrowed his eyes, grabbed his machine gun, and said: \"It's go time.  Lock and load.\"\\n\\nThis card pays homage to that special moment.",
-        "artist": "Matt Dixon",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4e67bc64094ee953754061a2d2d658b5a64ddc74b045c7eff3e942906e3649f.png",
         "locale": "enUS"
     },
     {
@@ -820,31 +704,6 @@
         ]
     },
     {
-        "cardId": "VAN_DS1_175",
-        "dbfId": "68428",
-        "name": "Timber Wolf",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "Your other Beasts have +1_Attack.",
-        "flavor": "Other beasts totally dig hanging out with timber wolves.",
-        "artist": "Malcolm Davis",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc1861490f17779e3a7e0361bda3cfea3f28f74767a6e483201894720f302625.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Aura"
-            }
-        ]
-    },
-    {
         "cardId": "DS1_175",
         "dbfId": "606",
         "name": "Timber Wolf",
@@ -893,53 +752,6 @@
         ]
     },
     {
-        "cardId": "CORE_DS1_184",
-        "dbfId": "69545",
-        "name": "Tracking",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 1,
-        "text": "<b>Discover</b> a card from your deck.",
-        "flavor": "For the person who just cannot decide what card to put into a deck!",
-        "artist": "Mauro Cascioli",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 4.",
-        "howToGetGold": "Unlocked after winning 100 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d844ff4c2dbdc651819d3e3a657ad06b0e6b266eb81755a4a22c1a84c79388c3.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Discover"
-            }
-        ]
-    },
-    {
-        "cardId": "DS1_184",
-        "dbfId": "1047",
-        "name": "Tracking",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 1,
-        "text": "<b>Discover</b> a card from your deck.",
-        "flavor": "For the person who just cannot decide what card to put into a deck!",
-        "artist": "Mauro Cascioli",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6553416556c52be509d4fb2dc2215cff87c6b4b2bf8eafa6f4b97705d6daf1ec.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/678c4bbe3ab58dbb92dc767d22f2c062ea085fe33c9bdca97ebb7b4c07de9a2c.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Discover"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_DS1_184",
         "dbfId": "68433",
         "name": "Tracking",
@@ -976,32 +788,6 @@
         "mechanics": [
             {
                 "name": "Quest"
-            }
-        ]
-    },
-    {
-        "cardId": "FP1_011",
-        "dbfId": "1860",
-        "name": "Webspinner",
-        "cardSet": "Naxxramas",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 1,
-        "attack": 1,
-        "health": 1,
-        "text": "<b>Deathrattle:</b> Add a random Beast card to your hand.",
-        "flavor": "Spider cocoons are like little piñatas!",
-        "artist": "Dan Brereton",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked in The Plague Quarter, in the Naxxramas adventure.",
-        "howToGetGold": "Crafting unlocked in The Plague Quarter, in the Naxxramas adventure.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f7c2713772d6ff808cef506028fa2c11d3bc1a0b9e24535be8f61661f4fd0fd.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
             }
         ]
     },
@@ -1359,53 +1145,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_610",
-        "dbfId": "69603",
-        "name": "Explosive Trap",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.",
-        "flavor": "It traps your food AND cooks it for you!",
-        "artist": "Brandon Kitkouski",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Fire",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed4767eb3a60c1a47eac426e2f87dd343c29e8176e5e2e0e3818c0332940ebaa.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_610",
-        "dbfId": "70050",
-        "name": "Explosive Trap",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.",
-        "flavor": "It traps your food AND cooks it for you!",
-        "artist": "Brandon Kitkouski",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/996b9c1967620b667823660de095331fb149131ab006fd478868208218435980.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_610",
         "dbfId": "585",
         "name": "Explosive Trap",
@@ -1475,55 +1214,6 @@
             },
             {
                 "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_611",
-        "dbfId": "69604",
-        "name": "Freezing Trap",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.",
-        "flavor": "\"Dang, that's cold.\" - appropriate response to Freezing Trap, or a mean joke.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Frost",
-        "howToGet": "Unlocked at level 2.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0680cb5de8da6888a7f693caef92f1a0823e022bc8e66a5af527fe685fa0924e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_611",
-        "dbfId": "519",
-        "name": "Freezing Trap",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.",
-        "flavor": "\"Dang, that's cold.\" - appropriate response to Freezing Trap, or a mean joke.",
-        "artist": "Matt Gaser",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Frost",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31607aa1acd6acda0f7304e3d2fe4ea6a295e3c4545aa55cbc4f10a1e4136916.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d745190eca413552855cf462a2d22d3dceaa11cab785d4f24427423f158f37a5.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
             }
         ]
     },
@@ -1631,31 +1321,6 @@
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1349370d119ecb91a62a622498577513eb9822cfe6408cc313957c15e5cb0e6b.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "TRL_111",
-        "dbfId": "50608",
-        "name": "Headhunter's Hatchet",
-        "cardSet": "Rastakhan's Rumble",
-        "type": "Weapon",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 0,
-        "durability": 2,
-        "text": "[x]<b>Battlecry:</b> If you\\ncontrol a Beast, gain\\n+1 Durability.",
-        "flavor": "Zul'jin's primary recruiting tool.",
-        "artist": "Akkapoj T.",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52ce8582f38bf8b520caf5819910332c102d9005aaae9084c17b5167d7c6dc05.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/703892fa67bd6f25ef80bd6aafd4299ce071b1dfa8ee4a840fdb5bd0c8a9eee5.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "CORE_TRL_111",
@@ -1803,28 +1468,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_533",
-        "dbfId": "69963",
-        "name": "Misdirection",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 2,
-        "text": "<b>Secret:</b> When an enemy attacks your hero, instead it attacks another random character.",
-        "flavor": "Sometimes it's as simple as putting on a fake mustache and pointing at someone else.",
-        "artist": "Daren Bader",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f2f21ccb4be9bfb6d086b31cab902306f48f3a41612aa293f660b20389fff2b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_533",
         "dbfId": "1091",
         "name": "Misdirection",
@@ -1955,29 +1598,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_BRM_013",
-        "dbfId": "69691",
-        "name": "Quick Shot",
-        "cardSet": "Core",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "Deal $3 damage.\\nIf your hand is empty, draw a card.",
-        "flavor": "Han shot first.",
-        "artist": "Jonboy Meyers",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8deb6939be6aff48927eec29f7318df37365345f643c966afd6884dde80b92a4.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "AffectedBySpellPower"
-            }
-        ]
-    },
-    {
         "cardId": "BRM_013",
         "dbfId": "2260",
         "name": "Quick Shot",
@@ -2056,46 +1676,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "CORE_EX1_531",
-        "dbfId": "69599",
-        "name": "Scavenging Hyena",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "Whenever a friendly Beast dies, gain +2/+1.",
-        "flavor": "Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even Brussels sprouts.",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cbfae96f687c79068de149286a5ae3e8dbb811fc537fcd14d8ce26974d6c2464.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "VAN_EX1_531",
-        "dbfId": "69962",
-        "name": "Scavenging Hyena",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 2,
-        "attack": 2,
-        "health": 2,
-        "text": "Whenever a friendly Beast dies, gain +2/+1.",
-        "flavor": "Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even Brussels sprouts.",
-        "artist": "Jim Nelson",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ddcf9e18402c2bcef2e91dcd4b29317a7e9e1b82dfd78028c8182a882b329876.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "EX1_531",
         "dbfId": "1281",
         "name": "Scavenging Hyena",
@@ -2144,53 +1724,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_554",
-        "dbfId": "69602",
-        "name": "Snake Trap",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 2,
-        "text": "<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.",
-        "flavor": "Why did it have to be snakes?",
-        "artist": "Bernie Kang",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 8.",
-        "howToGetGold": "Unlocked after winning 250 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3082e086db89588571d226d37309834d63a852ae7aa77bfa1a73340f71601e8d.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_554",
-        "dbfId": "455",
-        "name": "Snake Trap",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 2,
-        "text": "<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.",
-        "flavor": "Why did it have to be snakes?",
-        "artist": "Bernie Kang",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9459a2680008f96c67e309f5a38326f6e3b38d00cb504b8938ab0f330a7cf756.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0081cf2a1457baf7968c7474efc01310aa337f61edd116df782169fff0b0e63e.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_554",
         "dbfId": "69971",
         "name": "Snake Trap",
@@ -2205,29 +1738,6 @@
         "collectible": true,
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/853edbf4b2ff64383b764298add47092c31b58f7f3d47d259e0e9d144502b106.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
-        "cardId": "EX1_609",
-        "dbfId": "814",
-        "name": "Snipe",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 2,
-        "text": "<b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.",
-        "flavor": "A great sniper hits the spot.  Just like a delicious flank of boar. Mmmmm.",
-        "artist": "Lorenzo Minaca",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d09a486bae59945720e4ae6990e42a373bd02fb960feaa0e106fea964a88cc10.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fe2b07030c25b5d3f245eea2937eddaf6c315a0a35319d351876d2f27cd2644.png",
         "locale": "enUS",
         "mechanics": [
             {
@@ -2256,25 +1766,6 @@
                 "name": "Secret"
             }
         ]
-    },
-    {
-        "cardId": "VAN_CS2_237",
-        "dbfId": "68416",
-        "name": "Starving Buzzard",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Free",
-        "cost": 2,
-        "attack": 2,
-        "health": 1,
-        "text": "Whenever you summon a Beast, draw a card.",
-        "flavor": "If you feed him, he loses his whole <i>identity</i>.",
-        "artist": "Bernie Kang",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be7038fc762fb31ff3750222285f241d825c65779965d8c626c6afe67f7291fb.png",
-        "locale": "enUS"
     },
     {
         "cardId": "CS2_237",
@@ -2472,23 +1963,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "NEW1_031",
-        "dbfId": "437",
-        "name": "Animal Companion",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Summon a random Beast Companion.",
-        "flavor": "You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.",
-        "artist": "Wei Wang",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0bbbcf5333c11c2df6e37c7b59d13a1e06aa3cd532c3c0bebbea539a66ed62d7.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21b68f587dfe3bfa54d5aa5815665f6e543454147992eea94605e8e3c20f907d.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_NEW1_031",
         "dbfId": "68529",
         "name": "Animal Companion",
@@ -2528,27 +2002,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "CORE_ICC_419",
-        "dbfId": "69694",
-        "name": "Bearshark",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Common",
-        "cost": 3,
-        "attack": 4,
-        "health": 3,
-        "text": "Can't be targeted by spells or Hero Powers.",
-        "flavor": "\"Candygram.\"",
-        "artist": "Max Grecke",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5c629df4f8ac85c6dcb234d95740aed5cddee81c44c411d88e271b4f5e36552.png",
-        "locale": "enUS"
     },
     {
         "cardId": "ICC_419",
@@ -2704,43 +2157,6 @@
         ]
     },
     {
-        "cardId": "CORE_EX1_617",
-        "dbfId": "69605",
-        "name": "Deadly Shot",
-        "cardSet": "Core",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Destroy a random enemy minion.",
-        "flavor": "Our ballista operator is effective, but not picky.",
-        "artist": "Steven Prescott",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 1.",
-        "howToGetGold": "Unlocked after winning 50 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/523d9dc071c01a10c8d9d1329ee22af276ee500ec0de3617484830aee559efbc.png",
-        "locale": "enUS"
-    },
-    {
-        "cardId": "EX1_617",
-        "dbfId": "1093",
-        "name": "Deadly Shot",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "Destroy a random enemy minion.",
-        "flavor": "Our ballista operator is effective, but not picky.",
-        "artist": "Steven Prescott",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3fa488d795dc614a3035f6271096e930773db5f55cada587947ade3f2259fcc.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df2483d02f2ce65e791ec140f783e30b8dc9dbf94d79d762acf9bb57c1480d32.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_617",
         "dbfId": "70056",
         "name": "Deadly Shot",
@@ -2880,30 +2296,6 @@
         ]
     },
     {
-        "cardId": "EX1_536",
-        "dbfId": "1662",
-        "name": "Eaglehorn Bow",
-        "cardSet": "Classic",
-        "type": "Weapon",
-        "rarity": "Rare",
-        "cost": 3,
-        "attack": 3,
-        "durability": 2,
-        "text": "[x]Whenever a friendly\\n<b>Secret</b> is revealed,\\ngain +1 Durability.",
-        "flavor": "First Lesson: Put the pointy end in the other guy.",
-        "artist": "Cyril Van Der Haegen",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/423bcb5029890133bf746009e8999605ad6a3627270e154c070ac9308b789509.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6adf576557d03c85764179e4a36f2931f754ef5f890def124165fe4f74c447ff.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_EX1_536",
         "dbfId": "69965",
         "name": "Eaglehorn Bow",
@@ -2995,24 +2387,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "EX1_539",
-        "dbfId": "296",
-        "name": "Kill Command",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 3,
-        "text": "Deal $3 damage. If you control a Beast, deal\\n$5 damage instead.",
-        "flavor": "\"Kill!\", he commanded.",
-        "artist": "Gabe from Penny Arcade",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c05ddfd0b45fe22d8ac1926dbcbf17477b3ca891c9c4fa5e7e8d67b23180d2a.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4625e6769d8887c242334e6f0be15eddba464924213f976a62763391b15b185f.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_EX1_539",
@@ -3567,27 +2941,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_538",
-        "dbfId": "69967",
-        "name": "Unleash the Hounds",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.",
-        "flavor": "You must read the name of this card out loud each time you play it.",
-        "artist": "Linggar Bramanty",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d5967718822151d347cfcfd706316a03e2467cbf9e592c240bdfa51efe6178b.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
         "cardId": "EX1_538",
         "dbfId": "1243",
         "name": "Unleash the Hounds",
@@ -3710,23 +3063,6 @@
         ]
     },
     {
-        "cardId": "GIL_828",
-        "dbfId": "48201",
-        "name": "Dire Frenzy",
-        "cardSet": "The Witchwood",
-        "type": "Spell",
-        "rarity": "Common",
-        "cost": 4,
-        "text": "Give a Beast +3/+3. Shuffle 3 copies into your deck with +3/+3.",
-        "flavor": "It's always Huffer. And Huffer. And Huffer. And Huffer.",
-        "artist": "Efrem Palacios",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cbcbd1ca7bb4c96fb2a4f6aed0638f4aad4a6c11e1c7d5b9b9c693d9d32d4fef.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d8e5fd94602814e54381e5cd0ce6f121518b8341b1b52c8480b76a5ccf3c2ca.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "CORE_GIL_828",
         "dbfId": "69693",
         "name": "Dire Frenzy",
@@ -3829,34 +3165,6 @@
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ea9cc100be3f817c78e9e4dbc26d70d18506a6ca3c7002750677bdd183ca275.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "DS1_070",
-        "dbfId": "1003",
-        "name": "Houndmaster",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "attack": 4,
-        "health": 3,
-        "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.",
-        "flavor": "\"Who let the dogs out?\" he asks.  It's rhetorical.",
-        "artist": "Dan Brereton",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/029917d8985c18196d09742f8b6cf3060f73f1fef01e8cdc239f25ed91bef3da.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c1f9824210ada53d19345a4c444d2ab8606bd0f7d99499eff26c9da6de1e047.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Taunt"
-            },
-            {
-                "name": "Battlecry"
-            }
-        ]
     },
     {
         "cardId": "VAN_DS1_070",
@@ -4041,24 +3349,6 @@
                 "name": "Deathrattle"
             }
         ]
-    },
-    {
-        "cardId": "DS1_183",
-        "dbfId": "292",
-        "name": "Multi-Shot",
-        "cardSet": "Legacy",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 4,
-        "text": "Deal $3 damage to two random enemy minions.",
-        "flavor": "You see, it's all about <i>throughput</i>.",
-        "artist": "Ben Zhang",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90d15d74205a5ac1502d48a406f52a04618b473f19bd182fdbfa341833414fb0.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ec8f86b217c235f2c1bf473406a667dfb629ce601566080df3a5799fee6824c.png",
-        "locale": "enUS"
     },
     {
         "cardId": "VAN_DS1_183",
@@ -4451,25 +3741,6 @@
         ]
     },
     {
-        "cardId": "EX1_537",
-        "dbfId": "394",
-        "name": "Explosive Shot",
-        "cardSet": "Classic",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Rare",
-        "cost": 5,
-        "text": "Deal $5 damage to a minion and $2 damage to adjacent ones.",
-        "flavor": "Pull the pin, count to 5, then shoot.  Then duck.",
-        "artist": "Tom Baxa",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "spellSchool": "Fire",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cef101a2ac81c782d3b1c7b67544e0842ec7224643edb1a97802057e3bf54423.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0934280b85e8b981b7bce543ea00641724911aa44c72bb621a98ad8fbe9b882.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_EX1_537",
         "dbfId": "69966",
         "name": "Explosive Shot",
@@ -4834,35 +4105,6 @@
         ]
     },
     {
-        "cardId": "DS1_178",
-        "dbfId": "699",
-        "name": "Tundra Rhino",
-        "cardSet": "Legacy",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 5,
-        "attack": 2,
-        "health": 5,
-        "text": "Your Beasts have <b>Charge</b>.",
-        "flavor": "Tundra rhinos are often mistaken for kodos.  Or am I mistaken?",
-        "artist": "Lars Grant-West",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7909a012b20aee511c515b7090a48e53888e13177d01fa4efda1d52b983d27f.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e73dc9d788f906695d08b171a1c5f7512f8bfd4d660b53a115270226a77dd64.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            },
-            {
-                "name": "Aura"
-            }
-        ]
-    },
-    {
         "cardId": "VAN_DS1_178",
         "dbfId": "68430",
         "name": "Tundra Rhino",
@@ -5022,56 +4264,6 @@
         "playerClass": "Hunter",
         "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/118bd46f6f07172a3ad39608e08917bb4fa701dd9741fa547c43791406532d4a.png",
         "locale": "enUS"
-    },
-    {
-        "cardId": "CORE_EX1_534",
-        "dbfId": "69600",
-        "name": "Savannah Highmane",
-        "cardSet": "Core",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 6,
-        "attack": 6,
-        "health": 5,
-        "text": "<b>Deathrattle:</b> Summon two 2/2 Hyenas.",
-        "flavor": "In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.",
-        "artist": "Milivoj Ceran",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 6.",
-        "howToGetGold": "Unlocked after winning 100 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f518e5df3d81f960567736de355de8fccc5178ac004dde7140e1e12b4b841713.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_534",
-        "dbfId": "69964",
-        "name": "Savannah Highmane",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "rarity": "Rare",
-        "cost": 6,
-        "attack": 6,
-        "health": 5,
-        "text": "<b>Deathrattle:</b> Summon two 2/2 Hyenas.",
-        "flavor": "In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.",
-        "artist": "Milivoj Ceran",
-        "collectible": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15894b06f55069ed728ee06046d69f230cf239f259a33473c3df9c326f7d1e27.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Deathrattle"
-            }
-        ]
     },
     {
         "cardId": "EX1_534",
@@ -5436,26 +4628,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "DS1_188",
-        "dbfId": "311",
-        "name": "Gladiator's Longbow",
-        "cardSet": "Classic",
-        "type": "Weapon",
-        "faction": "Neutral",
-        "rarity": "Epic",
-        "cost": 7,
-        "attack": 5,
-        "durability": 2,
-        "text": "Your hero is <b>Immune</b> while attacking.",
-        "flavor": "The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.",
-        "artist": "Peter C. Lee",
-        "collectible": true,
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/180b501adb5c12cd84cdadef2042d72e018d169977e3a38d7fef78f095d0fbe5.png",
-        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/763bf6c405de98f7d6881845bdb78d325961b4b9a39a2912168683c64c17819c.png",
-        "locale": "enUS"
-    },
-    {
         "cardId": "VAN_DS1_188",
         "dbfId": "69803",
         "name": "Gladiator's Longbow",
@@ -5678,60 +4850,6 @@
             },
             {
                 "name": "Deathrattle"
-            }
-        ]
-    },
-    {
-        "cardId": "CORE_EX1_543",
-        "dbfId": "69601",
-        "name": "King Krush",
-        "cardSet": "Core",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 9,
-        "attack": 8,
-        "health": 8,
-        "text": "<b>Charge</b>",
-        "flavor": "The best defense against King Krush is to have someone you don’t like standing in front of you.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "howToGet": "Unlocked at level 10.",
-        "howToGetGold": "Unlocked after winning 500 games as Hunter.",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/778ae77ae80187028a3753422003f024e1e2d3d74d462e84f77ea2d28188bd63.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
-            }
-        ]
-    },
-    {
-        "cardId": "VAN_EX1_543",
-        "dbfId": "69968",
-        "name": "King Krush",
-        "cardSet": "Vanilla",
-        "type": "Minion",
-        "faction": "Neutral",
-        "rarity": "Legendary",
-        "cost": 9,
-        "attack": 8,
-        "health": 8,
-        "text": "<b>Charge</b>",
-        "flavor": "The best defense against King Krush is to have someone you don’t like standing in front of you.",
-        "artist": "Alex Horley Orlandelli",
-        "collectible": true,
-        "elite": true,
-        "race": "Beast",
-        "playerClass": "Hunter",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f43242ad77447b0ec6929522c80707dc05ca23264afb7da1128f831722f2e37.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Charge"
             }
         ]
     },
