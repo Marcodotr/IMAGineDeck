@@ -24,9 +24,8 @@ function CardDetail(props) {
       ) : (
         theseCards.map((card) => (
         <div key={card.name} className="four wide column">
-          <h4>{card.name}</h4>
           <img src={card.img} style={{width:200}} alt={card.name}/>
-          </div>
+        </div>
       )))}
     </div>
   );
