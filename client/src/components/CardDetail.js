@@ -12,9 +12,38 @@ function CardDetail(props) {
   })
 
   const theseCards = data?.getClassCard || [];
-  const uniquecards = [...new Set(theseCards)]
   
-  console.log(uniquecards)
+  const currDeck = []
+  
+  const addToDeck = (event) => {
+    
+    var card = JSON.parse(event.target.value)
+    
+    if(card.rarity === "Legendary"){
+      if(currDeck.some(deck => deck.name === card.name)){
+        alert('max 1 unique Legendary')
+        return
+      } else {
+        currDeck.push(card)
+      }
+    } else if(currDeck.some(deck => deck.name === card.name)){
+        console.log('hello')
+        var temp = currDeck
+        temp.pop(card) 
+        if(temp.some(deck => deck.name === card.name)){
+          alert('max 2 unique cards')
+        } else {
+          currDeck.push(card)
+        }
+        currDeck.push(card)
+      } else {
+        currDeck.push(card)
+      }
+    
+    console.log(currDeck)
+  }
+  
+  
   return (
     <div className="text-center ui grid">
       {loading ? (
@@ -23,9 +52,23 @@ function CardDetail(props) {
         </div>
       ) : (
         theseCards.map((card) => (
-        <div key={card.name} className="four wide column">
-          <img src={card.img} style={{width:200}} alt={card.name}/>
-        </div>
+        <button 
+        onClick={addToDeck}
+        key={card.name} 
+        className="four wide column"
+        value={`{"name":"${card.name}", "img":"${card.img}", "rarity":"${card.rarity}"}`}
+        style={{
+          backgroundImage:`url(${card.img})`,
+          width:200,
+          height:450,
+          backgroundSize:'contain',
+          backgroundRepeat:'no-repeat'
+        }}       
+        >
+          
+          {/* <img src={card.img} style={{width:200}} alt={card.name}/> */}
+          
+          </button>
       )))}
     </div>
   );
