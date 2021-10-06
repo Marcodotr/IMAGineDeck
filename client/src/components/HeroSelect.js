@@ -73,7 +73,7 @@ function HeroSelect(props) {
           name="playerClass"
           key={hero}
           onClick={handleHeroSelect}
-          className="btn btn-secondary"
+          class="positive ui button"
           type="submit"
           value={hero}
         >
@@ -83,7 +83,7 @@ function HeroSelect(props) {
         <Grid.Row centered>
         <img src={renderSwitch(hero)}
         alt=""
-        style={{width:'300px', height:'300px', justifyContent:'center'}}
+        style={{width:'340px', height:'300px', justifyContent:'center'}}
         ></img>
         </Grid.Row>
     
@@ -97,11 +97,14 @@ function HeroSelect(props) {
       {playerClass === "" ? (
         <form>{HeroButton}</form>
       ) : (
+        <Grid columns={3} divided>
+          <Grid.Row centered>
         <div className="col-12 col-md-8 mb-3">
           <button
+          style = {{maxWidth: "15vw",minWidth: "15vw", overflow:"true", marginTop:"10px"}}
             name="playerClass"
             onClick={handleHeroClear}
-            className="btn btn-primary"
+            class="ui negative basic button"
             type="submit"
           >
             Clear Selection
@@ -111,6 +114,9 @@ function HeroSelect(props) {
             title="Some Feed for Thought(s)..."
           />
         </div>
+        </Grid.Row>
+        </Grid>
+        
       )}
     </div>
   );
