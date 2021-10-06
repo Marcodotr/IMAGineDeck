@@ -2,18 +2,18 @@
 import React from "react";
 import { useState } from "react";
 import CardDetail from "../components/CardDetail";
-import { Grid,} from "semantic-ui-react";
+import { Grid, GridColumn, GridRow } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
-import demonHunter from '../assets/demonHunter.png'
-import druid from '../assets/druid.png'
-import hunter from '../assets/hunter.png'
-import mage from '../assets/mage.png'
-import paladin from '../assets/paladin.png'
-import priest from '../assets/priest.png'
-import rouge from '../assets/rouge.png'
-import shaman from '../assets/shaman.png'
-import warlock from '../assets/warlock.png'
-import warrior from '../assets/warrior.png'
+import demonHunter from "../assets/demonHunter.png";
+import druid from "../assets/druid.png";
+import hunter from "../assets/hunter.png";
+import mage from "../assets/mage.png";
+import paladin from "../assets/paladin.png";
+import priest from "../assets/priest.png";
+import rouge from "../assets/rouge.png";
+import shaman from "../assets/shaman.png";
+import warlock from "../assets/warlock.png";
+import warrior from "../assets/warrior.png";
 
 function HeroSelect(props) {
   const [playerClass, setPlayerClass] = useState("");
@@ -32,27 +32,7 @@ function HeroSelect(props) {
     setPlayerClass("");
   };
 
-  function renderSwitch(param){
-    switch(param){
-      case 'Demon Hunter': return demonHunter;
-      case 'Druid'       : return druid;
-      case 'Hunter'      : return hunter;
-      case 'Mage'        : return mage;
-      case 'Paladin'     : return paladin;
-      case 'Priest'      : return priest;
-      case 'Rogue'       : return rouge;
-      case 'Shaman'      : return shaman;
-      case 'Warlock'     : return warlock;
-      case 'Warrior'     : return warrior;
-
-      default:
-      return null;
-    }
-
-    
-
-  }
-
+  
   const heros = [
     "Demon Hunter",
     "Druid",
@@ -65,58 +45,180 @@ function HeroSelect(props) {
     "Warlock",
     "Warrior",
   ];
-  const HeroButton = heros.map((hero) => (
-    <Grid columns={3}>
-      <Grid.Row centered>
-        <button
-          style = {{maxWidth: "15vw", overflow:"true", marginTop:"10px"}}
-          name="playerClass"
-          key={hero}
-          onClick={handleHeroSelect}
-          class="positive ui button"
-          type="submit"
-          value={hero}
-        >
-          {hero}
-        </button>
-        </Grid.Row>
-        <Grid.Row centered>
-        <img src={renderSwitch(hero)}
-        alt=""
-        style={{width:'340px', height:'300px', justifyContent:'center'}}
-        ></img>
-        </Grid.Row>
-    
-      
-      
-    </Grid>
-  ));
+  
 
   return (
     <div>
       {playerClass === "" ? (
-        <form>{HeroButton}</form>
+        <form>
+          <Grid columns="equal">
+    
+            <GridRow centered >
+              <img
+                src={paladin}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Paladin"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+
+              <img
+                src={mage}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Mage"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+
+              <img
+                src={hunter}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Hunter"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+                <img
+                src={druid}
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Druid"
+                alt=""
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+                <img
+                src={demonHunter}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Demon Hunter"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+            </GridRow>
+
+            <GridRow centered >
+              <img
+                src={priest}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Priest"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+
+              <img
+                src={rouge}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Rogue"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+
+              <img
+                src={shaman}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Shaman"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+                <img
+                src={warlock}
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Warlock"
+                alt=""
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+                <img
+                src={warrior}
+                alt=""
+                onClick={handleHeroSelect}
+                type="submit"
+                value="Warrior"
+                style={{
+                  marginTop:'40px',
+                  maxWidth: "300px",
+                  maxHeight: "260px",
+                  justifyContent: "center",
+                }}
+              ></img>
+            </GridRow>
+          </Grid>
+        </form>
       ) : (
         <Grid columns={3} divided>
           <Grid.Row centered>
-        <div className="col-12 col-md-8 mb-3">
-          <button
-          style = {{maxWidth: "15vw",minWidth: "15vw", overflow:"true", marginTop:"10px"}}
-            name="playerClass"
-            onClick={handleHeroClear}
-            class="ui negative basic button"
-            type="submit"
-          >
-            Clear Selection
-          </button>
-          <CardDetail
-            playerClass={playerClass}
-            title="Some Feed for Thought(s)..."
-          />
-        </div>
-        </Grid.Row>
+            <div className="col-12 col-md-8 mb-3">
+              <button
+                style={{
+                  maxWidth: "15vw",
+                  minWidth: "15vw",
+                  overflow: "true",
+                  marginTop: "10px",
+                }}
+                name="playerClass"
+                onClick={handleHeroClear}
+                class="ui negative basic button"
+                type="submit"
+              >
+                Clear Selection
+              </button>
+              <CardDetail
+                playerClass={playerClass}
+                title="Some Feed for Thought(s)..."
+              />
+            </div>
+          </Grid.Row>
         </Grid>
-        
       )}
     </div>
   );
