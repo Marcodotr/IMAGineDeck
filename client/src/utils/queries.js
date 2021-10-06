@@ -6,6 +6,7 @@ export const QUERY_CARDS = gql`
             name 
             img
             playerClass
+            rarity
         }
 }
 `

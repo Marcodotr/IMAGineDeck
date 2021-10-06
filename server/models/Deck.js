@@ -1,8 +1,10 @@
 const { Schema, model } = require('mongoose');
 
 const deckSchema = new Schema({
-    deckId: {
-        type: String
+
+    title: {
+        type: String,
+        required: 'You need a deck title',
     },
     user: {
         type: String

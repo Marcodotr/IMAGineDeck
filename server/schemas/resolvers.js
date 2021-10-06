@@ -1,9 +1,7 @@
 const { Card } = require('../models');
+const { Deck } = require('../models')
 const fetch = require("node-fetch")
 
-const dummy = {
-  playerClass: {$exists: true}   
-}
 
 const resolvers = {
  
@@ -14,6 +12,12 @@ const resolvers = {
       return search
     },
 
-  }
+  },
+
+  // Mutation: {
+  //   addDeck: async (parent, { title, cards }) => {
+  //     return Deck.create({ title, cards })
+  //   }
+  // }
 }
 module.exports = resolvers;

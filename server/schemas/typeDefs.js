@@ -4,7 +4,13 @@ const typeDefs = gql`
   type Query {
     getClassCard(playerClass: String): [Card]!
   }
-
+  
+  type Deck {
+    _id: ID
+    title: String
+    user: String
+    cards: [Card]
+  }
 
   type Card {
     cardId: String
@@ -30,7 +36,9 @@ const typeDefs = gql`
   type Mechanics {
     name: String
   }
-
+  type Mutation {
+    addDeck(title: String!): Deck
+  }
 `;
 
 module.exports = typeDefs;
