@@ -7,6 +7,9 @@ export const QUERY_CARDS = gql`
             img
             playerClass
             rarity
+            cost
+            attack
+            health
         }
 }
 `

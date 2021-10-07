@@ -2494,28 +2494,6 @@
         ]
     },
     {
-        "cardId": "VAN_EX1_294",
-        "dbfId": "69910",
-        "name": "Mirror Entity",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Common",
-        "cost": 3,
-        "text": "[x]<b>Secret:</b> When\\nyour opponent plays a\\nminion, summon a copy\\nof it.",
-        "flavor": "\"You go first.\" - Krush'gor the Behemoth, to his pet boar.",
-        "artist": "Raven Mimura",
-        "collectible": true,
-        "playerClass": "Mage",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30a5cf5885e96644f8fff01c32c07c562ac539510c8179757cba5deb14acb676.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Secret"
-            }
-        ]
-    },
-    {
         "cardId": "CORE_EX1_294",
         "dbfId": "69609",
         "name": "Mirror Entity",

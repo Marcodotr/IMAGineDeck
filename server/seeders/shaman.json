@@ -1906,28 +1906,6 @@
         "locale": "enUS"
     },
     {
-        "cardId": "VAN_CS2_039",
-        "dbfId": "68330",
-        "name": "Windfury",
-        "cardSet": "Vanilla",
-        "type": "Spell",
-        "faction": "Neutral",
-        "rarity": "Free",
-        "cost": 2,
-        "text": "Give a minion <b>Windfury</b>.",
-        "flavor": "Windfury is like Earthfury and Firefury, but more light and airy.",
-        "artist": "Justin Sweet",
-        "collectible": true,
-        "playerClass": "Shaman",
-        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b0b25bba04fc498d327cf816eff66bbd3c99f77f753e90276c21fe2fabf1f09.png",
-        "locale": "enUS",
-        "mechanics": [
-            {
-                "name": "Windfury"
-            }
-        ]
-    },
-    {
         "cardId": "CS2_039",
         "dbfId": "51",
         "name": "Windfury",
