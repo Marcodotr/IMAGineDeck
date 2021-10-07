@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useQuery } from "@apollo/client";
 import { QUERY_CARDS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
+import VisDeck from "./VisDeck";
 
 function CardDetail(props) {
   console.log(props.playerClass)
@@ -12,48 +13,41 @@ function CardDetail(props) {
   })
 
   const theseCards = data?.getClassCard || [];
-  
+
   const [currDeck, setCurrDeck] = useState([]);
-  
-  const addToDeck = (event) => {
-    
-    var card = JSON.parse(event.target.value)
-    
-    if(card.rarity === "Legendary"){
-      if(currDeck.some(deck => deck.name === card.name)){
-        alert('max 1 unique Legendary')
-        return
-      } else {
-        setCurrDeck(currDeck => [...currDeck, card]);
-      }
-    } else if(currDeck.some(deck => deck.name === card.name)){
-        console.log('hello')
-        var temp = currDeck
-        temp.pop(card) 
-        if(temp.some(deck => deck.name === card.name)){
-          alert('max 2 unique cards')
-          return;
-        } else {
-          setCurrDeck(currDeck => [...currDeck, card]);
-        }
-        setCurrDeck(currDeck => [...currDeck, card]);
-      } else {
-        setCurrDeck(currDeck => [...currDeck, card]);
-      }
-    
-    console.log(currDeck)
-    
+  const filterTwo = (array, chosen) => {
+    return array.filter(item => item.name === chosen.name).length
   }
-  
-  const visDeck = currDeck.map((deck) => 
-    <p style={{color: "white"}}>{deck.name}</p>
-  )
-  
+
+
+  const addToDeck = (event) => {
+    var card = JSON.parse(event.target.value)
+
+    if(card.rarity === "Legendary"){
+      if(filterTwo(currDeck, card) <= 0){
+        console.log(currDeck);
+        console.log(card)
+        console.log(filterTwo(currDeck, card))
+        setCurrDeck(currDeck => [...currDeck, card])
+      } else alert('something')
+    } else if(filterTwo(currDeck, card) <= 1){
+        console.log(currDeck);
+        console.log(card)
+        console.log(filterTwo(currDeck, card))
+        setCurrDeck(currDeck => [...currDeck, card])
+      } else alert('something')
+    
+    // console.log(currDeck)
+  }
+   
+
   return (
     <div>
       <div className="text-center ui grid">
         <div className="ui right sidebar vertical inverted menu overlay visible">
-          {visDeck}
+          <VisDeck 
+            currDeck = {currDeck}
+          />
         </div>
         {loading ? (
           <div>
@@ -76,7 +70,7 @@ function CardDetail(props) {
           />
         )))}
       </div>
-    </div>
+  </div>
   );
 }
 
