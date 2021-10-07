@@ -68,6 +68,7 @@ function HeroSelect(props) {
                 }}
               ></img>
 
+          
               <img
                 src={mage}
                 alt=""
