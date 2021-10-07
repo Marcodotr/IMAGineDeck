@@ -37,7 +37,7 @@ const typeDefs = gql`
     name: String
   }
   type Mutation {
-    addDeck(title: String!): Deck
+    addDeck(title: String!, cards: [Card]): Deck
   }
 `;
 

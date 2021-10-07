@@ -14,10 +14,10 @@ const resolvers = {
 
   },
 
-  // Mutation: {
-  //   addDeck: async (parent, { title, cards }) => {
-  //     return Deck.create({ title, cards })
-  //   }
-  // }
+  Mutation: {
+    addDeck: async (parent, { title, cards }) => {
+      return Deck.create({ title, cards })
+    }
+  }
 }
 module.exports = resolvers;

@@ -13,7 +13,6 @@ const deckSchema = new Schema({
         {
             cardId: {
                 type: String,
-                required: true,
             },
             name: {
                 type: String,
@@ -21,11 +20,9 @@ const deckSchema = new Schema({
             },
             img: {
                 type: String,
-                required: true,
             },
             cost: {
                 type: Number,
-                required: true,
             },
             attack: {
                 type: Number,
