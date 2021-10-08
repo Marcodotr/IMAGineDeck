@@ -34,8 +34,11 @@ function CardDetail(props) {
 
   return (
     <div>
+      <h1 style={{marginTop:"20px", marginBottom:"20px"}}>Choose your cards! </h1>
+    <div>
       <div className="text-center ui centered grid">
-        <div className="ui right sidebar vertical inverted menu overlay visible">
+        <div className="ui right sidebar vertical inverted menu overlay visible"
+        style={{marginTop:"20px"}}>
           <VisDeck 
             currDeck = {currDeck}
           />
@@ -62,6 +65,7 @@ function CardDetail(props) {
           />
         )))}
       </div>
+  </div>
   </div>
   );
 }

@@ -204,7 +204,7 @@ function HeroSelect(props) {
                   maxWidth: "15vw",
                   minWidth: "15vw",
                   overflow: "true",
-                  marginTop: "10px",
+                  marginTop: "20px",
                 }}
                 name="playerClass"
                 onClick={handleHeroClear}

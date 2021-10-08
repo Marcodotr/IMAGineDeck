@@ -14,8 +14,6 @@ function VisDeck(props) {
     return(
         <div>
             <h2 style={{marginTop:"30px", color: "white", position:'sticky'}}>My deck: {currentDeck.length}/30</h2>
-
-            {visiDeck}
         </div>
     )
 }
