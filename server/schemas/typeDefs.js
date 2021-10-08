@@ -36,10 +36,6 @@ const typeDefs = gql`
   type Mechanics {
     name: String
   }
-<<<<<<< HEAD
-  type Mutation {
-    addDeck(title: String!, cards: [Card]): Deck
-=======
 
   input CardInput {
     name: String,
@@ -50,7 +46,6 @@ const typeDefs = gql`
     addDeck(
       title: String!, 
       cards: [CardInput]): [Deck]
->>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
   }
 `;
 
