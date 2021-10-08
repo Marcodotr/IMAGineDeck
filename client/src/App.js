@@ -56,6 +56,12 @@ function App() {
             <Route exact path="/signup">
               <Signup />
             </Route>
+            <Route 
+                path="/heroselect"
+                exact
+                render={() =>
+                <HeroSelect/>}
+              />
             
             {/* <Route exact path="/thoughts/:thoughtId">
               <SingleThought />

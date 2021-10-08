@@ -40,19 +40,30 @@ function HeroSelect(props) {
             {HeroButton}
         </form>
       ) : (
-        <div className="col-12 col-md-8 mb-3">
-            <button
-              name="playerClass"
-              onClick={handleHeroClear}
-              className='btn btn-primary'
-              type="submit">
-                 Clear Selection
-            </button>
-          <CardDetail
-            playerClass = {playerClass}
-            title="Some Feed for Thought(s)..."
-          />
-        </div>
+        <Grid columns={3} divided>
+          <Grid.Row centered>
+            <div className="col-12 col-md-8 mb-3">
+              <button
+                style={{
+                  maxWidth: "15vw",
+                  minWidth: "15vw",
+                  overflow: "true",
+                  marginTop: "20px",
+                }}
+                name="playerClass"
+                onClick={handleHeroClear}
+                class="ui negative basic button"
+                type="submit"
+              >
+                Clear Selection
+              </button>
+              <CardDetail
+                playerClass={playerClass}
+                title="Some Feed for Thought(s)..."
+              />
+            </div>
+          </Grid.Row>
+        </Grid>
       )}
     </div>
   );

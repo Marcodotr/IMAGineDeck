@@ -51,9 +51,14 @@ function CardDetail(props) {
   
   return (
     <div>
-      <div className="text-center ui grid">
-        <div className="ui right sidebar vertical inverted menu overlay visible">
-          {visDeck}
+      <h1 style={{marginTop:"20px", marginBottom:"20px"}}>Choose your cards! </h1>
+    <div>
+      <div className="text-center ui centered grid">
+        <div className="ui right sidebar vertical inverted menu overlay visible"
+        style={{marginTop:"20px"}}>
+          <VisDeck 
+            currDeck = {currDeck}
+          />
         </div>
         {loading ? (
           <div>
@@ -67,6 +72,7 @@ function CardDetail(props) {
             className="four wide column"
             value={`{"name":"${card.name}", "img":"${card.img}", "rarity":"${card.rarity}"}`}
             style={{
+              backgroundColor:'white',
               backgroundImage:`url(${card.img})`,
               width:200,
               height:450,
@@ -76,7 +82,8 @@ function CardDetail(props) {
           />
         )))}
       </div>
-    </div>
+  </div>
+  </div>
   );
 }
 
