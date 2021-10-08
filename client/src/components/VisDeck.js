@@ -8,12 +8,24 @@ function VisDeck(props) {
 
     console.log(currentDeck)
     const visiDeck = currentDeck.map((deck, index) => 
-      <p key={deck.index} style={{color: "white"}}>{deck.name}</p>
+      <p className={index} key={index} style={{color: "white"}}>{deck.name}</p>
     )
 
     return(
         <div>
-            {visiDeck}
+            <div>
+                <h4
+                    style={{
+                        color: 'white'
+                    }}
+                >{currentDeck.length}/30</h4>
+            </div>
+            <div>{visiDeck}</div>
+            {currentDeck.length === 30 ? (
+                <button>Save Deck</button>
+            ) : (
+                <div></div>
+            )});
         </div>
     )
 }
