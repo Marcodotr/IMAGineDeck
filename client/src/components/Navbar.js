@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import { Menu, Input } from "semantic-ui-react";
+import { Menu } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+<<<<<<< HEAD
 import { NavLink, withRouter } from "react-router-dom";
 import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
 import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
 
+=======
+import { NavLink } from "react-router-dom";
+>>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
 export default class Navbar extends Component {
   state = { activeItem: "" };
 
