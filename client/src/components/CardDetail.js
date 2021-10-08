@@ -22,28 +22,19 @@ function CardDetail(props) {
 
   const addToDeck = (event) => {
     var card = JSON.parse(event.target.value)
-
     if(card.rarity === "Legendary"){
       if(filterTwo(currDeck, card) <= 0){
-        console.log(currDeck);
-        console.log(card)
-        console.log(filterTwo(currDeck, card))
         setCurrDeck(currDeck => [...currDeck, card])
-      } else alert('something')
+      } else alert('Max One Legendary!!')
     } else if(filterTwo(currDeck, card) <= 1){
-        console.log(currDeck);
-        console.log(card)
-        console.log(filterTwo(currDeck, card))
         setCurrDeck(currDeck => [...currDeck, card])
-      } else alert('something')
-    
-    // console.log(currDeck)
+      } else alert('Max 2 of the same card!!')
   }
    
 
   return (
     <div>
-      <div className="text-center ui grid">
+      <div className="text-center ui centered grid">
         <div className="ui right sidebar vertical inverted menu overlay visible">
           <VisDeck 
             currDeck = {currDeck}
@@ -58,14 +49,15 @@ function CardDetail(props) {
           <button
             onClick={addToDeck}
             key={card.name}
-            className="four wide column"
+            className="three wide column"
             value={`{"name":"${card.name}", "img":"${card.img}", "rarity":"${card.rarity}"}`}
             style={{
               backgroundImage:`url(${card.img})`,
-              width:200,
-              height:450,
+              width: 'auto',
+              height: 200,
               backgroundSize:'contain',
-              backgroundRepeat:'no-repeat'
+              backgroundRepeat:'no-repeat',
+              border: 'none'
             }}
           />
         )))}
