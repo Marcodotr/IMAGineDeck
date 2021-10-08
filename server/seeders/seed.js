@@ -1,5 +1,5 @@
 const db = require('../config/connection');
-const { Card } = require('../models');
+const { User, Card } = require('../models');
 
 const demonData = require('./demonHunter.json');
 const druidData = require('./druid.json');
@@ -14,7 +14,7 @@ const warlockData = require('./warlock.json');
 const warriorData = require('./warrior.json');
 
 const userSeeds = require('./userSeeds.json');
-const { User } = require('../models');
+// const { User } = require('../models');
 
 db.once('open', async () => {
     await Card.deleteMany({});

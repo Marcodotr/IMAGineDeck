@@ -11,6 +11,8 @@ import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
+import HeroSelect from './components/HeroSelect'
+
 // import SingleThought from './pages/SingleThought';
 //  import Header from './components/Header';
 // import Footer from './components/Footer';
@@ -56,16 +58,9 @@ function App() {
             <Route exact path="/signup">
               <Signup />
             </Route>
-            <Route 
-                path="/heroselect"
-                exact
-                render={() =>
-                <HeroSelect/>}
-              />
-            
-            {/* <Route exact path="/thoughts/:thoughtId">
-              <SingleThought />
-            </Route> */}
+            <Route exact path="/heroselect">
+              <HeroSelect />
+            </Route>
           </div>
           {/* <Footer /> */}
         </div>
