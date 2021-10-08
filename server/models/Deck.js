@@ -4,7 +4,6 @@ const deckSchema = new Schema({
 
     title: {
         type: String,
-        required: 'You need a deck title',
     },
     user: {
         type: String
