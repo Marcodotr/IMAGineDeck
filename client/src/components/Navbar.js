@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
@@ -122,34 +121,6 @@ export default AppNavbar;
 //     //       active={activeItem === 'build'}
 //     //       onClick={this.handleItemClick}
 //     //       color={'blue'}
-=======
-import React, { Component } from "react";
-import { Menu } from "semantic-ui-react";
-import "semantic-ui-css/semantic.min.css";
-import { NavLink } from "react-router-dom";
-export default class Navbar extends Component {
-  state = { activeItem: "" };
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
-
-  render() {  
-    const { activeItem } = this.state;
-
-    // if(Auth.loggedIn())
-    // {
-    // return (
-    //     <div>
-    //   <Menu stackable inverted>
-    //     <Menu.Item>
-    //       {/* <img src='/logo.png' /> */}
-    //     </Menu.Item>
-
-    //     <Menu.Item
-    //       name='build'
-    //       active={activeItem === 'build'}
-    //       onClick={this.handleItemClick}
-    //       color={'blue'}
->>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
           
 //     //     >
 //     //       Build a Deck

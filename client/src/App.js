@@ -13,10 +13,6 @@ import Signup from './components/Signup';
 import Login from './components/Login';
 import HeroSelect from './components/HeroSelect'
 
-// import SingleThought from './pages/SingleThought';
-//  import Header from './components/Header';
-// import Footer from './components/Footer';
-
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
