@@ -2,18 +2,18 @@
 import React from "react";
 import { useState } from "react";
 import CardDetail from "../components/CardDetail";
-import { Grid, GridColumn, GridRow } from "semantic-ui-react";
+import { Grid, GridRow } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
-import demonHunter from "../assets/demonHunter.png";
-import druid from "../assets/druid.png";
-import hunter from "../assets/hunter.png";
-import mage from "../assets/mage.png";
-import paladin from "../assets/paladin.png";
-import priest from "../assets/priest.png";
-import rouge from "../assets/rouge.png";
-import shaman from "../assets/shaman.png";
-import warlock from "../assets/warlock.png";
-import warrior from "../assets/warrior.png";
+// import demonHunter from "../assets/demonHunter.png";
+// import druid from "../assets/druid.png";
+// import hunter from "../assets/hunter.png";
+// import mage from "../assets/mage.png";
+// import paladin from "../assets/paladin.png";
+// import priest from "../assets/priest.png";
+// import rouge from "../assets/rouge.png";
+// import shaman from "../assets/shaman.png";
+// import warlock from "../assets/warlock.png";
+// import warrior from "../assets/warrior.png";
 
 function HeroSelect(props) {
   const [playerClass, setPlayerClass] = useState("");

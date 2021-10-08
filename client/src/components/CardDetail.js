@@ -3,7 +3,6 @@ import { useQuery } from "@apollo/client";
 import { QUERY_CARDS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
 import VisDeck from "./VisDeck";
-import e from "cors";
 
 function CardDetail(props) {
   console.log(props.playerClass)
@@ -67,7 +66,7 @@ function CardDetail(props) {
         <div className="ui right sidebar vertical inverted menu overlay visible">
           <VisDeck 
             currDeck = {currDeck}
-            deleteFromDeck = {deleteFromDeck}
+            // deleteFromDeck = {deleteFromDeck}
           />
         </div>
         {loading ? (
