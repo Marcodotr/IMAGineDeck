@@ -11,7 +11,7 @@ const resolvers = {
   Query: {
     getClassCard: async ( parent, {playerClass} ) => {
       const search = Card.find({playerClass: [playerClass,"Neutral"]})
-      
+
       return search
     },
     users: async () => {
