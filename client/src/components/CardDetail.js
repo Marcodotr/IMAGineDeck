@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useQuery } from "@apollo/client";
 import { QUERY_CARDS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
+import VisDeck from "./VisDeck";
 
 function CardDetail(props) {
   console.log(props.playerClass)
@@ -12,48 +13,32 @@ function CardDetail(props) {
   })
 
   const theseCards = data?.getClassCard || [];
-  
+
   const [currDeck, setCurrDeck] = useState([]);
-  
-  const addToDeck = (event) => {
-    
-    var card = JSON.parse(event.target.value)
-    
-    if(card.rarity === "Legendary"){
-      if(currDeck.some(deck => deck.name === card.name)){
-        alert('max 1 unique Legendary')
-        return
-      } else {
-        setCurrDeck(currDeck => [...currDeck, card]);
-      }
-    } else if(currDeck.some(deck => deck.name === card.name)){
-        console.log('hello')
-        var temp = currDeck
-        temp.pop(card) 
-        if(temp.some(deck => deck.name === card.name)){
-          alert('max 2 unique cards')
-          return;
-        } else {
-          setCurrDeck(currDeck => [...currDeck, card]);
-        }
-        setCurrDeck(currDeck => [...currDeck, card]);
-      } else {
-        setCurrDeck(currDeck => [...currDeck, card]);
-      }
-    
-    console.log(currDeck)
-    
+  const filterTwo = (array, chosen) => {
+    return array.filter(item => item.name === chosen.name).length
   }
-  
-  const visDeck = currDeck.map((deck) => 
-    <p style={{color: "white"}}>{deck.name}</p>
-  )
-  
+
+
+  const addToDeck = (event) => {
+    var card = JSON.parse(event.target.value)
+    if(card.rarity === "Legendary"){
+      if(filterTwo(currDeck, card) <= 0){
+        setCurrDeck(currDeck => [...currDeck, card])
+      } else alert('Max One Legendary!!')
+    } else if(filterTwo(currDeck, card) <= 1){
+        setCurrDeck(currDeck => [...currDeck, card])
+      } else alert('Max 2 of the same card!!')
+  }
+   
+
   return (
     <div>
-      <div className="text-center ui grid">
+      <div className="text-center ui centered grid">
         <div className="ui right sidebar vertical inverted menu overlay visible">
-          {visDeck}
+          <VisDeck 
+            currDeck = {currDeck}
+          />
         </div>
         {loading ? (
           <div>
@@ -64,19 +49,20 @@ function CardDetail(props) {
           <button
             onClick={addToDeck}
             key={card.name}
-            className="four wide column"
+            className="three wide column"
             value={`{"name":"${card.name}", "img":"${card.img}", "rarity":"${card.rarity}"}`}
             style={{
               backgroundImage:`url(${card.img})`,
-              width:200,
-              height:450,
+              width: 'auto',
+              height: 200,
               backgroundSize:'contain',
-              backgroundRepeat:'no-repeat'
+              backgroundRepeat:'no-repeat',
+              border: 'none'
             }}
           />
         )))}
       </div>
-    </div>
+  </div>
   );
 }
 
