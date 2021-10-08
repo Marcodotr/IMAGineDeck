@@ -55,6 +55,7 @@ function CardDetail(props) {
             className="three wide column"
             value={`{"name":"${card.name}", "img":"${card.img}", "rarity":"${card.rarity}"}`}
             style={{
+              backgroundColor:'white',
               backgroundImage:`url(${card.img})`,
               width: 'auto',
               height: 200,
