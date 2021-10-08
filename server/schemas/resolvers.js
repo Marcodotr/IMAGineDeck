@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Thought } = require('../models');
 const { signToken } = require('../utils/auth');
+=======
+const { Card } = require('../models');
+const { Deck } = require('../models')
+const fetch = require("node-fetch")
+
+>>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
 
 const resolvers = {
   Query: {
@@ -77,4 +84,16 @@ const resolvers = {
   },
 };
 
+<<<<<<< HEAD
 module.exports = resolvers;
+=======
+  },
+
+  Mutation: {
+    addDeck: async (parent, { title, cards }) => {
+      return Deck.create({ title, cards })
+    }
+  }
+}
+module.exports = resolvers;
+>>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468

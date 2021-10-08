@@ -16,12 +16,21 @@ const typeDefs = gql`
     createdAt: String
     comments: [Comment]!
   }
+<<<<<<< HEAD
 
   type Comment {
     _id: ID
     commentText: String
     commentAuthor: String
     createdAt: String
+=======
+  
+  type Deck {
+    _id: ID
+    title: String
+    user: String
+    cards: [Card]
+>>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
   }
 
   type Auth {
@@ -36,6 +45,7 @@ const typeDefs = gql`
     thought(thoughtId: ID!): Thought
   }
 
+<<<<<<< HEAD
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
@@ -83,3 +93,18 @@ module.exports = typeDefs;
 // type Mechanics {
 //   name: String
 // }
+=======
+  input CardInput {
+    name: String,
+    img: String,
+  }
+
+  type Mutation {
+    addDeck(
+      title: String!, 
+      cards: [CardInput]): [Deck]
+  }
+`;
+
+module.exports = typeDefs;
+>>>>>>> b2d71e972e9bef87c90b9a224654e182a1163468
