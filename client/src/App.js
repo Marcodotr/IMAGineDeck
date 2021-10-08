@@ -14,6 +14,11 @@ import Login from './components/Login';
 // import SingleThought from './pages/SingleThought';
 //  import Header from './components/Header';
 // import Footer from './components/Footer';
+import Splash from "./components/Splash"
+import HeroSelect from './components/HeroSelect'
+
+
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -43,7 +48,13 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-      <Navbar />
+      <Navbar/>
+      {/* <Route
+                path='/'
+                exact
+                render={() =>
+                <Splash />}
+              /> */}
         <div className="flex-column justify-flex-start min-100-vh">
           {/* <Header /> */}
           <div className="container">
@@ -56,6 +67,12 @@ function App() {
             <Route exact path="/signup">
               <Signup />
             </Route>
+            <Route 
+                 path="/heroselect"
+                 exact
+                 render={() =>
+                 <HeroSelect/>}
+               />
             
             {/* <Route exact path="/thoughts/:thoughtId">
               <SingleThought />

@@ -1,9 +1,19 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Thought } = require('../models');
+const { User, Card  } = require('../models');
 const { signToken } = require('../utils/auth');
+const fetch = require("node-fetch")
+
+const dummy = {
+  playerClass: {$exists: true}   
+}
 
 const resolvers = {
   Query: {
+    getClassCard: async ( parent, {playerClass} ) => {
+      const search = Card.find({playerClass: [playerClass,"Neutral"]})
+      
+      return search
+    },
     users: async () => {
       return User.find().populate('thoughts');
     },
