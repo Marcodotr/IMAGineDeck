@@ -23,9 +23,9 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
             <Nav className='ml-auto'>
-            <Nav.Link as={Link} to='/allCards'>
+            {/* <Nav.Link as={Link} to='/allCards'>
                   Browse All Cards
-                  </Nav.Link>
+                  </Nav.Link> */}
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
@@ -35,12 +35,12 @@ const AppNavbar = () => {
                   <Nav.Link as={Link} to='/allDecks'>
                   View All Decks
                   </Nav.Link>
-                  <Nav.Link as={Link} to='/allCards'>
+                  {/* <Nav.Link as={Link} to='/allCards'>
                   Browse All Cards
                   </Nav.Link>
                   <Nav.Link as={Link} to='/profile'>
                   Profile
-                  </Nav.Link>
+                  </Nav.Link> */}
                   
                   <Nav.Link onClick={Auth.logout}>Logout</Nav.Link>
                 </>

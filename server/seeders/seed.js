@@ -31,7 +31,7 @@ db.once('open', async () => {
     const warlock = await Card.insertMany(warlockData);
     const warrior = await Card.insertMany(warriorData);
 
-
+    await User.deleteMany({});
     await User.create(userSeeds);
 
     console.log('Cards Seeded!');
