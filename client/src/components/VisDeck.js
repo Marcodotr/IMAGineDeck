@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-import { Button } from 'semantic-ui-react'
-=======
 import React from "react";
 import { useMutation } from "@apollo/client";
->>>>>>> gerardo
 import "semantic-ui-css/semantic.min.css";
 import { ADD_DECK } from "../utils/mutations";
 
@@ -21,21 +16,6 @@ function VisDeck(props) {
 
     return(
         <div>
-<<<<<<< HEAD
-            <h2 style={{marginTop:"30px", color: "white", position:'sticky'}}>My deck: {currentDeck.length}/30</h2>
-
-            {visiDeck}
-            {currentDeck.length === 30 ? (
-                <Button color='green'
-                style={{minWidth:"90%"}}
-                
-                >Save Deck</Button>
-            ) : (
-                <div></div>
-            )}
-
-            
-=======
             <div>
                 <h4
                     style={{
@@ -58,7 +38,6 @@ function VisDeck(props) {
             ) : (
                 <div></div>
             )});
->>>>>>> gerardo
         </div>
     )
 }
