@@ -29,7 +29,7 @@ const AppNavbar = () => {
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
-                  <Nav.Link as={Link} to='/heroselect'>
+                  <Nav.Link as={Link} to='/buildDeck'>
                   Build a Deck
                   </Nav.Link>
                   <Nav.Link as={Link} to='/allDecks'>
