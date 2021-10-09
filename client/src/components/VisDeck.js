@@ -13,7 +13,7 @@ function VisDeck(props) {
     )
 
     const [saveDeck, {data, loading , error }] = useMutation(ADD_DECK);
-
+    console.log(error)
     return(
         <div>
             <div>
@@ -39,7 +39,7 @@ function VisDeck(props) {
                 <div></div>
             )});
         </div>
-    )
-}
+    )}
+            
 
 export default VisDeck;

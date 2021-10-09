@@ -15,9 +15,12 @@ const resolvers = {
   },
 
   Mutation: {
-    addDeck: async (parent, { title, cards }) => {
-      return Deck.create({ title, cards })
-    }
+    addDeck: async (parent, {hero}) => {
+      return Deck.create({hero: hero})
+    },
+    // addCard: async (parent, {card}) => {
+    //   return Deck.update()
+    // }
   }
 }
 module.exports = resolvers;

@@ -8,6 +8,7 @@ const typeDefs = gql`
   type Deck {
     _id: ID
     title: String
+    hero: String
     user: String
     cards: [Card]
   }
@@ -37,16 +38,15 @@ const typeDefs = gql`
     name: String
   }
 
-  input CardInput {
-    name: String,
-    img: String,
-  }
-
+  
   type Mutation {
-    addDeck(
-      title: String!, 
-      cards: [CardInput]): [Deck]
+    addDeck(hero: String): Deck      
   }
-`;
-
-module.exports = typeDefs;
+  
+  
+  
+  
+  `;
+  
+  module.exports = typeDefs;
+  // addCard(name: String, img: String, rarity: String): Deck

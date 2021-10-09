@@ -46,19 +46,6 @@ function CardDetail(props) {
     }
   }
    
-  // const deleteFromDeck = (event) => {
-  //   event.preventDefault();
-
-  //   console.log("PrePop")
-  //   console.log(currDeck)
-  //   currDeck.pop(currDeck[event.target.value]);
-    
-  //   console.log("PostPop")
-  //   console.log(currDeck)
-
-
-  //   setCurrDeck(currDeck);
-  // }
 
   return (
     <div>

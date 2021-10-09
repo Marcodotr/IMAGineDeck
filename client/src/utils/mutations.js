@@ -12,18 +12,26 @@ export const LOGIN = gql`
 `;
 
 export const ADD_DECK = gql`
-  mutation addDeck($title: String, $cards: [Card]) {
-    addDeck(title: $title, cards: $cards) {
-      _id
-      title
-      cards {
-        name
-        img
-        rarity
-      }
+  mutation addDeck($hero: String) {
+    addDeck(hero: $hero) {
+      hero
     }
   }
 `
+
+// export const ADD_CARD = gql`
+//   mutation addCard(
+//     $name: String, $img: String, $rarity: String)
+//       {
+//     addCard(
+//     name: $name, img: $img, rarity: $rarity}) {
+//       cards{
+//         name
+//         img
+//         rarity
+//       }
+//   }
+
 
 export const ADD_USER = gql`
   mutation addUser(

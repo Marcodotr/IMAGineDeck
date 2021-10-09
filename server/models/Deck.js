@@ -8,6 +8,9 @@ const deckSchema = new Schema({
     user: {
         type: String
     },
+    hero: {
+        type: String
+    },
     cards: [
         {
             cardId: {
