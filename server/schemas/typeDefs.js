@@ -56,9 +56,4 @@ type Auth {
     
   `;
   
-<<<<<<< HEAD
   module.exports = typeDefs;
-  // addCard(name: String, img: String, rarity: String): Deck
-=======
-  module.exports = typeDefs;
->>>>>>> 140d2b762e91e87c8333f764ed000b6d8fb1e4fd
