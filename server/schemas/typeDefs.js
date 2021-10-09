@@ -48,12 +48,14 @@ type Auth {
     name: String
   }
 
-  
   type Mutation {
     addDeck(hero: String): Deck      
     addCard(_id: String , name: String, img: String, rarity: String): Deck
+    addUser(username: String!, email: String!, password: String!): Auth
+    login(email: String!, password: String!): Auth
   }
-    
-  `;
-  
-  module.exports = typeDefs;
+`;
+
+module.exports = typeDefs;
+
+
