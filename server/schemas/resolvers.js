@@ -12,6 +12,14 @@ const resolvers = {
       const search = Card.find({playerClass: [playerClass,"Neutral"]})
       
       return search
+    },
+    getDecks: async () => {
+      const searchDecks = Deck.find({});
+
+      return searchDecks
+    },
+    getDeck: async ( parent, { _id }) => {
+      return Deck.findOne({ _id: _id});
     }
   },
 

@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import HeroSelect from './components/HeroSelect'
+import DisplayDeck from './components/DisplayDeck';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -56,6 +57,9 @@ function App() {
             </Route>
             <Route exact path="/heroselect">
               <HeroSelect />
+            </Route>
+            <Route exact path="/saveddecks">
+              <DisplayDeck />
             </Route>
           </div>
           {/* <Footer /> */}

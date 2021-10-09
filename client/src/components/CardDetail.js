@@ -11,7 +11,7 @@ function CardDetail(props) {
   const { loading, data } = useQuery(QUERY_CARDS, {
    variables: {playerClass: searchCrit}
   })
-  const [addCard, {carddeck, error}] = useMutation(ADD_CARD)
+  const [addCard] = useMutation(ADD_CARD)
 
   const theseCards = data?.getClassCard || [];
   const heroCards = [];

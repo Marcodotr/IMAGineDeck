@@ -10,7 +10,7 @@ import {ADD_DECK} from '../utils/mutations'
 function HeroSelect(props) {
   const [playerClass, setPlayerClass] = useState("");
 
-  const [addDeck, {data, loading, error}] = useMutation(ADD_DECK)
+  const [addDeck, {data}] = useMutation(ADD_DECK)
   const handleHeroSelect = (event) => {
     event.preventDefault();
     
