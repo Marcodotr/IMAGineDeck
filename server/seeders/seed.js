@@ -1,5 +1,5 @@
 const db = require('../config/connection');
-const { Card } = require('../models');
+const { User, Card } = require('../models');
 
 const demonData = require('./demonHunter.json');
 const druidData = require('./druid.json');
@@ -12,6 +12,9 @@ const rogueData = require('./rogue.json');
 const shamanData = require('./shaman.json');
 const warlockData = require('./warlock.json');
 const warriorData = require('./warrior.json');
+
+const userSeeds = require('./userSeeds.json');
+// const { User } = require('../models');
 
 db.once('open', async () => {
     await Card.deleteMany({});
@@ -28,6 +31,10 @@ db.once('open', async () => {
     const warlock = await Card.insertMany(warlockData);
     const warrior = await Card.insertMany(warriorData);
 
+    await User.deleteMany({});
+    await User.create(userSeeds);
+
     console.log('Cards Seeded!');
     process.exit(0);
+
 })

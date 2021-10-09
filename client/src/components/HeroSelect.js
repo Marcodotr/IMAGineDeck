@@ -1,4 +1,3 @@
-//this is probably the stinkiest code ive ever written - isack
 import React from "react";
 import { useState } from "react";
 import CardDetail from "../components/CardDetail";
@@ -114,7 +113,7 @@ function HeroSelect(props) {
                   maxWidth: "15vw",
                   minWidth: "15vw",
                   overflow: "true",
-                  marginTop: "10px",
+                  marginTop: "20px",
                 }}
                 name="playerClass"
                 onClick={handleHeroClear}
