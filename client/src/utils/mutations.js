@@ -1,22 +1,23 @@
 import { gql } from '@apollo/client';
 
-export const LOGIN = gql`
+export const LOGIN_USER = gql`
   mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
       token
       user {
         _id
+        username
       }
     }
   }
 `;
 
 export const ADD_DECK = gql`
-  mutation addDeck($title: String, $cards: [Card]) {
-    addDeck(title: $title, cards: $cards) {
+  mutation addDeck($hero: String) {
+    addDeck(hero: $hero) {
       _id
-      title
-      cards {
+      hero
+      cards{
         name
         img
         rarity
@@ -25,41 +26,62 @@ export const ADD_DECK = gql`
   }
 `
 
-// export const ADD_ORDER = gql`
-//   mutation addOrder($products: [ID]!) {
-//     addOrder(products: $products) {
-//       purchaseDate
-//       products {
+export const ADD_CARD = gql`
+  mutation addCard($_id: String, $name: String, $img: String, $rarity: String) {
+    addCard(_id: $_id, name: $name, img: $img, rarity: $rarity) {
+      _id
+      cards{
+        name
+        img
+        rarity
+      }
+    }
+  }
+`
+
+export const ADD_USER = gql`
+  mutation addUser($username: String!, $email: String!, $password: String!) {
+    addUser(username: $username, email: $email, password: $password) {
+      token
+      user {
+        _id
+        username
+      }
+    }
+  }
+`;
+
+
+// import { gql } from '@apollo/client';
+
+// export const LOGIN = gql`
+//   mutation login($email: String!, $password: String!) {
+//     login(email: $email, password: $password) {
+//       token
+//       user {
 //         _id
-//         name
-//         description
-//         price
-//         quantity
-//         category {
-//           name
-//         }
 //       }
 //     }
 //   }
 // `;
 
-export const ADD_USER = gql`
-  mutation addUser(
-    $firstName: String!
-    $lastName: String!
-    $email: String!
-    $password: String!
-  ) {
-    addUser(
-      firstName: $firstName
-      lastName: $lastName
-      email: $email
-      password: $password
-    ) {
-      token
-      user {
-        _id
-      }
-    }
-  }
-`;
+// export const ADD_USER = gql`
+//   mutation addUser(
+//     $firstName: String!
+//     $lastName: String!
+//     $email: String!
+//     $password: String!
+//   ) {
+//     addUser(
+//       firstName: $firstName
+//       lastName: $lastName
+//       email: $email
+//       password: $password
+//     ) {
+//       token
+//       user {
+//         _id
+//       }
+//     }
+//   }
+// `;

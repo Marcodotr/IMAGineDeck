@@ -1,16 +1,17 @@
 import React, { useState } from "react";
-import { useQuery } from "@apollo/client";
+import { useQuery, useMutation } from "@apollo/client";
 import { QUERY_CARDS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
 import VisDeck from "./VisDeck";
+import { ADD_CARD } from '../utils/mutations'
 
 function CardDetail(props) {
-  console.log(props.playerClass)
+  console.log(props.deckdata)
   var searchCrit = props.playerClass
-  console.log(`hello${searchCrit}`)
   const { loading, data } = useQuery(QUERY_CARDS, {
    variables: {playerClass: searchCrit}
   })
+  const [addCard, {carddeck, error}] = useMutation(ADD_CARD)
 
   const theseCards = data?.getClassCard || [];
   const heroCards = [];
@@ -32,33 +33,36 @@ function CardDetail(props) {
 
   const addToDeck = (event) => {
     var card = JSON.parse(event.target.value)
+    console.log(card.img)
+      // addCard({ variables: {
+      // _id: props.deckdata.addDeck._id,
+      // name: card.name,
+      // img: card.img,
+      // rarity: card.rarity }})
 
     if (currDeck.length < 30) {
       if(card.rarity === "Legendary"){
         if(filterTwo(currDeck, card) <= 0){
           setCurrDeck(currDeck => [...currDeck, card])
+          addCard({ variables: {
+            _id: props.deckdata.addDeck._id,
+            name: card.name,
+            img: card.img,
+            rarity: card.rarity }})
         } else alert('Max One Legendary!!')
       } else if(filterTwo(currDeck, card) <= 1){
           setCurrDeck(currDeck => [...currDeck, card])
+          addCard({ variables: {
+            _id: props.deckdata.addDeck._id,
+            name: card.name,
+            img: card.img,
+            rarity: card.rarity }})
         } else alert('Max 2 of the same card!!')
     } else {
       alert("Max 30 Cards!!")
     }
   }
    
-  // const deleteFromDeck = (event) => {
-  //   event.preventDefault();
-
-  //   console.log("PrePop")
-  //   console.log(currDeck)
-  //   currDeck.pop(currDeck[event.target.value]);
-    
-  //   console.log("PostPop")
-  //   console.log(currDeck)
-
-
-  //   setCurrDeck(currDeck);
-  // }
 
   return (
     <div>
