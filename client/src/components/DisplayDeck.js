@@ -4,6 +4,7 @@ import { QUERY_DECKS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
 import { Link, useHistory } from "react-router-dom";
 // import { ADD_CARD } from '../utils/mutations'
+import cardBack from '../assets/unmodifiedCard.png'
 
 function DisplayDeck() {
     const {loading, data} = useQuery(QUERY_DECKS)
@@ -22,13 +23,23 @@ function DisplayDeck() {
         console.log(deck.cards.length)
         if (deck.cards.length === 30) {
             return (
-                <div>
-                    {deck.hero}
+                <div className="Container"style={{position: "relative"}}>
+                    <h4 style={{textAlign: "center"}}>{deck.hero}</h4>
                     <button  
                         style={{
-                            backgroundImg: '/unmodifiedCard.png',
-                            height: 250,
-                            width: 125
+                            justifyContent: "center",
+                            alignItems: "center",
+                            display: "flex",
+                            marginLeft: "45%",
+                            marginBottom: 20,
+                            backgroundImage: `url(${cardBack})`,
+                            width: 150,
+                            height: 200,
+                            backgroundSize:'contain',
+                            backgroundRepeat:'no-repeat',
+                            border: 'none',
+                            marginTop:'25px',
+                            backgroundColor:"white"
                         }} 
                         value={deck._id} 
                         onClick={thisDeck}
