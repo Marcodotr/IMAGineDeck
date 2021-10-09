@@ -4,6 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import { NavLink } from "react-router-dom";
 import favicon from "../assets/favicon.png";
 import { Link } from "react-router-dom";
+// import favicon from "../assets/favicon.png";
 import Auth from '../utils/auth'
 
 
@@ -23,42 +24,28 @@ export default class Navbar extends Component {
           {/* <img src='/logo.png' /> */}
         </Menu.Item>
 
-        <Menu.Item
-          name='build'
-          active={activeItem === 'build'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-          
-        >
-          Build a Deck
-        </Menu.Item>
+          <Menu.Item
+            name="heroselect"
+            as={NavLink}
+            to="/heroselect"
+            active={activeItem === "heroselect"}
+            onClick={this.handleItemClick}
+            color={"blue"}
+          >
+            Build a Deck
+          </Menu.Item>
 
-        <Menu.Item
-          name='view'
-          active={activeItem === 'view'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          View all Decks
-        </Menu.Item>
+          <Menu.Item
+            name="view"
+            as={NavLink}
+            to="/saveddecks"
+            active={activeItem === "view"}
+            onClick={this.handleItemClick}
+            color={"blue"}
+          >
+            View my decks
+          </Menu.Item>
 
-        <Menu.Item
-          name='browse'
-          active={activeItem === 'browse'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          Browse all Cards
-        </Menu.Item>
-
-        <Menu.Item
-          name='profile'
-          active={activeItem === 'profile'}
-          onClick={this.handleItemClick}
-          color={'blue'}
-        >
-          Profile
-        </Menu.Item>
     
         <Menu.Item //Show if logged in
           name='Log out'
