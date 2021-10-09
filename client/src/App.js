@@ -12,7 +12,6 @@ import Home from './pages/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import HeroSelect from './components/HeroSelect'
-import SavedDecks from "./components/SavedDecks";
 
 import DisplayDeck from './components/DisplayDeck';
 import SingleDeck from './components/SingleDeck';

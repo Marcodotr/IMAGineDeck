@@ -43,7 +43,7 @@ export default class Navbar extends Component {
             onClick={this.handleItemClick}
             color={"blue"}
           >
-            View my decks
+            View My Decks
           </Menu.Item>
 
     
@@ -91,7 +91,7 @@ export default class Navbar extends Component {
             onClick={this.handleItemClick}
             color={"blue"}
           >
-            View my decks
+            View My Decks
           </Menu.Item>
         
       
@@ -116,18 +116,6 @@ export default class Navbar extends Component {
           >
             Signup
           </Menu.Item>
-
-            <Menu.Item
-            name="Logout"
-            as={NavLink}
-            to="/Logout"
-            active={activeItem === "profile"}
-            onClick={this.handleItemClick}
-            color={"blue"}
-          >
-            Logout
-          </Menu.Item>
-
 
 
         </Menu>
