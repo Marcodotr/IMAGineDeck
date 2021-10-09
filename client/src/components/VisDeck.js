@@ -12,8 +12,13 @@ function VisDeck(props) {
       <p className={index} key={index} style={{color: "white"}}>{deck.name}</p>
     )
 
+<<<<<<< HEAD
     // const [saveDeck, {data, loading , error }] = useMutation(ADD_DECK);
 
+=======
+    const [saveDeck, {data, loading , error }] = useMutation(ADD_DECK);
+    console.log(error)
+>>>>>>> 3c89b20907c44aa1fd5ccdffe35d350ba0f98fc7
     return(
         <div>
             <div>
@@ -39,7 +44,7 @@ function VisDeck(props) {
                 <div></div>
             )});
         </div>
-    )
-}
+    )}
+            
 
 export default VisDeck;
