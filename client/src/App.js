@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Splash from "./components/Splash"
 import HeroSelect from './components/HeroSelect'
+import SavedDecks from "./components/SavedDecks";
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
@@ -28,6 +29,13 @@ class App extends React.Component {
                 render={() =>
                 <HeroSelect/>}
               />
+                  <Route 
+                path="/saveddecks"
+                exact
+                render={() =>
+                <SavedDecks/>}
+              />
+           
             
         </Router>
       </ApolloProvider>

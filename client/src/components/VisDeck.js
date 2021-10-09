@@ -16,6 +16,7 @@ function VisDeck(props) {
     <div>
       <h2 style={{ marginTop: "30px", color: "white", position: "sticky" }}>
         My deck: {currentDeck.length}/30
+        <Divider horizontal inverted> -</Divider>
       </h2>
 
       {visiDeck}
@@ -26,10 +27,12 @@ function VisDeck(props) {
               <h3 style={{color:'white'}}>Deck Title</h3>
             <input placeholder="Deck Title" />
           </Form.Field>
-          <Button color="green" style={{ minWidth: "90%" }} type="submit">
+          <Button color="green" style={{ minWidth: "100%", marginBottom:"20px" }} type="submit">
             Save Deck
           </Button>
+          <Divider horizontal inverted> -</Divider>
         </Form>
+        
       ) : (
         <div></div>
       )}
