@@ -18,13 +18,13 @@ function HeroSelect(props) {
     setPlayerClass(event.target.value);
     
     addDeck({ variables: { hero: (event.target.value) } })
-    console.log('baby you know tat i miss you' + data)
-
+    
   };
-
+  
   const handleHeroClear = (event) => {
     event.preventDefault();
-
+    
+    
     // console.log(event.target.value);
     setPlayerClass("");
   };
@@ -121,6 +121,7 @@ function HeroSelect(props) {
                 Clear Selection
               </button>
               <CardDetail
+                deckdata={data}
                 playerClass={playerClass}
                 title="Some Feed for Thought(s)..."
               />

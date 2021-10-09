@@ -19,9 +19,21 @@ const resolvers = {
     addDeck: async (parent, {hero}) => {
       return Deck.create({hero: hero})
     },
-    // addCard: async (parent, {card}) => {
-    //   return Deck.update()
-    // }
+    addCard: async (parent, {_id, name, img, rarity}) => {
+      return Deck.findOneAndUpdate(
+        {_id: _id},
+        {
+          $addToSet: { cards: {
+            name: name,
+            img: img,
+            rarity: rarity
+          }}
+        },
+        {
+          new: true,
+        }
+      )
+    }
   }
 }
 
