@@ -78,6 +78,7 @@ function HeroSelect(props) {
   
   const heroButton = heros.map((hero) => 
     <button
+
       onClick={handleHeroSelect}
       key={hero.name}
       className="three wide column"
@@ -92,6 +93,7 @@ function HeroSelect(props) {
         marginTop:'25px',
         backgroundColor:"white"
       }}
+      
     />
   )
 
