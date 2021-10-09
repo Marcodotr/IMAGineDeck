@@ -88,7 +88,9 @@ function HeroSelect(props) {
         height: 200,
         backgroundSize:'contain',
         backgroundRepeat:'no-repeat',
-        border: 'none'
+        border: 'none',
+        marginTop:'25px',
+        backgroundColor:"white"
       }}
     />
   )
