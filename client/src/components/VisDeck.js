@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { Button, Form, Divider } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
-=======
-import React from "react";
-// import { useMutation } from "@apollo/client";
-import "semantic-ui-css/semantic.min.css";
-// import { ADD_DECK } from "../utils/mutations";
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
 
 function VisDeck(props) {
   const currentDeck = props.currDeck;
@@ -26,7 +19,6 @@ function VisDeck(props) {
         <Divider horizontal inverted> -</Divider>
       </h2>
 
-<<<<<<< HEAD
       {visiDeck}
       {currentDeck.length === 30 ? (
         <Form>
@@ -47,36 +39,5 @@ function VisDeck(props) {
     </div>
   );
 }
-=======
-    // const [saveDeck, {data, loading , error }] = useMutation(ADD_DECK);
-
-    return(
-        <div>
-            <div>
-                <h4
-                    style={{
-                        color: 'white'
-                    }}
-                >{currentDeck.length}/30</h4>
-            </div>
-            <div>{visiDeck}</div>
-            {currentDeck.length <= 30 ? (
-                <div>
-                    {/* <form
-                        onSubmit={e => {
-                        e.preventDefault();
-                        saveDeck({ variables: { title: 'thisDeck', cards: currentDeck} });
-                        }}
-                    >
-                        <button type="submit">Add Deck</button>
-                    </form> */}
-                </div>
-            ) : (
-                <div></div>
-            )});
-        </div>
-    )}
-            
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
 
 export default VisDeck;

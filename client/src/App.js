@@ -12,11 +12,8 @@ import Home from './pages/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import HeroSelect from './components/HeroSelect'
-<<<<<<< HEAD
 import SavedDecks from "./components/SavedDecks";
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-=======
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -42,33 +39,6 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-<<<<<<< HEAD
-class App extends React.Component {
-  render() {
-    return (  
-      <ApolloProvider client={client}>
-        <Router>
-          <Navbar  /> 
-              <Route
-                path='/'
-                exact
-                render={() =>
-                <Splash />}
-              />
-              <Route 
-                path="/heroselect"
-                exact
-                render={() =>
-                <HeroSelect/>}
-              />
-                  <Route 
-                path="/saveddecks"
-                exact
-                render={() =>
-                <SavedDecks/>}
-              />
-           
-=======
 function App() {
   return (
     <ApolloProvider client={client}>
@@ -139,7 +109,6 @@ export default App;
 //             <Route exact path="/signup">
 //               <Signup />
 //             </Route>
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
             
 //         </Router>
 //       </ApolloProvider>

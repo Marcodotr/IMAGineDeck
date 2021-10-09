@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
 import favicon from "../assets/favicon.png";
-=======
-// import favicon from "../assets/favicon.png";
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
 import { Link } from "react-router-dom";
+import Auth from '../utils/auth'
+
+
 export default class Navbar extends Component {
   state = { activeItem: "" };
 
@@ -15,20 +14,75 @@ export default class Navbar extends Component {
 
   render() {
     const { activeItem } = this.state;
+    if(Auth.loggedIn())
+    {
+    return (
+        <div>
+      <Menu stackable inverted>
+        <Menu.Item>
+          {/* <img src='/logo.png' /> */}
+        </Menu.Item>
+
+        <Menu.Item
+          name='build'
+          active={activeItem === 'build'}
+          onClick={this.handleItemClick}
+          color={'blue'}
+          
+        >
+          Build a Deck
+        </Menu.Item>
+
+        <Menu.Item
+          name='view'
+          active={activeItem === 'view'}
+          onClick={this.handleItemClick}
+          color={'blue'}
+        >
+          View all Decks
+        </Menu.Item>
+
+        <Menu.Item
+          name='browse'
+          active={activeItem === 'browse'}
+          onClick={this.handleItemClick}
+          color={'blue'}
+        >
+          Browse all Cards
+        </Menu.Item>
+
+        <Menu.Item
+          name='profile'
+          active={activeItem === 'profile'}
+          onClick={this.handleItemClick}
+          color={'blue'}
+        >
+          Profile
+        </Menu.Item>
+    
+        <Menu.Item //Show if logged in
+          name='Log out'
+          active={activeItem === 'profile'}
+          onClick={Auth.logout}
+          color={'blue'}
+        >
+          Log out
+        </Menu.Item>
+
+      </Menu>
+      </div>
+    )
+    }
+    else
+    {
 
     return (
       <div>
         <Menu stackable inverted>
           <Menu.Item>
-<<<<<<< HEAD
             <Link to= '/'>
             <img alt="" style={{maxWidth:'25px', maxHeight:'25px'}} src={favicon} />
             </Link>
-=======
-            {/* <Link to= '/'>
-            <img alt="" style={{maxWidth:'25px', maxHeight:'25px'}} src={favicon} />
-            </Link> */}
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
           </Menu.Item>
 
           <Menu.Item
@@ -52,20 +106,12 @@ export default class Navbar extends Component {
           >
             View my decks
           </Menu.Item>
-<<<<<<< HEAD
-
-
-
-          <Menu.Item //show login and signup if NOT logged in
-            name="Login"
-=======
         
       
           <Menu.Item //show login and signup if NOT logged in
             name="Login"
             as={NavLink}
             to="/Login"
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
             active={activeItem === "profile"}
             onClick={this.handleItemClick}
             color={"blue"}
@@ -75,19 +121,15 @@ export default class Navbar extends Component {
 
           <Menu.Item
             name="Signup"
-<<<<<<< HEAD
-=======
             as={NavLink}
             to="/Signup"
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
             active={activeItem === "profile"}
             onClick={this.handleItemClick}
             color={"blue"}
           >
             Signup
           </Menu.Item>
-<<<<<<< HEAD
-=======
+
             <Menu.Item
             name="Logout"
             as={NavLink}
@@ -98,15 +140,12 @@ export default class Navbar extends Component {
           >
             Logout
           </Menu.Item>
-        
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
+
+
+
         </Menu>
       </div>
     );
   }
+  }
 }
-<<<<<<< HEAD
-// }
-=======
-// }
->>>>>>> 021e3a854e5f987c330b6906b13bd25aae8639d9
