@@ -14,6 +14,7 @@ const warlockData = require('./warlock.json');
 const warriorData = require('./warrior.json');
 
 const userSeeds = require('./userSeeds.json');
+const savedDeck = require('./savedDeck.json');
 // const { User } = require('../models');
 
 db.once('open', async () => {
