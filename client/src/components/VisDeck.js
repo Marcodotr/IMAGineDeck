@@ -39,7 +39,7 @@ function VisDeck(props) {
                 <div></div>
             )});
         </div>
-    )
-}
+    )}
+            
 
 export default VisDeck;
