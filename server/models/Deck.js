@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 const deckSchema = new Schema({
-
+    
     title: {
         type: String,
     },
@@ -35,6 +35,10 @@ const deckSchema = new Schema({
             playerClass: {
                 type: String,
             },
+            rarity: {
+                type: String,
+            }
+
         }
     ]
 });
