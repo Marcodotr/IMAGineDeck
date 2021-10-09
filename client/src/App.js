@@ -15,6 +15,7 @@ import HeroSelect from './components/HeroSelect'
 import SavedDecks from "./components/SavedDecks";
 
 import DisplayDeck from './components/DisplayDeck';
+import SingleDeck from './components/SingleDeck';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -62,6 +63,9 @@ function App() {
             </Route>
             <Route exact path="/saveddecks">
               <DisplayDeck />
+            </Route>
+            <Route exact path="/singledeck/:deckid">
+              <SingleDeck />
             </Route>
           </div>
           {/* <Footer /> */}
