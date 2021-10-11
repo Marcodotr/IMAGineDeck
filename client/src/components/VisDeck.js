@@ -1,13 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Form, Divider } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+// import { useMutation } from "@apollo/client";
 
 function VisDeck(props) {
   const currentDeck = props.currDeck;
 
-  console.log(currentDeck);
+  // const [deleteCard, {error}] = useMutation(DELETE_CARD);
+
+  const deleteFromDeck = (event) => {
+    const thisCard = event.target.className;
+    
+    
+  }
+
   const visiDeck = currentDeck.map((deck, index) => (
-    <p key={deck.index} style={{ color: "white" }}>
+    <p key={index} className={index} style={{ color: "white" }} defaultValue={index} onClick={deleteFromDeck}>
       {deck.name}
     </p>
   ));
@@ -19,7 +27,9 @@ function VisDeck(props) {
         <Divider horizontal inverted> -</Divider>
       </h2>
 
-      {visiDeck}
+      <div>
+        {visiDeck}
+      </div>
       {currentDeck.length === 30 ? (
         <Form>
           <Form.Field>

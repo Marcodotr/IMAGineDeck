@@ -14,11 +14,9 @@ function HeroSelect(props) {
   const handleHeroSelect = (event) => {
     event.preventDefault();
     
-    console.log('yoyo' + event.target.value);
     setPlayerClass(event.target.value);
     
     addDeck({ variables: { hero: (event.target.value) } })
-    
   };
   
   const handleHeroClear = (event) => {

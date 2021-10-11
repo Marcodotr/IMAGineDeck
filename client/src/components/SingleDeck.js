@@ -27,7 +27,7 @@ const SingleDeck = () => {
   return (
     <div className="my-3">
         {theseCards.map((card) => (
-            <img src={card.img}></img>
+            <img src={card.img} alt={card.name}></img>
         ))}
     </div>
   );

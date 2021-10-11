@@ -2,12 +2,12 @@ import React from "react";
 import { useQuery } from "@apollo/client";
 import { QUERY_DECKS } from "../utils/queries";
 import "semantic-ui-css/semantic.min.css";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 // import { ADD_CARD } from '../utils/mutations'
 import cardBack from '../assets/unmodifiedCard.png'
 
 function DisplayDeck() {
-    const {loading, data} = useQuery(QUERY_DECKS)
+    const {data} = useQuery(QUERY_DECKS)
 
     console.log(data)
 
@@ -46,6 +46,8 @@ function DisplayDeck() {
                     />
                 </div>
             )
+        } else {
+            return <div></div>
         }
     })
     return(

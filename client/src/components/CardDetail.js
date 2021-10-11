@@ -6,7 +6,6 @@ import VisDeck from "./VisDeck";
 import { ADD_CARD } from '../utils/mutations'
 
 function CardDetail(props) {
-  console.log(props.deckdata)
   var searchCrit = props.playerClass
   const { loading, data } = useQuery(QUERY_CARDS, {
    variables: {playerClass: searchCrit}
@@ -33,12 +32,6 @@ function CardDetail(props) {
 
   const addToDeck = (event) => {
     var card = JSON.parse(event.target.value)
-    console.log(card.img)
-      // addCard({ variables: {
-      // _id: props.deckdata.addDeck._id,
-      // name: card.name,
-      // img: card.img,
-      // rarity: card.rarity }})
 
     if (currDeck.length < 30) {
       if(card.rarity === "Legendary"){
@@ -81,7 +74,7 @@ function CardDetail(props) {
             Loading
           </div>
         ) : (
-          pageCards.map((card) => (
+          pageCards.map((card, index) => (
           <button
             onClick={addToDeck}
             key={card.name}
