@@ -1,6 +1,8 @@
 import React from 'react'
 import { Grid, Segment } from 'semantic-ui-react'
-import CardBack from '../assets/CardBack.png'
+import mydecks from '../assets/mydecks.png'
+import build from '../assets/build.png'
+
 import { Link } from "react-router-dom";
 const DividerExampleVerticalForm = () => (
   <Segment >
@@ -8,16 +10,17 @@ const DividerExampleVerticalForm = () => (
       <Grid.Column textAlign='center'>
     
     <Link to='/heroselect'>
-      <img style = {{marginLeft:'40px',width:'30vw', height:'90vh',minWidth:'400px' }} src={CardBack} alt = "">
+      <img style = {{marginLeft:'40px',width:'30vw', height:'90vh',minWidth:'400px' }} src={build} alt = "">
       </img>
       </Link>
    
       </Grid.Column>
 
       <Grid.Column textAlign='center'>
-     
-        <img style = {{marginLeft:'40px', width:'30vw', height:'90vh', minWidth:'400px'}}src={CardBack} alt= "">
+     <Link to ='/saveddecks'>
+        <img style = {{marginLeft:'40px', width:'30vw', height:'90vh', minWidth:'400px'}}src={mydecks} alt= "">
         </img>
+        </Link>
       </Grid.Column>
     </Grid>
 

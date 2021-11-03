@@ -15,6 +15,8 @@ type Auth {
 
   type Query {
     getClassCard(playerClass: String): [Card]!
+    getDecks: [Deck]
+    getDeck(_id: String!): Deck
   }
   
   type Deck {
@@ -24,6 +26,7 @@ type Auth {
     user: String
     cards: [Card]
   }
+  
   type Card {
     cardId: String
     dbfId: String

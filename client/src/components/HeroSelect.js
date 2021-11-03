@@ -10,7 +10,7 @@ import {ADD_DECK} from '../utils/mutations'
 function HeroSelect(props) {
   const [playerClass, setPlayerClass] = useState("");
 
-  const [addDeck, {data, loading, error}] = useMutation(ADD_DECK)
+  const [addDeck, {data}] = useMutation(ADD_DECK)
   const handleHeroSelect = (event) => {
     event.preventDefault();
     
@@ -85,9 +85,20 @@ function HeroSelect(props) {
         height: 200,
         backgroundSize:'contain',
         backgroundRepeat:'no-repeat',
-        border: 'none'
+        border: 'none',
+        marginTop:'25px',
+        backgroundColor:"white"
       }}
-    />
+    >
+      <h6
+        style={{
+          color: 'white',
+          position: 'relative',
+          top: 53,
+          left: 70
+        }}
+      >{hero.name}</h6>
+    </button>
   )
 
 

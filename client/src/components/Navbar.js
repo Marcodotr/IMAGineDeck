@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import { NavLink } from "react-router-dom";
-// import favicon from "../assets/favicon.png";
+import favicon from "../assets/favicon.png";
 import { Link } from "react-router-dom";
+// import favicon from "../assets/favicon.png";
+import Auth from '../utils/auth'
+
+
 export default class Navbar extends Component {
   state = { activeItem: "" };
 
@@ -11,14 +15,61 @@ export default class Navbar extends Component {
 
   render() {
     const { activeItem } = this.state;
+    if(Auth.loggedIn())
+    {
+    return (
+        <div>
+      <Menu stackable inverted>
+        <Menu.Item>
+          {/* <img src='/logo.png' /> */}
+        </Menu.Item>
+
+          <Menu.Item
+            name="heroselect"
+            as={NavLink}
+            to="/heroselect"
+            active={activeItem === "heroselect"}
+            onClick={this.handleItemClick}
+            color={"blue"}
+          >
+            Build a Deck
+          </Menu.Item>
+
+          <Menu.Item
+            name="view"
+            as={NavLink}
+            to="/saveddecks"
+            active={activeItem === "view"}
+            onClick={this.handleItemClick}
+            color={"blue"}
+          >
+            View My Decks
+          </Menu.Item>
+
+    
+        <Menu.Item //Show if logged in
+          name='Log out'
+          active={activeItem === 'profile'}
+          onClick={Auth.logout}
+          color={'blue'}
+        >
+          Log out
+        </Menu.Item>
+
+      </Menu>
+      </div>
+    )
+    }
+    else
+    {
 
     return (
       <div>
         <Menu stackable inverted>
           <Menu.Item>
-            {/* <Link to= '/'>
+            <Link to= '/'>
             <img alt="" style={{maxWidth:'25px', maxHeight:'25px'}} src={favicon} />
-            </Link> */}
+            </Link>
           </Menu.Item>
 
           <Menu.Item
@@ -40,7 +91,7 @@ export default class Navbar extends Component {
             onClick={this.handleItemClick}
             color={"blue"}
           >
-            View my decks
+            View My Decks
           </Menu.Item>
         
       
@@ -65,20 +116,11 @@ export default class Navbar extends Component {
           >
             Signup
           </Menu.Item>
-            <Menu.Item
-            name="Logout"
-            as={NavLink}
-            to="/Logout"
-            active={activeItem === "profile"}
-            onClick={this.handleItemClick}
-            color={"blue"}
-          >
-            Logout
-          </Menu.Item>
-        
+
+
         </Menu>
       </div>
     );
   }
+  }
 }
-// }

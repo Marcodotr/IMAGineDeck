@@ -1,7 +1,6 @@
 const Card = require('./Card');
+const Deck = require('./Deck')
 const User = require('./User');
 
-
-const Deck = require('./Deck')
 
 module.exports = { Card, Deck, User }

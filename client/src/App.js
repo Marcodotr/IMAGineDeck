@@ -4,6 +4,9 @@ import React from 'react';
 
 import HeroSelect from './components/HeroSelect'
 
+import DisplayDeck from './components/DisplayDeck';
+import SingleDeck from './components/SingleDeck';
+
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -48,6 +51,12 @@ function App() {
             <Route exact path="/heroselect">
               <HeroSelect />
             </Route>
+            <Route exact path="/saveddecks">
+              <DisplayDeck />
+            </Route>
+            <Route exact path="/singledeck/:deckid">
+              <SingleDeck />
+            </Route>
           </div>
           {/* <Footer /> */}
         </div>
@@ -57,54 +66,3 @@ function App() {
 }
 
 export default App;
-
-
-// import React from "react";
-// import Navbar from "./components/Navbar";
-// import { BrowserRouter as Router, Route } from 'react-router-dom'
-// import Splash from "./components/Splash"
-// import HeroSelect from './components/HeroSelect'
-// import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-
-// import Signup from './pages/Signup';
-// import Login from './pages/Login';
-
-// const client = new ApolloClient({
-//   uri: '/graphql',
-//   cache: new InMemoryCache(),
-// });
-
-// class App extends React.Component {
-//   render() {
-//     return (  
-//       <ApolloProvider client={client}>
-//         <Router>
-//           <Navbar  /> 
-//               <Route
-//                 path='/'
-//                 exact
-//                 render={() =>
-//                 <Splash />}
-//               />
-//               <Route 
-//                 path="/heroselect"
-//                 exact
-//                 render={() =>
-//                 <HeroSelect/>}
-//               />
-//               <Route exact path="/login">
-//               <Login />
-//             </Route>
-//             <Route exact path="/signup">
-//               <Signup />
-//             </Route>
-            
-//         </Router>
-//       </ApolloProvider>
-    
-//   );
-
-//   }
-// }
-
-// export default App;
