@@ -1,7 +1,16 @@
-// hello
-
 import React from 'react';
-
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
+ import { setContext } from '@apollo/client/link/context';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import Home from './pages/Home';
+import Signup from './components/Signup';
+import Login from './components/Login';
 import HeroSelect from './components/HeroSelect'
 
 import DisplayDeck from './components/DisplayDeck';
